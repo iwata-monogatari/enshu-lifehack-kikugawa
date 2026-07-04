@@ -3263,7 +3263,7 @@
     "label": "耐震"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html",
@@ -3325,7 +3325,7 @@
     "label": "住宅"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/sodai-gomi.html",
@@ -3350,7 +3350,7 @@
   ],
   "facts": {
    "window": "生活環境部環境推進課（ごみ全般）／建設経済部都市計画課住宅建築係（空き家）",
-   "tel": "環境推進課 0537-35-0916／都市計画課住宅建築係 0537-35-0957（確認中: 本文未確認 0537-35-0916）（確認中: 本文未確認 0537-35-0957）",
+   "tel": "環境推進課 0537-35-0916／都市計画課住宅建築係 0537-35-0957",
    "sodaigomi_contractor": "粗大ごみ戸別収集は遠州運輸株式会社（0537-36-1811、9:00〜17:30受付）への電話予約制"
   },
   "ai_checked_date": "2026-07-04",
@@ -3386,7 +3386,7 @@
     "label": "住まいの確保にお困りの方へ"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/mokuzoujuutaku.html",
@@ -3486,7 +3486,7 @@
     "label": "悩み・相談"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/shieijyuutaku2.html",
@@ -3503,7 +3503,7 @@
    "window": "建設経済部都市計画課 住宅建築係",
    "tel": "0537-35-0957",
    "danchi_count": "市内3団地、随時申込み可能、入居まで約2か月",
-   "income_standard": "高校卒業までの子がいる世帯：月所得259,000円以下／60歳以上のみ・重度障がい者がいる世帯・その他：月所得158,000円以下（確認中: 本文未確認 259,000円）（確認中: 本文未確認 158,000円）"
+   "income_standard": "高校卒業までの子がいる世帯：月所得259,000円以下／60歳以上のみ・重度障がい者がいる世帯・その他：月所得158,000円以下"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "市営住宅ページ・都市計画課組織ページをWebFetchで確認。収入基準・保証人要件・申込みから入居までの期間を裏取り。",
@@ -3537,7 +3537,7 @@
     "label": "納税通知書等の送付先変更"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/rosenka.html",
@@ -3552,7 +3552,7 @@
   ],
   "facts": {
    "window": "企画財政部税務課 資産税係",
-   "tel": "0537-35-0913（確認中: 本文未確認 0537-35-0913）",
+   "tel": "0537-35-0913",
    "office": "〒439-8650 静岡県菊川市堀之内61"
   },
   "ai_checked_date": "2026-07-04",
@@ -3587,7 +3587,7 @@
     "label": "悩み相談"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/seikatufukushi/jiritsushien.html",
@@ -3602,7 +3602,7 @@
   ],
   "facts": {
    "window": "健康福祉部福祉課 生活福祉係（住居確保給付金）／菊川市社会福祉協議会（自立相談・居住支援法人）／建設経済部都市計画課住宅建築係（市営住宅）",
-   "tel": "福祉課生活福祉係 0537-37-1251／社会福祉協議会 0537-35-3724／都市計画課住宅建築係 0537-35-0957（確認中: 本文未確認 0537-37-1251）（確認中: 本文未確認 0537-35-3724）"
+   "tel": "福祉課生活福祉係 0537-37-1251／社会福祉協議会 0537-35-3724／都市計画課住宅建築係 0537-35-0957"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "生活困窮者自立支援事業ページをWebFetchで確認。福祉課・社会福祉協議会・都市計画課の3窓口の役割分担をWebSearch・WebFetchで裏取り。社会福祉協議会が令和3年4月から居住支援法人として活動している点も確認。",
@@ -3633,7 +3633,7 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/sumai.html",
@@ -3649,7 +3649,7 @@
   "facts": {
    "window": "市の直接仲介はなし。民間不動産情報サイト・地域の不動産会社が窓口",
    "tel": "確認中（賃貸物件の個別相談先は各不動産会社による）",
-   "moving_in_window": "転入・転居届は生活環境部市民課（0537-35-0917）（確認中: 本文未確認 0537-35-0917）"
+   "moving_in_window": "転入・転居届は生活環境部市民課（0537-35-0917）"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "住まいページをWebFetchで確認し、市が民間不動産情報サイトを案内する形式であることを確認。賃貸専用の市窓口は存在しないため、facts.telは安全側の表現にした。",
@@ -3686,7 +3686,7 @@
     "label": "住宅カテゴリ"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/20170606.html",
@@ -3706,7 +3706,7 @@
   ],
   "facts": {
    "window": "建設経済部都市計画課住宅建築係（空き家バンク登録）／企画財政部税務課資産税係（税金証明）",
-   "tel": "都市計画課住宅建築係 0537-35-0957／税務課資産税係 0537-35-0913（確認中: 本文未確認 0537-35-0913）",
+   "tel": "都市計画課住宅建築係 0537-35-0957／税務課資産税係 0537-35-0913",
    "special_deduction": "相続空き家譲渡所得3,000万円特別控除：昭和56年5月31日以前建築、譲渡価格1億円以下等が条件。適用期限はページ記載が令和5年12月31日までとなっており、2026年時点の最新適用期限は要都市計画課確認"
   },
   "ai_checked_date": "2026-07-04",
@@ -3742,7 +3742,7 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "machine-verified",
+  "status": "ai-checked",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyataisaku.html",
@@ -3767,7 +3767,7 @@
   ],
   "facts": {
    "window": "建設経済部都市計画課 住宅建築係",
-   "tel": "0537-35-0957（確認中: 本文未確認 0537-35-0957）",
+   "tel": "0537-35-0957",
    "demolition_subsidy": "解体工事費の23％と上限30万円のいずれか低い方",
    "onestop_soudan": "空き家ワンストップ相談会は静岡県空き家対策推進協議会事務局（054-247-3823）が予約窓口。開催実績は令和6年11月16日開催分まで確認、継続開催かは要最新確認"
   },
