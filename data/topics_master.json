@@ -545,9 +545,11 @@
    "window": "税務課資産税係",
    "tel": "0537-35-0913（確認中: 本文未確認 0537-35-0913）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "税務課公式ページでり災証明書（住家・現地調査あり）と被災証明書（住家以外・書類審査主体）の違い、窓口・電話番号を確認。市独自の被災者支援金制度の有無は未確認のため記載を避けた。"
+  "ai_notes": "税務課公式ページでり災証明書（住家・現地調査あり）と被災証明書（住家以外・書類審査主体）の違い、窓口・電話番号を確認。市独自の被災者支援金制度の有無は未確認のため記載を避けた。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/emergency/disaster-mail-line/",
@@ -616,9 +618,11 @@
    "window": "危機管理課",
    "tel": "0537-35-0923（確認中: 本文未確認 0537-35-0923）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "茶こちゃんメール（空メール登録、震度4以上自動配信）とLINE公式アカウント（@kikugawa_city、セグメント配信）を公式ページで確認。防災行政無線の個別電話応答サービス有無は確認できず「確認中」扱い。"
+  "ai_notes": "茶こちゃんメール（空メール登録、震度4以上自動配信）とLINE公式アカウント（@kikugawa_city、セグメント配信）を公式ページで確認。防災行政無線の個別電話応答サービス有無は確認できず「確認中」扱い。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/emergency/earthquake/",
@@ -698,9 +702,11 @@
    "window": "危機管理課",
    "tel": "0537-35-0923（確認中: 本文未確認 0537-35-0923）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "防災ハザードマップ・わたしの避難計画のページを確認。耐震補助制度の具体的な補助額・条件は建築住宅課の個別ページを確認できておらず「確認中」扱い。"
+  "ai_notes": "防災ハザードマップ・わたしの避難計画のページを確認。耐震補助制度の具体的な補助額・条件は建築住宅課の個別ページを確認できておらず「確認中」扱い。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/emergency/emergency-medical/",
@@ -1006,9 +1012,11 @@
    "window": "危機管理課",
    "tel": "0537-35-0923（確認中: 本文未確認 0537-35-0923）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "令和2年度作成版ハザードマップ（令和3年4月自治会配布）を確認。living-soonカテゴリのdisaster-riskで調査済みの菊川・牛淵川・下小笠川の浸水想定情報とも整合。"
+  "ai_notes": "令和2年度作成版ハザードマップ（令和3年4月自治会配布）を確認。living-soonカテゴリのdisaster-riskで調査済みの菊川・牛淵川・下小笠川の浸水想定情報とも整合。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/emergency/",
@@ -1188,9 +1196,11 @@
    "window": "建設課",
    "tel": "0537-35-0946（確認中: 本文未確認 0537-35-0946）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "菊川・牛淵川は国（浜松河川国道事務所）管理の一級河川であることを河川管理区分ページで確認。台風接近時に市サイトへ対応状況ページが開設される運用を確認。下小笠川の管理区分は同ページに記載がなく確認中。"
+  "ai_notes": "菊川・牛淵川は国（浜松河川国道事務所）管理の一級河川であることを河川管理区分ページで確認。台風接近時に市サイトへ対応状況ページが開設される運用を確認。下小笠川の管理区分は同ページに記載がなく確認中。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/emergency/storm-heavy-rain/",
@@ -1257,9 +1267,11 @@
    "window": "危機管理課",
    "tel": "0537-35-0923（確認中: 本文未確認 0537-35-0923）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "警戒レベルの発令根拠となる「避難情報の判断・伝達マニュアル」の存在をリンク一覧から確認。マニュアル本文の詳細な発令基準はPDFのため要約レベルの確認にとどまる。"
+  "ai_notes": "警戒レベルの発令根拠となる「避難情報の判断・伝達マニュアル」の存在をリンク一覧から確認。マニュアル本文の詳細な発令基準はPDFのため要約レベルの確認にとどまる。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/after-death-procedures/",
@@ -1289,7 +1301,7 @@
     "label": "相続人代表者届"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/life_scene/shibou_souzoku.html",
@@ -1318,7 +1330,9 @@
    "note": "急ぐ手続き（死亡届7日以内、健康保険・年金の資格喪失）と、後日でよい手続き（相続登記、固定資産税の相続人代表者届等）に分けて整理。相続税申告期限（10か月以内）は国税の一般ルール。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "菊川市公式の「死亡・相続」手続き一覧ページ・死亡届ページ・火葬手続きページを確認。届出期限や担当課は市公式サイトの記載に基づく。相続税・相続登記の期限は国の一般制度（菊川市固有ではない）として記載。"
+  "ai_notes": "菊川市公式の「死亡・相続」手続き一覧ページ・死亡届ページ・火葬手続きページを確認。届出期限や担当課は市公式サイトの記載に基づく。相続税・相続登記の期限は国の一般制度（菊川市固有ではない）として記載。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/bereavement/",
@@ -1344,7 +1358,7 @@
     "label": "戸籍・住民票の届出"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/shiboutodoke.html",
@@ -1369,7 +1383,9 @@
    "note": "届出先は本庁市民課または小笠支所内の小笠市民課（開庁日のみ）。閉庁日は本庁の日直が受付。死亡地・本籍地・届出人所在地のいずれの役所でも提出可能。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "菊川市公式の死亡届ページ（/shimin/shiboutodoke.html）をWebFetchで直接確認。届出期限・届出人・必要書類・受付時間・休日対応の記載を反映。"
+  "ai_notes": "菊川市公式の死亡届ページ（/shimin/shiboutodoke.html）をWebFetchで直接確認。届出期限・届出人・必要書類・受付時間・休日対応の記載を反映。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/bereavement-procedures/",
@@ -1400,7 +1416,7 @@
     "label": "墓地・火葬場"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/life_scene/shibou_souzoku.html",
@@ -1424,7 +1440,9 @@
    "okuyami_corner": "専用の「おくやみコーナー」設置の案内は公式サイト上で確認できず（確認中）。手続き一覧ページ（life_scene/shibou_souzoku.html）に各手続きへのリンクが集約されている。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "菊川市公式サイト内でおくやみコーナー専用ページの有無をWebSearch/WebFetchで確認したが見当たらず。「死亡・相続」ページが手続き一覧の役割を果たしていることを確認したためそれを軸に構成。おくやみコーナーの有無は確認中扱い。"
+  "ai_notes": "菊川市公式サイト内でおくやみコーナー専用ページの有無をWebSearch/WebFetchで確認したが見当たらず。「死亡・相続」ページが手続き一覧の役割を果たしていることを確認したためそれを軸に構成。おくやみコーナーの有無は確認中扱い。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/grave-memorial/",
@@ -1451,7 +1469,7 @@
     "label": "磐田市合葬墓"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/sieireien.html",
@@ -1471,7 +1489,9 @@
    "note": "使用申込みには市内在住・焼骨保有・5年以内の墓碑建立予定等の要件あり。散骨・樹木葬の市の案内は確認中。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "菊川市公式の市営霊園ページ（環境推進課所管）をWebFetchで確認。城山霊園・大門霊園の名称、担当課、電話番号、利用要件を反映。散骨等の代替供養についての市の案内は見当たらず確認中扱い。"
+  "ai_notes": "菊川市公式の市営霊園ページ（環境推進課所管）をWebFetchで確認。城山霊園・大門霊園の名称、担当課、電話番号、利用要件を反映。散骨等の代替供養についての市の案内は見当たらず確認中扱い。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/house-became-vacant/",
@@ -1497,7 +1517,7 @@
     "label": "危険空き家解体費用の助成"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyataisaku.html",
@@ -1516,7 +1536,9 @@
    "note": "空き家無料相談会、空家等の除却（解体）補助制度、空き家バンクの案内あり。管理不全な空き家（特定空家）は固定資産税の住宅用地特例が解除される場合がある（一般制度）。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "菊川市公式の空家対策ページ・空き家バンクページをWebFetchで確認。担当課・電話番号は都市計画課で一貫。補助制度の詳細な金額・条件は年度により変わる可能性があるため本文では断定を避けた。"
+  "ai_notes": "菊川市公式の空家対策ページ・空き家バンクページをWebFetchで確認。担当課・電話番号は都市計画課で一貫。補助制度の詳細な金額・条件は年度により変わる可能性があるため本文では断定を避けた。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/",
@@ -1580,7 +1602,7 @@
     "label": "空き家"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/koteishisanzei.html",
@@ -1606,7 +1628,9 @@
    "note": "相続登記・相続税申告は市役所の管轄外（法務局・税務署）。菊川市は司法書士無料相談（原則第4水曜日）と弁護士無料法律相談（原則第2・第3火曜日）を地域支援課経由で予約制で実施。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "固定資産税・農地相続・無料相談窓口のページをそれぞれWebFetchで確認。相続登記・相続税は国の一般制度として案内し、菊川市固有の窓口情報と区別して記載。"
+  "ai_notes": "固定資産税・農地相続・無料相談窓口のページをそれぞれWebFetchで確認。相続登記・相続税は国の一般制度として案内し、菊川市固有の窓口情報と区別して記載。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/inherited-house/",
@@ -1633,7 +1657,7 @@
     "label": "粗大ごみの戸別収集"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/koteishisanzei.html",
@@ -1659,7 +1683,9 @@
    "note": "相続登記は法務局の管轄。菊川市周辺の空き家・実家の相談先として不動産会社（例：富士ヶ丘サービス）も選択肢の一つとして案内。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "名義変更（相続登記）・固定資産税・空き家活用の3つの論点に分けて整理。会社導線（富士ヶ丘サービス）はQAの一項目で控えめに紹介する形に留めた。"
+  "ai_notes": "名義変更（相続登記）・固定資産税・空き家活用の3つの論点に分けて整理。会社導線（富士ヶ丘サービス）はQAの一項目で控えめに紹介する形に留めた。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/inherited-vacant-house/",
@@ -1733,7 +1759,7 @@
     "label": "国保・後期高齢者医療・年金"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/nenkinnouketori.html",
@@ -1752,7 +1778,9 @@
    "note": "未支給年金の請求期限は5年（時効）。遺族基礎年金・寡婦年金・死亡一時金は国民年金加入中の死亡が条件。厚生年金部分は年金事務所が窓口になる場合がある。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "菊川市公式の年金の受取り・年金の届出ページをWebFetchで確認。担当課・電話番号は国保年金係で一貫。未支給年金の時効（5年）は日本年金機構の一般制度として記載。"
+  "ai_notes": "菊川市公式の年金の受取り・年金の届出ページをWebFetchで確認。担当課・電話番号は国保年金係で一貫。未支給年金の時効（5年）は日本年金機構の一般制度として記載。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/end-of-life/property-tax-inheritance/",
@@ -1774,7 +1802,7 @@
     "label": "固定資産税・都市計画税"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/koteishisanzei.html",
@@ -1793,7 +1821,9 @@
    "note": "相続人代表者指定届兼現所有者申告書／相続人代表者変更届兼現所有者申告書の様式が申請書ダウンロードページにあることを確認。明確な届出期限は公式サイト上に記載なし（次回納税通知前が目安、確認中）。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "固定資産税ページと申請書ダウンロードページをWebFetchで確認し、相続人代表者指定届・変更届の様式名を反映。届出の厳密な期限は明記が見当たらず「確認中」扱いとした。"
+  "ai_notes": "固定資産税ページと申請書ダウンロードページをWebFetchで確認し、相続人代表者指定届・変更届の様式名を反映。届出の厳密な期限は明記が見当たらず「確認中」扱いとした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/family-grow/child-allowance/",
@@ -2012,7 +2042,7 @@
     "label": "子育てに関する手当・助成（一覧）"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/shusseitodoke.html",
@@ -2037,7 +2067,9 @@
    "location": "市民課または小笠市民課"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "出生届の期限・提出先・時間外の宿直対応を公式サイトで確認。出生後に必要な児童手当・こども医療費助成の窓口もあわせて確認。"
+  "ai_notes": "出生届の期限・提出先・時間外の宿直対応を公式サイトで確認。出生後に必要な児童手当・こども医療費助成の窓口もあわせて確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/family-grow/developmental-support/",
@@ -2212,7 +2244,7 @@
     "label": "結婚新生活支援事業補助金"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/konintodoke.html",
@@ -2226,7 +2258,9 @@
    "note": "証人成人2名の署名が必要。休日・夜間は宿直・日直が受付"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "婚姻届の届出場所・必要書類・証人要件・時間外対応を公式サイトで確認。窓口は住民記録係（0537-35-0917）で、戸籍係（0537-35-2811）とは別であることに注意。"
+  "ai_notes": "婚姻届の届出場所・必要書類・証人要件・時間外対応を公式サイトで確認。窓口は住民記録係（0537-35-0917）で、戸籍係（0537-35-2811）とは別であることに注意。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/family-grow/nursery-childcare/",
@@ -2652,9 +2686,11 @@
    "window": "菊川市健康福祉部健康づくり課（健康増進係）",
    "tel": "0537-37-1175（確認中: 本文未確認 0537-37-1175）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "成人歯周病検診は20/30/40/50/60/70歳が対象、自己負担1,000円、市内委託歯科医療機関14施設で受診（令和8年度は6/1〜翌1/30、5月末に受診券発送）。歯科医療機関の探し方は菊川市医療個別マップ：歯科を案内。"
+  "ai_notes": "成人歯周病検診は20/30/40/50/60/70歳が対象、自己負担1,000円、市内委託歯科医療機関14施設で受診（令和8年度は6/1〜翌1/30、5月末に受診券発送）。歯科医療機関の探し方は菊川市医療個別マップ：歯科を案内。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/health-medical/disability-services/",
@@ -2750,9 +2786,11 @@
    "window": "菊川市健康福祉部福祉課",
    "tel": "0537-37-1252（確認中: 本文未確認 0537-37-1252）"
   },
-  "status": "ai-checked",
+  "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "手帳制度に紐づく手当（特別障害者手当・障害児福祉手当・特別児童扶養手当等）と医療費助成（重度障害者医療費助成・精神障害者入院医療費助成）を福祉課が所管。申請には各種手帳・診断書・通帳等が必要（詳細は制度ごとに異なる）。"
+  "ai_notes": "手帳制度に紐づく手当（特別障害者手当・障害児福祉手当・特別児童扶養手当等）と医療費助成（重度障害者医療費助成・精神障害者入院医療費助成）を福祉課が所管。申請には各種手帳・診断書・通帳等が必要（詳細は制度ごとに異なる）。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/health-medical/find-hospitals/",
@@ -3287,7 +3325,7 @@
     "label": "住宅"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/sodai-gomi.html",
@@ -3316,7 +3354,9 @@
    "sodaigomi_contractor": "粗大ごみ戸別収集は遠州運輸株式会社（0537-36-1811、9:00〜17:30受付）への電話予約制"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "粗大ごみ戸別収集・環境資源ギャラリー・メルカリShops活用ページをWebFetchで確認。相続登記など権利関係は市の制度案内対象外である旨を本文に明記。"
+  "ai_notes": "粗大ごみ戸別収集・環境資源ギャラリー・メルカリShops活用ページをWebFetchで確認。相続登記など権利関係は市の制度案内対象外である旨を本文に明記。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/housing/earthquake-demolition/",
@@ -3446,7 +3486,7 @@
     "label": "悩み・相談"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/shieijyuutaku2.html",
@@ -3466,7 +3506,9 @@
    "income_standard": "高校卒業までの子がいる世帯：月所得259,000円以下／60歳以上のみ・重度障がい者がいる世帯・その他：月所得158,000円以下（確認中: 本文未確認 259,000円）（確認中: 本文未確認 158,000円）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "市営住宅ページ・都市計画課組織ページをWebFetchで確認。収入基準・保証人要件・申込みから入居までの期間を裏取り。"
+  "ai_notes": "市営住宅ページ・都市計画課組織ページをWebFetchで確認。収入基準・保証人要件・申込みから入居までの期間を裏取り。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/housing/property-tax/",
@@ -3495,7 +3537,7 @@
     "label": "納税通知書等の送付先変更"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/rosenka.html",
@@ -3514,7 +3556,9 @@
    "office": "〒439-8650 静岡県菊川市堀之内61"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "路線価ページ・相続空き家特別控除ページをWebFetchで確認。資産税係の電話番号を裏取り。具体的な税率・税額計算式は個別ケースによるため本文では断定を避けた。"
+  "ai_notes": "路線価ページ・相続空き家特別控除ページをWebFetchで確認。資産税係の電話番号を裏取り。具体的な税率・税額計算式は個別ケースによるため本文では断定を避けた。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/housing/public-housing-consultation/",
@@ -3543,7 +3587,7 @@
     "label": "悩み相談"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/seikatufukushi/jiritsushien.html",
@@ -3561,7 +3605,9 @@
    "tel": "福祉課生活福祉係 0537-37-1251／社会福祉協議会 0537-35-3724／都市計画課住宅建築係 0537-35-0957（確認中: 本文未確認 0537-37-1251）（確認中: 本文未確認 0537-35-3724）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "生活困窮者自立支援事業ページをWebFetchで確認。福祉課・社会福祉協議会・都市計画課の3窓口の役割分担をWebSearch・WebFetchで裏取り。社会福祉協議会が令和3年4月から居住支援法人として活動している点も確認。"
+  "ai_notes": "生活困窮者自立支援事業ページをWebFetchで確認。福祉課・社会福祉協議会・都市計画課の3窓口の役割分担をWebSearch・WebFetchで裏取り。社会福祉協議会が令和3年4月から居住支援法人として活動している点も確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/housing/rent-house/",
@@ -3587,7 +3633,7 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/sumai.html",
@@ -3606,7 +3652,9 @@
    "moving_in_window": "転入・転居届は生活環境部市民課（0537-35-0917）（確認中: 本文未確認 0537-35-0917）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "住まいページをWebFetchで確認し、市が民間不動産情報サイトを案内する形式であることを確認。賃貸専用の市窓口は存在しないため、facts.telは安全側の表現にした。"
+  "ai_notes": "住まいページをWebFetchで確認し、市が民間不動産情報サイトを案内する形式であることを確認。賃貸専用の市窓口は存在しないため、facts.telは安全側の表現にした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/housing/sell-house/",
@@ -3638,7 +3686,7 @@
     "label": "住宅カテゴリ"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/20170606.html",
@@ -3662,7 +3710,9 @@
    "special_deduction": "相続空き家譲渡所得3,000万円特別控除：昭和56年5月31日以前建築、譲渡価格1億円以下等が条件。適用期限はページ記載が令和5年12月31日までとなっており、2026年時点の最新適用期限は要都市計画課確認"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "相続空き家特別控除ページ・空き家バンク・路線価ページをWebFetchで確認。特別控除の適用期限がページ記載時点(令和5年12月31日まで)から更新されている可能性があるため、本文・factsとも「最新の適用期間を確認」の注記を入れた。"
+  "ai_notes": "相続空き家特別控除ページ・空き家バンク・路線価ページをWebFetchで確認。特別控除の適用期限がページ記載時点(令和5年12月31日まで)から更新されている可能性があるため、本文・factsとも「最新の適用期間を確認」の注記を入れた。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/housing/vacant-house/",
@@ -3692,7 +3742,7 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "ai-checked",
+  "status": "machine-verified",
   "sources_kikugawa": [
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyataisaku.html",
@@ -3722,7 +3772,9 @@
    "onestop_soudan": "空き家ワンストップ相談会は静岡県空き家対策推進協議会事務局（054-247-3823）が予約窓口。開催実績は令和6年11月16日開催分まで確認、継続開催かは要最新確認"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "空家対策・空き家バンク・除却補助制度・ワンストップ相談会ページをWebFetchで確認。相談会は開催年度により実施有無が変わるため「最新の相談会日程は要確認」の注記を本文に入れた。"
+  "ai_notes": "空家対策・空き家バンク・除却補助制度・ワンストップ相談会ページをWebFetchで確認。相談会は開催年度により実施有無が変わるため「最新の相談会日程は要確認」の注記を本文に入れた。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/living-soon/about-kikugawa/",
@@ -5085,7 +5137,30 @@
     "label": "観光"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/bunkakaikan_ael.html",
+    "label": "菊川文化会館アエル",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisetsu/",
+    "label": "施設案内",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "教育文化部社会教育課／菊川文化会館アエル",
+   "tel": "0537-35-1515（アエル直通）",
+   "address": "菊川市本所2488番地の2",
+   "hours": "9時〜21時30分（休館日はイベント状況により変動、要確認）",
+   "note": "駐車場台数・貸館料金は変更の可能性があるため確認中（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "公式ページで菊川文化会館アエルの所在地・電話・開館時間を確認。大ホール1200席・小ホール400人収容は複数の外部情報源で一致したが、駐車場台数は情報源により差があり公式記載がないため確認中扱いとした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/play-out/facilities-library-parks/",
@@ -5114,7 +5189,33 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisetsu/",
+    "label": "施設案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/kouen.html",
+    "label": "運動場・公園一覧",
+    "confidence": "high"
+   },
+   {
+    "url": "https://tosyo.city.kikugawa.shizuoka.jp/",
+    "label": "菊川市立図書館",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "教育文化部社会教育課／建設経済部都市計画課",
+   "tel": "0537-73-1114（社会教育課）／0537-35-0931（都市計画課）",
+   "note": "施設種類ごとに担当課が異なる。図書館は菊川文庫(0537-36-2220)・小笠図書館(0537-73-1132)の2館体制"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "公式サイトの施設案内ページで主要施設・図書館・児童館・公園・スポーツ施設のカテゴリ構成を確認。堀之内体育館が建替工事中（令和7年11月〜令和9年6月末予定で使用停止）である点も体育館一覧ページで確認済み。",
+  "verified_date": "2026-07-04",
+  "verified_by": "ai"
  },
  {
   "href": "/life/play-out/find-parks/",
@@ -5143,7 +5244,38 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/kouen.html",
+    "label": "運動場・公園一覧",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshiseibi/kikukawachuuoukouen.html",
+    "label": "菊川中央公園",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/ogasa_centralpark.html",
+    "label": "おがさセントラルパーク",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/kikukawakouen.html",
+    "label": "菊川公園",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部都市計画課／教育文化部社会教育課",
+   "tel": "0537-35-0931（都市計画課）／0537-73-1114（社会教育課）（確認中: 本文未確認 0537-35-0931）（確認中: 本文未確認 0537-73-1114）",
+   "note": "菊川中央公園（本所915-1）・おがさセントラルパーク（下平川6227、水遊び場あり）・菊川公園（半済1550-5）ほか12カ所以上の公園・運動場あり。遊具の詳細設備は確認中（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "公式ページで主要公園（菊川中央公園・おがさセントラルパーク・菊川公園）の所在地・電話番号を確認。個別遊具の有無までは公式ページに記載がなく確認中扱いとした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "ai"
  },
  {
   "href": "/life/play-out/",
@@ -5162,7 +5294,28 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/",
+    "label": "菊川市公式サイト",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisetsu/",
+    "label": "施設案内",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "教育文化部社会教育課／建設経済部都市計画課ほか（施設により異なる）",
+   "tel": "0537-35-2111（市役所代表）",
+   "note": "カテゴリハブページ。詳細は各中項目ページで個別に確認"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリ全体の入口ページとして、施設案内ページの構成（主要施設・図書館・児童館・公園・スポーツ施設等）を確認した。",
+  "verified_date": "2026-07-04",
+  "verified_by": "ai"
  },
  {
   "href": "/life/play-out/kids-playgrounds/",
@@ -5191,7 +5344,33 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/kosodatesiennsenta.html",
+    "label": "子育て支援センター",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/ogasa_centralpark.html",
+    "label": "おがさセントラルパーク（水遊び場）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/wadapool.html",
+    "label": "和田公園コミュニティプール",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども未来部子育て応援課",
+   "tel": "0537-35-0914",
+   "note": "菊川児童館・小笠児童館（子育て支援センター併設）、おがさセントラルパーク（水遊び場）が主な選択肢。対象年齢・利用予約の要否は施設ごとに確認中（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "子育て支援センター（たんぽぽ・ひまわり）と児童館の存在、水遊び場のあるおがさセントラルパークを公式ページで確認。施設ごとの詳しい対象年齢・利用ルールまでは公式ページに明記がなく確認中とした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/play-out/parking-access/",
@@ -5220,7 +5399,28 @@
     "label": "公園"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+    "label": "コミュニティバス",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisetsu/",
+    "label": "施設案内",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "施設ごとに異なる（駐車場は各施設管理課、公共交通は地域支援課）",
+   "tel": "0537-36-2323（コミタクくん配車センター）（確認中: 本文未確認 0537-36-2323）",
+   "note": "駐車場台数・満空状況は施設ごとに異なり確認中（要確認）。市内7コースのコミュニティバスと予約型のコミタクくんが利用可能"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "コミュニティバス（7コース）と予約型のコミタクくん（タクシー配車）の存在を公式ページ・検索結果で確認。個別施設の駐車場台数は施設により情報の有無・粒度が異なるため一律には記載せず確認中扱いとした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "ai"
  },
  {
   "href": "/life/play-out/rent-public-facilities/",
@@ -5250,7 +5450,38 @@
     "label": "図書館・文化関連施設"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://kikugawa.shisetsu-info.jp/User/UserMain.aspx",
+    "label": "菊川市施設予約システム",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/chuusenkai.html",
+    "label": "体育館、体育施設の抽選日・一般予約",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/chuuoukouminkan_2.html",
+    "label": "中央公民館（菊川市役所小笠支所）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/tamokutekieria.html",
+    "label": "多目的エリア",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "地域支援課（施設予約システム全般）／教育文化部社会教育課（体育施設）",
+   "tel": "0537-35-0925（地域支援課）／0537-73-1114（社会教育課）（確認中: 本文未確認 0537-73-1114）",
+   "note": "体育施設は抽選予約（使用月2カ月前15〜25日申込、前月1日抽選）→一般予約（前月3日〜、ネットは7日前まで）の2段階。中央公民館は窓口予約のみ"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "菊川市施設予約システムの存在と利用者登録が必要なこと、体育施設の抽選・一般予約の日程ルール、中央公民館が窓口予約であることを公式ページで確認済み。",
+  "verified_date": "2026-07-04",
+  "verified_by": "ai"
  },
  {
   "href": "/life/play-out/sports-facilities/",
@@ -5281,7 +5512,28 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/taiikukanichiran.html",
+    "label": "体育館一覧",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/chuusenkai.html",
+    "label": "体育館、体育施設の抽選日・一般予約",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "教育文化部社会教育課（社会教育係0537-73-1114／スポーツ振興係0537-73-1118）（確認中: 本文未確認 0537-73-1114）",
+   "tel": "0537-73-5600（NPO法人菊川市スポーツ協会・市民総合体育館等の窓口）",
+   "note": "堀之内体育館は建替工事のため使用停止中（令和7年11月1日〜令和9年6月末予定）。利用料金は施設・時間帯により異なり確認中（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "体育館一覧ページで市民総合体育館・小笠体育館・堀之内体育館（建替工事中）の状況を確認。予約は抽選＋一般予約の2段階制であることも公式ページで確認済み。具体的な利用料金は個別ページに至らず確認中とした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "ai"
  },
  {
   "href": "/life/play-out/swimming-pools/",
@@ -5310,7 +5562,24 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/wadapool.html",
+    "label": "和田公園コミュニティプール",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "教育文化部社会教育課（0537-73-1114）（確認中: 本文未確認 0537-73-1114）",
+   "tel": "0537-36-3200（和田公園プール・開設期間中のみ）",
+   "hours": "午前9時〜午後4時30分（休憩11時50分〜13時）、月曜休業（祝日の場合は翌日）",
+   "note": "料金は無料（コインロッカー代100円のみ、使用後返金）。開設期間は年度により変更（例年7月中旬〜8月下旬頃）のため要確認"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "和田公園コミュニティプールの営業時間・料金・休業日・電話番号を公式ページで確認。開設期間の具体的な年月日は年度更新のため目安として扱い、訪問前の要確認事項とした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "ai"
  },
  {
   "href": "/life/play-out/visit-library/",
@@ -5339,7 +5608,30 @@
     "label": "地図から探す"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://tosyo.city.kikugawa.shizuoka.jp/",
+    "label": "菊川市立図書館",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshokan/index.html",
+    "label": "教育文化部図書館",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "教育文化部図書館（菊川文庫・小笠図書館）",
+   "tel": "0537-36-2220（菊川文庫）／0537-73-1132（小笠図書館）",
+   "address": "菊川文庫: 菊川市堀之内61（市役所本庁西隣）／小笠図書館: 菊川市下平川6225（中央公民館東隣）",
+   "hours": "午前10時〜午後6時（両館共通）。休館日は月曜・祝日・年末年始・月末整理期間等（詳細は開館カレンダーで要確認）",
+   "note": "貸出カードの作成条件・貸出冊数期間は公式ページの詳細確認まで至らず確認中（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "菊川文庫・小笠図書館の所在地・電話番号・開館時間（10時〜18時）を公式ページで確認済み（educationカテゴリの調査結果と一致）。貸出カード作成の具体的な必要書類は確認中とした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/start-living/bulky-garbage-dropoff/",
@@ -5373,7 +5665,37 @@
     "label": "施設ガイド 磐田市クリーンセンター"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/sodai-gomi.html",
+    "label": "粗大ごみの戸別収集について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/kankyoushigen.html",
+    "label": "環境資源ギャラリー（掛川市・菊川市衛生施設組合）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/akatutirisaikuru.html",
+    "label": "赤土リサイクルステーション",
+    "confidence": "high"
+   },
+   {
+    "url": "https://gallery-yoyaku.rsvsys.jp/",
+    "label": "掛川市・菊川市 ごみ持込予約サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部環境推進課",
+   "tel": "0537-35-0916（確認中: 本文未確認 0537-35-0916）",
+   "collector_tel": "0537-36-1811（遠州運輸株式会社、戸別収集予約 受付9:00〜17:30）",
+   "gallery_tel": "0537-23-2273（環境資源ギャラリー）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "戸別収集業者（遠州運輸）と環境資源ギャラリー、赤土リサイクルステーションの3つの受け皿をWebFetchで確認。moving-outカテゴリの粗大ごみ情報と整合。"
  },
  {
   "href": "/life/start-living/certificates/",
@@ -5421,7 +5743,40 @@
     "label": "郵便請求制度"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/koseki.html",
+    "label": "戸籍・除籍謄抄本・附票・身分証明書",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/inkantouroku.html",
+    "label": "印鑑登録",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/konbini.html",
+    "label": "証明書のコンビニ交付サービス",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/juuminhyounoutsushi.html",
+    "label": "住民票の写し",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部市民課（本庁）・小笠支所小笠市民課",
+   "tel": "0537-35-0917",
+   "fee_juminhyo": "300円",
+   "fee_koseki": "450円（戸籍謄本・抄本）、750円（除籍謄本・抄本）、300円（附票・身分証明書）",
+   "fee_inkan": "登録無料（15歳以上）、証明書300円"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "戸籍・印鑑登録・コンビニ交付・住民票の各手数料をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/start-living/city-hall-branches/",
@@ -5452,7 +5807,37 @@
     "label": "リアルタイム窓口混雑情報"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zaisei/choushaannai.html",
+    "label": "庁舎案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/chuuoukouminkan_2.html",
+    "label": "中央公民館（菊川市役所小笠支所）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/shiyakushoannai/index.html",
+    "label": "菊川市 市役所案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/madoguchigyomuitaku.html",
+    "label": "市民課窓口業務の一部を民間事業者に委託しています",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "本庁（生活環境部市民課）・小笠支所（中央公民館内）小笠市民課",
+   "tel": "0537-35-2111（本庁代表）／0537-73-1111（小笠支所）（確認中: 本文未確認 0537-73-1111）",
+   "address": "〒439-8650 静岡県菊川市堀之内61",
+   "hours": "平日8:15〜17:00（日曜開庁・水曜延長あり）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "本庁・小笠支所の所在地と電話番号、日曜開庁・水曜延長の存在をWebFetch/WebSearchで確認。小笠支所単体の直通番号は明確な公式記載が少なく、支所代表番号を記載。"
  },
  {
   "href": "/life/start-living/dog-registration/",
@@ -5486,7 +5871,30 @@
     "label": "環境課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunekonotouroku.html",
+    "label": "犬の登録",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunokaikata_manner.html",
+    "label": "犬の飼い方・マナー",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "環境推進課・小笠支所小笠市民課",
+   "tel": "0537-35-0916",
+   "fee_new": "3,000円/1頭（新規登録）",
+   "fee_reissue": "1,600円/1頭（鑑札再交付）",
+   "deadline": "飼い始めてから30日以内"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "登録手数料・鑑札再交付手数料・30日以内の登録義務・転入犬の手数料無料扱いをWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/start-living/dog-registration-rabies/",
@@ -5519,7 +5927,28 @@
     "label": "ペットの手続き一覧"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunekonotouroku.html",
+    "label": "犬の登録（狂犬病予防注射の案内含む）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunokaikata_manner.html",
+    "label": "犬の飼い方・マナー",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "環境推進課",
+   "tel": "0537-35-0916",
+   "note": "集合注射・動物病院での個別接種いずれも可。毎年1回の接種が義務。注射済票交付の具体的な予約方法・日程は年度により異なるため確認中（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "登録ページに狂犬病予防注射・注射済票についての記載を確認。集合注射の日程詳細は年度更新情報のため公式サイト上で毎年確認が必要と判断し、一部を確認中扱いにした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/start-living/garbage-sorting-calendar/",
@@ -5558,7 +5987,31 @@
     "label": "カレンダー・ガイドブックの入手方法（よくある質問）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/calendar/r8calender.html",
+    "label": "ごみ収集カレンダーR8年度",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/gomi_recycle/index.html",
+    "label": "ごみ・リサイクル",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/gominodashikata.html",
+    "label": "ごみの出し方",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部環境推進課",
+   "tel": "0537-35-0916（確認中: 本文未確認 0537-35-0916）",
+   "note": "地区別（A〜J等）に収集カレンダーが分かれる。『5374（ごみなし）』アプリでも確認可能。年度ごとに更新（令和8年度版が最新）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "地区別カレンダーの存在とアプリ、環境推進課の連絡先をWebFetch/WebSearchで確認。ごみの出し方一覧表PDFは取得エラーのため、テキストページの情報で代替確認した。"
  },
  {
   "href": "/life/start-living/how-to-garbage/",
@@ -5595,7 +6048,31 @@
     "label": "粗大ごみの戸別収集"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/gominodashikata.html",
+    "label": "ごみの出し方",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/gomi_recycle/index.html",
+    "label": "ごみ・リサイクル",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/calendar/r8calender.html",
+    "label": "ごみ収集カレンダーR8年度",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部環境推進課",
+   "tel": "0537-35-0916（確認中: 本文未確認 0537-35-0916）",
+   "note": "収集日当日朝8時までに集積所へ排出。『菊川市ごみの出し方マニュアル』（日本語・ポルトガル語・英語）で品目別分別を確認可能"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "収集ルール（朝8時まで）・危険ごみの出し方（スプレー缶・ライター・マッチ等）をWebFetchで確認。"
  },
  {
   "href": "/life/start-living/",
@@ -5613,7 +6090,20 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/",
+    "label": "菊川市公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部市民課ほか（手続きにより異なる）",
+   "tel": "0537-35-2111（本庁代表）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。個別手続きの詳細は配下ページで確認済み。"
  },
  {
   "href": "/life/start-living/moved-in/",
@@ -5651,7 +6141,36 @@
     "label": "飼い犬の登録・狂犬病予防注射"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/tennyuutodoke.html",
+    "label": "転入届（市外から菊川市に引越してきた場合）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/kaishinituite.html",
+    "label": "水道使用に関する届出",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/gominodashikata.html",
+    "label": "ごみの出し方",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunekonotouroku.html",
+    "label": "犬の登録",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部市民課",
+   "tel": "0537-35-0917（確認中: 本文未確認 0537-35-0917）",
+   "deadline": "転入した日から14日以内"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "転入届の窓口・期限・持ち物をWebFetchで確認し、水道・ごみ・犬の登録など関連手続きへのリンクを整理した。"
  },
  {
   "href": "/life/start-living/moving-address-change/",
@@ -5689,7 +6208,31 @@
     "label": "上下水道の手続き"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/tennyuutodoke.html",
+    "label": "転入届",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/tenkyotodoke.html",
+    "label": "転居届",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/tenshutsutodoke.html",
+    "label": "転出届",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部市民課",
+   "tel": "0537-35-0917（確認中: 本文未確認 0537-35-0917）",
+   "deadline": "転入届・転居届は異動日から14日以内、転出届は転出前おおむね30日前から受付"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "転入・転居・転出の3種の届出をそれぞれWebFetchで確認し、期限・必要書類の違いを整理した。"
  },
  {
   "href": "/life/start-living/mynumber/",
@@ -5727,7 +6270,38 @@
     "label": "電子証明書の更新"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumber4.html",
+    "label": "マイナンバーカードの受け取りについて",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumber.html",
+    "label": "マイナンバーの通知カード、個人番号通知書について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumberkousin.html",
+    "label": "マイナンバーカードの電子証明書の更新について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumber5.html",
+    "label": "マイナンバーカードに関するお知らせ",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "市民課住民記録係（菊川地区）・小笠支所小笠市民課市民福祉係（小笠地区）",
+   "tel": "0537-35-0917（菊川地区）／0537-73-1111（小笠地区）",
+   "note": "受け取りは予約制。申請から交付までおよそ1か月"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "受け取り窓口が菊川地区・小笠地区で異なること、受付時間、必要書類をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/start-living/pets-lost-animals/",
@@ -5770,7 +6344,28 @@
     "label": "よくある質問（住宅・ペット）"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/mayoiinu.html",
+    "label": "迷い犬情報",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunokaikata_manner.html",
+    "label": "犬の飼い方・マナー",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部環境推進課",
+   "tel": "0537-35-0916（休日・夜間は0537-35-2111）",
+   "note": "静岡県西部保健所掛川支所（0537-22-3262）とも連携"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "迷い犬の連絡先と休日夜間の対応、県保健所の連携先をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/start-living/public-transit/",
@@ -5809,7 +6404,27 @@
     "label": "磐田市地域公共交通計画"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+    "label": "コミュニティバス",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+    "label": "菊川市 コミュニティバス",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "総務部地域支援課",
+   "tel": "0537-35-0925（確認中: 本文未確認 0537-35-0925）",
+   "demand_taxi_tel": "0537-36-2323（菊川タクシー、コミタクくん予約）（確認中: 本文未確認 0537-36-2323）",
+   "fare": "小学生以上100円、未就学児無料。障害者手帳・要介護1以上・市内在住75歳以上等は免除"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "定時定路線7コース＋デマンド型コミタクくん2コースの計9コース運行体制、運賃・免除制度、予約先をWebSearch/WebFetchで確認。"
  },
  {
   "href": "/life/start-living/resident-registration/",
@@ -5846,7 +6461,27 @@
     "label": "戸籍の附票"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/juuminhyounoutsushi.html",
+    "label": "住民票の写し",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/konbini.html",
+    "label": "証明書のコンビニ交付サービス",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部市民課・小笠支所小笠市民課",
+   "tel": "0537-35-0917（確認中: 本文未確認 0537-35-0917）",
+   "fee": "1件300円",
+   "conveni_hours": "午前6時30分〜午後11時（マイナンバーカード必要）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "窓口・コンビニ交付・郵送の3方式と手数料をWebFetchで確認。"
  },
  {
   "href": "/life/start-living/water-sewer/",
@@ -5892,7 +6527,28 @@
     "label": "上下水道に関する届け出"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "label": "水道料金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zaisei/shisetu/suidojigyousyo.html",
+    "label": "菊川市水道事務所",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "水道料金お客さまセンター（水道事務所）",
+   "tel": "0537-73-1120",
+   "note": "基本料金（20mm以下2,514円/2か月）＋超過料金の2段階制。2か月ごとの検針・請求。口座振替・PayPay対応"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "料金体系・支払い方法（PayPay対応含む）・検針サイクルをWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/start-living/water-start-stop-fees/",
@@ -5942,7 +6598,28 @@
     "label": "上下水道（総合案内）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/kaishinituite.html",
+    "label": "水道使用に関する届出",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/jousuidou.html",
+    "label": "上水道",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "水道料金お客さまセンター",
+   "tel": "0537-73-1120",
+   "fax": "0537-73-1117（確認中: 本文未確認 0537-73-1117）",
+   "deadline": "希望日の3営業日前まで（土日祝日受付不可）",
+   "note": "使用開始・使用休止届は電子申請対応。使用者変更届・廃止届は書面のみ"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "届出期限（3営業日前）、電子申請の対象範囲、ファックス番号をWebFetchで確認。moving-outカテゴリの停止手続き情報とも整合。"
  },
  {
   "href": "/life/troubles-consult/animal-pet-consultation/",
@@ -5980,7 +6657,33 @@
     "label": "譲渡動物情報"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunokaikata_manner.html",
+    "label": "犬の飼い方・マナー",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunekonotouroku.html",
+    "label": "犬・猫の登録",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunekohozyoseido.html",
+    "label": "所有者の判明しない猫不妊・去勢手術事業費補助金",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部環境推進課",
+   "tel": "0537-35-0916",
+   "note": "野生動物の負傷対応等は県の窓口となる場合あり（確認中）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "犬の登録・迷い犬・不妊去勢補助金の窓口が環境推進課であることをWebSearch/WebFetchで確認。野生動物対応の詳細な切り分けは公式ページに明記なく確認中扱いとした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/cannot-pay-tax/",
@@ -6018,7 +6721,33 @@
     "label": "収納課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/enntaikinn-tainousyhobunn.html",
+    "label": "延滞金・滞納処分について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/shizeinonoukinainoufu.html",
+    "label": "市税の納期内納付にご協力をお願いします",
+    "confidence": "high"
+   },
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/zeimu/tainouseirikikou.html",
+    "label": "静岡地方税滞納整理機構について",
+    "confidence": "medium"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課徴収対策係",
+   "tel": "0537-35-0910（確認中: 本文未確認 0537-35-0910）",
+   "note": "延滞金は納期限翌日起算、当初2か月年2.4%・それ以降年8.7%（令和4〜7年）。督促状送付後10日で滞納処分の対象。分割納付の具体的な要件は個別相談"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "税務課徴収対策係の連絡先、延滞金の利率・滞納処分の流れをWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/care-consultation/",
@@ -6055,7 +6784,28 @@
     "label": "認知症の相談・支援"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/choujukaigo/koureishanosoudan.html",
+    "label": "菊川市地域包括支援センター（高齢者に関する相談）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/keyaki.html",
+    "label": "菊川市総合保健福祉センター（プラザけやき）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康福祉部長寿介護課（地域包括支援センター）",
+   "tel": "0537-37-1120（けやき窓口）／0537-73-1818（あかっち窓口）",
+   "hours": "平日8:15-17:00（けやき窓口は水曜のみ19:00まで）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "地域包括支援センターの窓口（けやき・あかっち）の連絡先・受付時間をWebFetchで確認。介護保険申請の詳細はparents-careカテゴリと重複するため、ここでは相談入口として記載。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/child-consultation/",
@@ -6100,7 +6850,33 @@
     "label": "ヤングケアラーの相談窓口"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/kateijidou.html",
+    "label": "家庭児童相談室",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kosodate/youngcarersoudan.html",
+    "label": "ヤングケアラーについての相談",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kosodate/kyouiku/shou_chuugakkou/index.html",
+    "label": "小・中学校（相談窓口一覧）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "こども未来部子育て応援課（家庭児童相談室）",
+   "tel": "0537-35-0955",
+   "hours": "平日8:15-17:00、予約不要"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "家庭児童相談室の窓口・受付方法、ヤングケアラー専用相談の存在をWebFetchで確認。学校関連は既存のeducational-consultingの調査結果とも整合。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/consumer-fraud/",
@@ -6142,7 +6918,39 @@
     "label": "特殊詐欺対策（ストップ、オレオレ詐欺）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/shouhiseikatsu/index.html",
+    "label": "消費生活センター",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/cooling_off_nitsuite.html",
+    "label": "クーリング・オフについて",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/akusitusyouhouteguti.html",
+    "label": "悪質商法の手口は？",
+    "confidence": "high"
+   },
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/shoukoukankou/hanndannnouryoku.html",
+    "label": "判断力の不十分な人の契約",
+    "confidence": "medium"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部商工観光課（消費生活センター）",
+   "tel": "0537-35-0937（確認中: 本文未確認 0537-35-0937）",
+   "hours": "平日8:15-17:00（祝日・年末年始を除く）",
+   "location": "市役所本庁舎3階"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "消費生活センターの場所・電話・受付時間をWebFetchで確認。クーリング・オフ、悪質商法、判断力不十分な人の契約の各ページも確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/disability-consultation/",
@@ -6187,7 +6995,29 @@
     "label": "精神保健福祉総合相談（予約制）"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaifukushi.html",
+    "label": "障害福祉サービス",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kenkou/fukushi_kaigo/shougaisha_ji/index.html",
+    "label": "障害者（児）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康福祉部福祉課障がい者福祉係",
+   "tel": "0537-37-1252（確認中: 本文未確認 0537-37-1252）",
+   "location": "総合福祉センタープラザけやき",
+   "hours": "平日8:15-17:00"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "福祉課障がい者福祉係の連絡先・場所をWebFetchで確認。相談支援事業所を通じたサービス利用の流れも公式ページで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/farmland/certificates/",
@@ -6208,7 +7038,28 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/shinseisyo.html",
+    "label": "農地関係許可申請等に係る様式",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/nouchinotenyou.html",
+    "label": "農地の転用",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課（農業委員会事務局）農地利用係",
+   "tel": "0537-35-0939",
+   "note": "非農地証明・農業用施設証明・農地転用事実確認等、証明書の種類は用途により異なる。即日発行不可の場合あり（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "申請様式ページで非農地証明・農業用施設証明・農地転用事実確認願の様式名を確認。交付にかかる期間は公式ページに明記がなく確認中扱いとした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/farmland/change-use/",
@@ -6234,7 +7085,28 @@
     "label": "農地の転用"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/nouchinotenyou.html",
+    "label": "農地の転用",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/nougyoushinkouchiiki.html",
+    "label": "農業振興地域制度",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課（農業委員会事務局）農地利用係",
+   "tel": "0537-35-0939",
+   "note": "農地は立地基準により区分され、区分・農用地区域該当の有無で許可の可否が変わる。無断転用は工事中止・原状回復命令の対象"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農地転用の許可制度の枠組み・無断転用の罰則をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/farmland/conversion/",
@@ -6264,7 +7136,28 @@
     "label": "農振除外（農用地区域からの除外）"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/nouchinotenyou.html",
+    "label": "農地の転用",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/shinseisyo.html",
+    "label": "農地関係許可申請等に係る様式",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課（農業委員会事務局）農地利用係",
+   "tel": "0537-35-0939",
+   "note": "第4条＝自己転用、第5条＝転用目的の売買・貸借。市街化区域内は届出制の特例あり。許可後は3か月後・毎年の進捗報告義務あり"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農地法4条・5条の申請様式（事業計画概要書・資金計画書・代替性検討表等）をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/farmland/",
@@ -6311,7 +7204,27 @@
     "label": "磐田市農業委員会"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/nouchinotenyou.html",
+    "label": "農地の転用",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/shinseisyo.html",
+    "label": "農地関係許可申請等に係る様式",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課（農業委員会事務局）",
+   "tel": "0537-35-0938（農業振興係）／0537-35-0939（農地利用係）／0537-35-0940（土地改良係）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農地関連手続き全体の窓口が農林課（農業委員会事務局）であることをWebFetchで確認。サブハブページのため配下ページへの案内を中心に構成。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/farmland/inheritance/",
@@ -6352,7 +7265,28 @@
     "label": "相続土地国庫帰属制度の概要"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/nourin/nouchinosouzoku.html",
+    "label": "農地の相続",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/shinseisyo.html",
+    "label": "農地関係許可申請等に係る様式",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課（農業委員会事務局）農地利用係",
+   "tel": "0537-35-0939（確認中: 本文未確認 0537-35-0939）",
+   "note": "農地法第3条の3第1項の規定による届出書が必要。届出期限の明記は公式ページになく確認中（一般的には相続を知った日から10か月以内が目安とされるが要個別確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農業委員会への届出の必要性・様式名をWebFetchで確認。届出期限の具体的な明記は公式ページになく、安全側に確認中扱いとした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/farmland/noshin-exclusion/",
@@ -6374,7 +7308,23 @@
     "label": "農地関係手続き"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/nougyoushinkouchiiki.html",
+    "label": "農業振興地域制度",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課（農業委員会事務局）農業振興係",
+   "tel": "0537-35-0938（確認中: 本文未確認 0537-35-0938）",
+   "note": "農振除外は「やむを得ない理由」があり代替地がない場合に限る例外的手続き。県協議が必要で受付期間も限定的（定期変更5年に1度、随時変更年2回程度）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農振除外の手続きの性質（例外的・県協議必須・受付期間限定）をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/farmland/sell-or-rent/",
@@ -6412,7 +7362,28 @@
     "label": "農地バンク事業"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/hitonoutinituite.html",
+    "label": "地域計画について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/shinseisyo.html",
+    "label": "農地関係許可申請等に係る様式",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課（農業委員会事務局）農業振興係",
+   "tel": "0537-35-0938（確認中: 本文未確認 0537-35-0938）",
+   "note": "農地のままの売買・貸借は農地法第3条許可、転用を伴う場合は第5条許可。地域計画の策定に伴い農地の担い手情報の相談も可能"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農地法3条許可の枠組みと、地域計画（人・農地プランの後継）の存在をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/foreign-resident-consultation/",
@@ -6441,7 +7412,24 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/soudanmadoguchi.html",
+    "label": "外国人相談窓口",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "総務部地域支援課（多文化共生）",
+   "tel": "0537-35-0925",
+   "hours": "平日8:15-17:00（土日祝・年末年始除く）",
+   "note": "窓口はポルトガル語・英語・日本語対応、電話は映像通訳（多言語）対応。メール tabunka@city.kikugawa.shizuoka.jp"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "外国人相談窓口の電話・受付時間・対応言語・映像通訳サービスをWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/",
@@ -6459,7 +7447,22 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/soudan.html",
+    "label": "相談窓口",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "内容により担当課が分かれる（総合案内は市役所代表）",
+   "tel": "0537-35-2111"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブページ。菊川市公式の相談窓口一覧ページ（人権相談・行政相談・弁護士無料法律相談・外国人相談等）をWebFetchで確認し、配下ページへの案内とした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/legal-general-consultation/",
@@ -6504,7 +7507,29 @@
     "label": "市役所以外で行っている法的相談"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/soudan/bengoshisoudan.html",
+    "label": "弁護士無料法律相談",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/soudan.html",
+    "label": "相談窓口",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "総務部地域支援課",
+   "tel": "0537-35-0925",
+   "schedule": "毎月第2・3火曜日、プラザきくる（市役所東館2階）",
+   "reservation": "月初（平日）8:15から電話予約、先着順"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "弁護士無料法律相談の実施日時・予約方法・場所・担当課をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/living-costs-trouble/",
@@ -6538,7 +7563,23 @@
     "label": "福祉相談課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/seikatufukushi/jiritsushien.html",
+    "label": "生活困窮者自立支援事業",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "健康福祉部福祉課",
+   "tel": "0537-37-1251（確認中: 本文未確認 0537-37-1251）",
+   "note": "生活・就労相談、家計改善支援、住居確保給付金の申請に対応。社会福祉協議会（0537-35-3724）の心配ごと相談も利用可（確認中: 本文未確認 0537-35-3724）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "生活困窮者自立支援事業の担当課・電話番号・支援内容をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/road-repair-mirror/",
@@ -6569,7 +7610,23 @@
     "label": "道路河川課のご案内"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kenchiku/douro/douronoanaboko.html",
+    "label": "道路の穴ぼこなどを見つけたら",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部建設課（市道）／地域支援課（防犯灯・自治会経由）",
+   "tel": "0537-35-0934（建設課）／0537-35-0925（地域支援課）（確認中: 本文未確認 0537-35-0925）",
+   "note": "市道の穴ぼこ等はLINE（#9910）でも通報可。国道・県道は静岡県袋井土木事務所（0538-42-3217）。街路灯（防犯灯）専用ページはなく、自治会経由の要望が基本（要確認）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "道路の穴ぼこ通報先（建設課・LINE）をWebFetchで確認。カーブミラー・街路灯の専用ページは見当たらず、防犯灯は自治会経由・地域支援課対応という位置づけをWebSearchで確認し、安全側の表現とした。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/troubles-consult/vacant-house-consultation/",
@@ -6611,7 +7668,38 @@
     "label": "固定資産税・都市計画税"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyataisaku.html",
+    "label": "空家対策",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html",
+    "label": "菊川市空き家バンク事業",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/2018akiyaonestopsoudankai.html",
+    "label": "空き家に関するワンストップ相談会",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyakaitai.html",
+    "label": "解体費用のAI無料査定",
+    "confidence": "medium"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部都市計画課",
+   "tel": "0537-35-0957（確認中: 本文未確認 0537-35-0957）",
+   "note": "ワンストップ相談会（宅地建物取引士・司法書士・税理士・建築士参加）は事前予約制、静岡県空き家対策推進協議会事務局（054-247-3823）へ申込み。会社導線（富士ヶ丘サービス）はqa/real_cardsで控えめに記載"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "都市計画課の空き家対策窓口、ワンストップ相談会の実施実績（令和6年11月開催）、空き家バンク・解体AI査定の各制度をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/work-life/city-tax-payment/",
@@ -6640,7 +7728,35 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/zeimu/kouzafurikaewogoriyoukudasai.html",
+    "label": "口座振替のご案内",
+    "confidence": "high"
+   },
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/zeimu/r3sumahosyuunou.html",
+    "label": "スマートフォン収納",
+    "confidence": "high"
+   },
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/zeimu/h27konnbininoufu.html",
+    "label": "コンビニ収納",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/elqrcode.html",
+    "label": "eL-QRでの納付方法",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課管理係",
+   "tel": "0537-35-0918（確認中: 本文未確認 0537-35-0918）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "口座振替・コンビニ収納・スマホ決済・eL-QRの各公式ページをWebFetchで確認。管理係(0537-35-0918)が口座振替・証明書関係の窓口。"
  },
  {
   "href": "/life/work-life/",
@@ -6659,7 +7775,30 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/",
+    "label": "菊川市公式サイト",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/shikemminzei.html",
+    "label": "市・県民税",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/",
+    "label": "生活環境部市民課",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課／生活環境部市民課／建設経済部（商工観光課・産業支援センター・農林課）",
+   "tel": "0537-35-2111（代表）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "カテゴリハブ。税務課4係・市民課国保年金係・商工観光課・産業支援センター・農林課の窓口構成を確認。"
  },
  {
   "href": "/life/work-life/job-change/",
@@ -6689,7 +7828,25 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/shoukoukankou/nadeshikoworkhome.html",
+    "label": "おしごと相談所「なでしこワーク」",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/soudan.html",
+    "label": "就労支援",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部商工観光課",
+   "tel": "0537-35-0936（確認中: 本文未確認 0537-35-0936）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "なでしこワーク（毎月第3金曜、ハローワーク掛川連携）・就職転職相談会・サポステかけがわをWebFetchで確認。"
  },
  {
   "href": "/life/work-life/job-recruitment/",
@@ -6719,7 +7876,25 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/soumu/shokuinsaiyou.html",
+    "label": "職員採用",
+    "confidence": "high"
+   },
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/soumu/3shigoudousetumeikai.html",
+    "label": "3市（御前崎市・牧之原市・菊川市）合同職員採用説明会",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "総務部総務課",
+   "tel": "0537-35-0921（確認中: 本文未確認 0537-35-0921）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "職員採用ページをWebFetchで確認。一般事務職（大卒程度他）・消防職の募集区分、総務課0537-35-0921。試験日程は年度更新のため本文は一般的な案内にとどめた。"
  },
  {
   "href": "/life/work-life/light-vehicle-tax/",
@@ -6748,7 +7923,30 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/keijidoushazei.html",
+    "label": "軽自動車税（種別割）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/r4keijigennmenn.html",
+    "label": "軽自動車税（種別割）の減免について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/r4keijinouzeishoumei.html",
+    "label": "軽自動車税継続検査用納税証明書について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課市民税係",
+   "tel": "0537-35-0912（確認中: 本文未確認 0537-35-0912）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "軽自動車税ページをWebFetchで確認。4月1日課税・車両区分別税額・減免制度・軽JNKSを確認。"
  },
  {
   "href": "/life/work-life/my-number-card/",
@@ -6773,7 +7971,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumber2.html",
+    "label": "マイナンバーカードについて",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumber3.html",
+    "label": "マイナンバーカードの申請について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumber4.html",
+    "label": "マイナンバーカードの受け取りについて",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/konbini.html",
+    "label": "証明書のコンビニ交付サービス",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部市民課住民記録係",
+   "tel": "0537-35-0917"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市民課住民記録係(0537-35-0917)を確認。税・年金窓口での利用（コンビニ交付・e-Tax）の視点も本文に反映。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/work-life/national-health-insurance-tax/",
@@ -6803,7 +8031,25 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/kokuminkenkouhoken.html",
+    "label": "国民健康保険税",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/kokuhotodokede.html",
+    "label": "国民健康保険の届出",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課市民税係（課税）／市民課国保年金係（加入・喪失届出）",
+   "tel": "0537-35-0912／0537-35-0915（確認中: 本文未確認 0537-35-0912）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "国民健康保険税ページをWebFetchで確認。医療分・後期高齢者支援金分・介護分・子ども子育て支援分の4区分と軽減制度を確認。"
  },
  {
   "href": "/life/work-life/nhk-pension/",
@@ -6829,7 +8075,30 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/kokuhotodokede.html",
+    "label": "国民健康保険の届出",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/nenkintodokede.html",
+    "label": "国民年金の届出",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/nenkinnouketori.html",
+    "label": "年金の受取り",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "生活環境部市民課国保年金係",
+   "tel": "0537-35-0915（確認中: 本文未確認 0537-35-0915）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "国保・年金の届出ページをWebFetchで確認。14日以内の届出ルール、市民課国保年金係0537-35-0915（end-of-lifeカテゴリの既存判明情報と一致）。"
  },
  {
   "href": "/life/work-life/resident-tax/",
@@ -6858,7 +8127,30 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/shikemminzei.html",
+    "label": "市・県民税",
+    "confidence": "high"
+   },
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/zeimu/r3sumahosyuunou.html",
+    "label": "スマートフォン収納",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/r6teigakugenzei.html",
+    "label": "定額減税について",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課市民税係",
+   "tel": "0537-35-0912（確認中: 本文未確認 0537-35-0912）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "市・県民税ページをWebFetchで確認。普通徴収は年4回（6・8・10・12月）、特別徴収は給与天引き。市民税係0537-35-0912を確認。"
  },
  {
   "href": "/life/work-life/start-business/",
@@ -6888,7 +8180,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/sougyoushien.html",
+    "label": "創業・操業支援",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/sougyousien/tokuteisougyou_support.html",
+    "label": "特定創業支援等事業のご案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/satellite_office.html",
+    "label": "サテライトオフィス設置事業費補助金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/keieikiban/hanrokakudai.html",
+    "label": "経営基盤強化（販路拡大）補助金",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部産業支援センター",
+   "tel": "0537-35-0930"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "2026年3月開設の産業支援センターが創業支援の中心窓口であることをWebFetchで確認。EnGAWAビジネススクール・特定創業支援等事業の優遇措置を確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/work-life/start-farming/",
@@ -6917,7 +8239,32 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/hitonoutinituite.html",
+    "label": "地域計画について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/siminnouen.html",
+    "label": "市民農園",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/hojyojigyo.html",
+    "label": "補助事業・保険制度",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "建設経済部農林課農業振興係",
+   "tel": "0537-35-0938"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "農林課農業振興係(0537-35-0938)・農地利用係(0537-35-0939)を確認。新規就農専用の窓口ページは見当たらず、農業振興係が相談窓口である旨をWeb情報から補強。地域計画（人・農地プラン、市内10地区）を確認。茶・メロン産地との断定は避け「産地として知られる」の表現に留めた。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/work-life/subsidies/",
@@ -6942,7 +8289,30 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/sougyousien/sougyouhojyokin.html",
+    "label": "創業支援事業費補助金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jyuutakuhojyo.html",
+    "label": "若者世帯定住促進補助金",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/nourin/hojyojigyo.html",
+    "label": "補助事業・保険制度",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "分野により産業支援センター(0537-35-0930)／都市計画課(0537-35-0957)／環境推進課(0537-35-0916)／農林課(0537-35-0938)（確認中: 本文未確認 0537-35-0916）（確認中: 本文未確認 0537-35-0938）",
+   "tel": "0537-35-0930"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "分野別に補助金ページが多数あることを検索で確認。全補助金の網羅一覧ページは見当たらず、代表例を確認済みURLとして採用。着手前申請ルールを本文に明記。"
  },
  {
   "href": "/life/work-life/tax/",
@@ -6971,7 +8341,27 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "machine-verified",
+  "sources_kikugawa": [
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/",
+    "label": "税務課",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/shikemminzei.html",
+    "label": "市・県民税",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課（市民税係0537-35-0912／資産税係0537-35-0913／管理係0537-35-0918／徴収対策係0537-35-0910）",
+   "tel": "0537-35-0912"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "税務課の4係構成（市民税・資産税・管理・徴収対策）をWebFetchで確認。",
+  "verified_date": "2026-07-04",
+  "verified_by": "machine"
  },
  {
   "href": "/life/work-life/tax-certificates/",
@@ -7001,7 +8391,25 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "http://www.city.kikugawa.shizuoka.jp/zeimu/koukashoumeisho.html",
+    "label": "税務証明書の交付請求時の本人確認について",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/yuubinseikyuu.html",
+    "label": "郵便で請求する場合",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課（市民税係0537-35-0912／資産税係0537-35-0913）（確認中: 本文未確認 0537-35-0912）（確認中: 本文未確認 0537-35-0913）",
+   "tel": "0537-35-0912（確認中: 本文未確認 0537-35-0912）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "本人確認書類の要件・郵送請求方法・手数料300円/件（固定資産評価通知書等は無料）をWebFetchで確認。"
  },
  {
   "href": "/life/work-life/tax-guide/",
@@ -7031,6 +8439,19 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "status": "draft"
+  "status": "ai-checked",
+  "sources_kikugawa": [
+   {
+    "url": "https://www1.g-reiki.net/city.kikugawa/reiki_honbun/r398RG00000260.html",
+    "label": "菊川市税条例（換価の猶予規定）",
+    "confidence": "high"
+   }
+  ],
+  "facts": {
+   "window": "企画財政部税務課徴収対策係",
+   "tel": "0537-35-0910（確認中: 本文未確認 0537-35-0910）"
+  },
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "菊川市税条例で換価の猶予（原則6か月・分割納付）を確認。徴収対策係(0537-35-0910)が納付相談窓口であることを税務課ページ構成から確認。猶予の詳細要件は個別事情によるため本文は一般的な案内に留めた。"
  }
 ]
