@@ -1,1 +1,882 @@
-[]
+[
+  {
+    "href": "/life/health-medical/",
+    "lead": "菊川市の健康・医療に関する制度は、健康福祉部の複数の課にまたがっています。予防接種や健診は「健康づくり課」、障がい福祉は「福祉課」、休日夜間の急患は掛川市と共同運営する診療所が窓口です。まずは自分の状況に近い入口から確認してください。",
+    "real_cards": [
+      {"icon": "💉", "title": "予防接種・健診は健康づくり課", "body": "子どもの定期接種は子育て応援課こども保健係、おとなの予防接種・総合検診（がん検診）・歯周病検診は健康福祉部健康づくり課が担当です（プラザけやき1階）。"},
+      {"icon": "🧑‍⚕️", "title": "障がい福祉は福祉課", "body": "障がい者手帳の手続き、手当、医療費助成、障害福祉サービスの利用相談は健康福祉部福祉課（電話0537-37-1252）が窓口です。"},
+      {"icon": "🚑", "title": "休日夜間の急患は小笠掛川急患診療所", "body": "菊川市は掛川市と共同で「小笠掛川急患診療所」（掛川市杉谷南）を運営しています。夜間・休日に体調が急変したときの一次窓口です。"},
+      {"icon": "🏥", "title": "市立の基幹病院は菊川市立総合病院", "body": "菊川市には市立の基幹病院「菊川市立総合病院」があります。外来診療は平日日中のみのため、夜間・休日は急患診療所を利用します。"}
+    ],
+    "action_grid": [
+      {"label": "菊川市公式サイトを見る", "href": "https://www.city.kikugawa.shizuoka.jp/"},
+      {"label": "健康福祉部健康づくり課に電話する", "href": "tel:0537-37-1112"},
+      {"label": "健康福祉部福祉課に電話する", "href": "tel:0537-37-1252"},
+      {"label": "急患診療所のご案内を見る", "href": "/life/health-medical/holiday-night-emergency-care/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/adult-vaccination/",
+    "lead": "大人や高齢者の予防接種は、対象年齢・接種時期・自己負担額が年度ごとに更新されるため、まず菊川市公式サイトの最新案内を確認することが近道です。インフルエンザ・肺炎球菌ワクチンに加え、帯状疱疹ワクチンの案内も始まっています。",
+    "note": "担当は菊川市健康福祉部健康づくり課（保健医療係、電話0537-37-1112）です。子どもの予防接種は別の課（子育て応援課こども保健係）が担当するため、対象が大人か子どもかで問い合わせ先が変わります。",
+    "real_cards": [
+      {"icon": "🦠", "title": "インフルエンザ・肺炎球菌が中心", "body": "高齢者向けの定期接種として、季節性インフルエンザワクチンと高齢者用肺炎球菌ワクチンの案内が毎年出されます。対象年齢や自己負担額は年度ごとに更新されるため、実施時期が近づいたら公式ページを確認してください。"},
+      {"icon": "🩹", "title": "帯状疱疹ワクチンの案内も", "body": "帯状疱疹ワクチン予防接種についての案内ページが公式サイトに用意されています。対象年齢や助成内容は制度改定の影響を受けやすいため、最新情報を都度確認しましょう。"},
+      {"icon": "🏥", "title": "接種は市内の契約医療機関で", "body": "多くの大人の予防接種は、あらかじめ委託を受けた市内医療機関で実施されます。かかりつけ医がある場合はそこで受けられるか確認するとスムーズです。"},
+      {"icon": "📞", "title": "問い合わせは健康づくり課へ", "body": "対象条件や助成額など具体的な内容は健康づくり課保健医療係（0537-37-1112）に電話で確認するのが確実です。"}
+    ],
+    "qa": [
+      {"question": "大人の予防接種にはどんな種類がありますか", "answer": "季節性インフルエンザワクチン、高齢者用肺炎球菌ワクチンが中心です。近年は帯状疱疹ワクチンの案内も始まっています。対象年齢や助成の有無は毎年更新されるため、菊川市公式サイトで最新情報を確認してください。"},
+      {"question": "対象年齢はどこで確認できますか", "answer": "毎年の実施時期が近づくと菊川市公式サイトで対象年齢や自己負担額が案内されます。健康づくり課（0537-37-1112）に電話で確認することもできます。"},
+      {"question": "帯状疱疹ワクチンは助成の対象になりますか", "answer": "<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/taijyouhousinwakutin.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の帯状疱疹ワクチン予防接種について</a>のページで対象年齢や助成内容を確認できます。制度内容は年度により変わる可能性があります。"},
+      {"question": "どこで接種を受けられますか", "answer": "市内の契約医療機関で接種できます。かかりつけ医がある場合はまずそこに相談し、契約医療機関かどうかを確認してください。"},
+      {"question": "こどもの予防接種と担当課が違うのはなぜですか", "answer": "こどもの定期接種は子育て応援課こども保健係、大人の予防接種は健康づくり課保健医療係が担当しており、窓口が分かれています。制度の全体像は<a href=\"/life/health-medical/vaccinations/\">予防接種全般</a>もあわせてご確認ください。"},
+      {"question": "詳しい情報はどこで確認できますか", "answer": "詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html\" target=\"_blank\" rel=\"noopener\">菊川市健康福祉部健康づくり課のページ</a>で最新の案内を確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-senior",
+        "label": "高齢者",
+        "heading": "インフルエンザ・肺炎球菌ワクチンを確認",
+        "bullets": ["毎年秋頃に対象年齢・実施期間が案内される", "自己負担額は制度により異なる", "契約医療機関での接種が基本"],
+        "actions": [
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"},
+          {"label": "健康福祉部健康づくり課を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-shingles",
+        "label": "帯状疱疹が気になる",
+        "heading": "帯状疱疹ワクチンの案内を確認",
+        "bullets": ["対象年齢や助成内容は公式ページで確認する", "制度は年度により変わる可能性がある", "かかりつけ医に接種可否を相談する"],
+        "actions": [
+          {"label": "帯状疱疹ワクチンについて見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/taijyouhousinwakutin.html", "source": "菊川市公式"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"}
+        ]
+      },
+      {
+        "id": "type-family",
+        "label": "家族の分も確認したい",
+        "heading": "こどもと大人で担当窓口が違う",
+        "bullets": ["こどもの接種は子育て応援課こども保健係が担当", "大人の接種は健康づくり課保健医療係が担当", "対象者ごとに案内ページが分かれている"],
+        "actions": [
+          {"label": "予防接種全般を見る", "href": "/life/health-medical/vaccinations/", "source": "菊川ライフハック"},
+          {"label": "麻しん・風しんの案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/mashinhuushin.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-checkup",
+        "label": "健診もあわせて検討",
+        "heading": "健診と予防接種は別の機会に確認できる",
+        "bullets": ["総合検診（がん検診）は別途申込制", "特定健診も年に一度の受診が基本", "健診と接種のスケジュールをまとめて把握すると効率的"],
+        "actions": [
+          {"label": "特定健診・健康診断を見る", "href": "/life/health-medical/health-checkups/", "source": "菊川ライフハック"},
+          {"label": "がん検診を見る", "href": "/life/health-medical/cancer-specific-checkups/", "source": "菊川ライフハック"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["自分や家族の年齢が対象になりそうか確認する", "健康づくり課（0537-37-1112）に電話して最新の案内を聞く"],
+      "this_week": ["かかりつけ医が契約医療機関かどうか確認する", "接種を希望する場合は予約の要否を確認する"],
+      "outside": ["帯状疱疹など新しい助成制度の対象条件を確認する", "健診とあわせて受診スケジュールを立てる"]
+    },
+    "action_grid": [
+      {"label": "健康福祉部健康づくり課を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html"},
+      {"label": "帯状疱疹ワクチンについて見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/taijyouhousinwakutin.html"},
+      {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112"},
+      {"label": "予防接種全般を見る", "href": "/life/health-medical/vaccinations/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/cancer-specific-checkups/",
+    "lead": "菊川市のがん検診は「総合検診」という名称で、胃・大腸・肺・乳・子宮頸・前立腺の6種類がまとめて申込制で実施されます。申込方法と締切を早めに確認しておくと受け忘れを防げます。",
+    "note": "担当は菊川市健康福祉部健康づくり課（保健医療係、電話0537-37-1112）です。申込制のため、申し込みをしないと受診券などの資材は送付されません。実施時期・申込締切は年度により変わります（令和8年度は9月〜翌1月実施、8月31日申込締切の案内あり）。",
+    "real_cards": [
+      {"icon": "🩻", "title": "6種類のがん検診がまとまっている", "body": "胃がん、大腸がん、肺がん、乳がん、子宮頸がん、前立腺がん検診が「総合検診」としてまとめて案内されます。年齢・性別により受けられる項目が異なります。"},
+      {"icon": "📝", "title": "申込制なので事前手続きが必要", "body": "電話（0537-37-1112）または電子申請で申し込みます。申込制のため、何もしなければ受診券などは届きません。"},
+      {"icon": "🏥", "title": "集団検診と個別検診が選べる", "body": "婦人科検診などは集団検診（会場に出向く方式）と個別検診（医療機関を予約する方式）から選べます。金額や実施場所が異なるため、公式サイトの検診一覧表で確認してください。"},
+      {"icon": "📅", "title": "実施時期と申込締切に注意", "body": "年度ごとに実施期間と申込締切が決まっています。締切を過ぎると当該年度は受診できない場合があるため、案内が出たら早めに申し込むことをおすすめします。"}
+    ],
+    "qa": [
+      {"question": "がん検診はどうやって申し込みますか", "answer": "電話（0537-37-1112）または電子申請で申し込みます。申込制のため、申し込みをしないと受診券などの資材が送付されません。"},
+      {"question": "どんな種類のがん検診がありますか", "answer": "胃がん、大腸がん、肺がん、乳がん、子宮頸がん、前立腺がん検診の6種類です。年齢・性別によって受けられる項目が異なります。"},
+      {"question": "申込の締切はいつですか", "answer": "年度ごとに設定されます。近年の案内では実施期間の前月末が締切の目安になっています。詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html\" target=\"_blank\" rel=\"noopener\">総合検診（がん検診）のページ</a>で最新の日程を確認してください。"},
+      {"question": "集団検診と個別検診はどう違いますか", "answer": "集団検診はプラザけやき等の会場や検診車で受ける方式、個別検診は契約医療機関を予約して受ける方式です。<a href=\"https://www.city.kikugawa.shizuoka.jp/faq/kenkou/kenkou/kobetusyuudanntigai.html\" target=\"_blank\" rel=\"noopener\">「集団検診」と「個別検診」の違い</a>のページで詳しく説明されています。"},
+      {"question": "料金はいくらですか", "answer": "検診項目によって自己負担額が異なります。菊川市公式サイトの検診一覧表（PDF）に詳細が掲載されているため、申し込み前に確認してください。"},
+      {"question": "健康診断とあわせて受けられますか", "answer": "特定健診とがん検診は別の制度ですが、同じ時期に案内されることが多いため、<a href=\"/life/health-medical/health-checkups/\">特定健診・健康診断</a>もあわせて確認しておくと efficient です。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-first",
+        "label": "初めて申し込む",
+        "heading": "まず申込方法と締切を確認",
+        "bullets": ["電話か電子申請で申し込む", "申込締切を過ぎないよう早めに動く", "年齢・性別で受けられる項目を確認する"],
+        "actions": [
+          {"label": "総合検診（がん検診）を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html", "source": "菊川市公式"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"}
+        ]
+      },
+      {
+        "id": "type-choose",
+        "label": "受診方法を選びたい",
+        "heading": "集団検診か個別検診かを選ぶ",
+        "bullets": ["集団検診は会場・検診車での実施", "個別検診は医療機関を予約して受診", "金額や日程が異なるため事前確認が必要"],
+        "actions": [
+          {"label": "集団検診と個別検診の違いを見る", "href": "https://www.city.kikugawa.shizuoka.jp/faq/kenkou/kenkou/kobetusyuudanntigai.html", "source": "菊川市公式"},
+          {"label": "菊川市立総合病院を見る", "href": "https://www.city.kikugawa.shizuoka.jp/hishokoho/sougoubyouin.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-worry",
+        "label": "症状が気になる",
+        "heading": "気になる症状があれば検診を待たず受診を",
+        "bullets": ["検診はあくまで無症状の方向けの制度", "自覚症状がある場合は医療機関を受診する", "医療機関の探し方も確認しておく"],
+        "actions": [
+          {"label": "医療機関の探し方を見る", "href": "/life/health-medical/find-hospitals/", "source": "菊川ライフハック"},
+          {"label": "菊川市立総合病院に電話する", "href": "tel:0537-35-2135", "source": "0537-35-2135"}
+        ]
+      },
+      {
+        "id": "type-schedule",
+        "label": "他の健診とまとめたい",
+        "heading": "健診全体のスケジュールを把握する",
+        "bullets": ["特定健診と時期が近いことが多い", "人間ドックの助成制度もあわせて検討できる", "年1回のペースで全体を見直す"],
+        "actions": [
+          {"label": "特定健診・健康診断を見る", "href": "/life/health-medical/health-checkups/", "source": "菊川ライフハック"},
+          {"label": "人間ドックの費用助成を見る", "href": "https://www.city.kikugawa.shizuoka.jp/shimin/ninngenndokku.html", "source": "菊川市公式"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["自分の年齢・性別で対象になる検診項目を確認する", "総合検診の申込方法（電話・電子申請）を確認する"],
+      "this_week": ["健康づくり課（0537-37-1112）に電話して申し込む", "集団検診・個別検診のどちらにするか決める"],
+      "outside": ["申込締切に間に合うよう早めにスケジュールを組む", "結果が出たら医療機関でのフォローアップを検討する"]
+    },
+    "action_grid": [
+      {"label": "総合検診（がん検診）を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html"},
+      {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112"},
+      {"label": "集団検診と個別検診の違いを見る", "href": "https://www.city.kikugawa.shizuoka.jp/faq/kenkou/kenkou/kobetusyuudanntigai.html"},
+      {"label": "特定健診・健康診断を見る", "href": "/life/health-medical/health-checkups/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/dental-care/",
+    "lead": "菊川市の歯科検診は「成人歯周病検診」として、20・30・40・50・60・70歳の節目年齢を対象に実施されています。市内の委託歯科医療機関から選んで予約する仕組みなので、対象年齢に該当するかをまず確認しましょう。",
+    "note": "担当は菊川市健康福祉部健康づくり課（健康増進係、電話0537-37-1175）です。対象者には毎年5月末に受診券が郵送されます（実施期間は年度により異なり、令和8年度は6月1日〜翌1月30日）。自己負担金は1,000円です。",
+    "real_cards": [
+      {"icon": "🦷", "title": "対象は節目年齢の6区分", "body": "20歳、30歳、40歳、50歳、60歳、70歳になる方が対象です。該当年度の4月1日時点の年齢で判定されます。"},
+      {"icon": "✉️", "title": "受診券は自動で郵送される", "body": "対象者には毎年5月末頃に受診券が郵送されます。届いたら委託歯科医療機関に自分で予約を取る流れです。"},
+      {"icon": "🏥", "title": "市内14の委託歯科医療機関から選べる", "body": "菊川地区・小笠地区の委託歯科医療機関14施設から、通いやすい医院を選んで予約できます。自己負担金は1,000円です。"},
+      {"icon": "🔍", "title": "かかりつけ歯科医院を探すなら医療個別マップ", "body": "定期検診の対象年齢でなくても、歯科医院を探したいときは菊川市医療個別マップ：歯科が便利です。"}
+    ],
+    "qa": [
+      {"question": "成人歯周病検診の対象年齢は何歳ですか", "answer": "20歳、30歳、40歳、50歳、60歳、70歳になる方（該当年度の4月1日時点）が対象です。"},
+      {"question": "自己負担金はいくらですか", "answer": "1,000円です。委託歯科医療機関で受診券とともに来院すれば検診を受けられます。"},
+      {"question": "受診券はいつ届きますか", "answer": "対象者には毎年5月末頃に受診券が郵送されます。届いたら自分で医療機関に予約する必要があります。"},
+      {"question": "どの歯科医院で受けられますか", "answer": "菊川地区・小笠地区の委託歯科医療機関14施設から選べます。詳しい医療機関名は<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/shisyuubyoukenshin.html\" target=\"_blank\" rel=\"noopener\">成人歯周病検診のご案内</a>のページで確認できます。"},
+      {"question": "対象年齢でなくても歯科医院を探せますか", "answer": "はい。<a href=\"https://www.city.kikugawa.shizuoka.jp/choujukaigo/iryomap-shika.html\" target=\"_blank\" rel=\"noopener\">菊川市医療個別マップ：歯科</a>で市内の歯科医療機関を確認できます。"},
+      {"question": "詳しい実施期間はどこで確認できますか", "answer": "実施期間は年度により変わります。詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/shisyuubyoukenshin.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の成人歯周病検診のご案内</a>で最新の日程を確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-target",
+        "label": "対象年齢かも",
+        "heading": "節目年齢なら受診券を確認",
+        "bullets": ["20/30/40/50/60/70歳が対象", "5月末頃に受診券が郵送される", "自己負担金は1,000円"],
+        "actions": [
+          {"label": "成人歯周病検診のご案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/shisyuubyoukenshin.html", "source": "菊川市公式"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175", "source": "0537-37-1175"}
+        ]
+      },
+      {
+        "id": "type-notarget",
+        "label": "対象年齢でない",
+        "heading": "歯科医院を自分で探す",
+        "bullets": ["医療個別マップで市内の歯科医院を確認する", "定期的な歯科受診は対象年齢以外でも大切", "気になる症状があれば早めに受診する"],
+        "actions": [
+          {"label": "菊川市医療個別マップ：歯科を見る", "href": "https://www.city.kikugawa.shizuoka.jp/choujukaigo/iryomap-shika.html", "source": "菊川市公式"},
+          {"label": "医療機関の探し方を見る", "href": "/life/health-medical/find-hospitals/", "source": "菊川ライフハック"}
+        ]
+      },
+      {
+        "id": "type-elderly",
+        "label": "高齢の親の口腔ケアが心配",
+        "heading": "高齢者の口腔ケアも相談できる",
+        "bullets": ["70歳の節目検診が高齢期の入口になる", "日常の口腔ケアは介護予防にもつながる", "気になる場合は歯科医院に個別相談する"],
+        "actions": [
+          {"label": "医療個別マップ：歯科を見る", "href": "https://www.city.kikugawa.shizuoka.jp/choujukaigo/iryomap-shika.html", "source": "菊川市公式"},
+          {"label": "地域包括支援センターを見る", "href": "https://www.city.kikugawa.shizuoka.jp/choujukaigo/koureishanosoudan.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-other",
+        "label": "他の健診もまとめたい",
+        "heading": "健診全体のスケジュールを確認",
+        "bullets": ["がん検診・特定健診と時期が近いこともある", "歯科検診は自己負担が比較的少額", "年に一度、健診全体を見直すとよい"],
+        "actions": [
+          {"label": "特定健診・健康診断を見る", "href": "/life/health-medical/health-checkups/", "source": "菊川ライフハック"},
+          {"label": "がん検診を見る", "href": "/life/health-medical/cancer-specific-checkups/", "source": "菊川ライフハック"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["自分が今年度20/30/40/50/60/70歳になるか確認する", "受診券が届いているか確認する"],
+      "this_week": ["委託歯科医療機関一覧から通いやすい医院を選ぶ", "医院に電話して予約する"],
+      "outside": ["受診券と自己負担金1,000円を用意して来院する", "検診結果に応じて継続的な受診を検討する"]
+    },
+    "action_grid": [
+      {"label": "成人歯周病検診のご案内を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/shisyuubyoukenshin.html"},
+      {"label": "菊川市医療個別マップ：歯科を見る", "href": "https://www.city.kikugawa.shizuoka.jp/choujukaigo/iryomap-shika.html"},
+      {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175"},
+      {"label": "医療機関の探し方を見る", "href": "/life/health-medical/find-hospitals/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/disability-services/",
+    "lead": "障害福祉サービスは「介護給付」と「訓練等給付」の大きく2種類に分かれます。菊川市では福祉課が申請窓口となり、市や相談支援事業所からサービス利用の相談・情報提供を受けられる仕組みです。まず自分に必要な支援がどちらに当てはまるかを整理しましょう。",
+    "note": "担当は菊川市健康福祉部福祉課（電話0537-37-1252）です。障害福祉サービスの利用には、原則として障害支援区分の認定など手続きが必要です。個別の相談支援事業所の詳細な一覧については確認中のため、まずは福祉課へお問い合わせください。",
+    "real_cards": [
+      {"icon": "🏠", "title": "介護給付は日常生活の支援が中心", "body": "居宅介護、重度訪問介護、同行援護、短期入所、生活介護、施設入所支援など、日常生活を支える給付です。常に介護を必要とする方が主な対象です。"},
+      {"icon": "💼", "title": "訓練等給付は自立・就労を後押し", "body": "自立訓練、就労移行支援、就労継続支援（A型・B型）、共同生活援助（グループホーム）、就労定着支援など、自立や就労に向けた支援です。"},
+      {"icon": "📋", "title": "申請窓口は福祉課", "body": "サービスの利用にはまず福祉課（0537-37-1252）へ相談します。障害支援区分の認定など、利用開始までに手続きが必要な場合があります。"},
+      {"icon": "🤝", "title": "相談支援事業所も利用できる", "body": "市の窓口だけでなく、相談支援事業所からもサービス利用の相談や情報提供を受けられます。どの支援が合うか迷う場合は、まず福祉課に事業所の紹介を依頼するとよいでしょう。"}
+    ],
+    "qa": [
+      {"question": "障害福祉サービスにはどんな種類がありますか", "answer": "大きく分けて、日常生活を支える「介護給付」（居宅介護・短期入所・生活介護など）と、自立・就労を支える「訓練等給付」（自立訓練・就労移行支援など）の2種類があります。"},
+      {"question": "利用するにはどこに相談すればいいですか", "answer": "菊川市健康福祉部福祉課（電話0537-37-1252）にまず相談してください。市や相談支援事業所からサービス利用の相談・情報提供を受けられます。"},
+      {"question": "サービスを使うのに手帳は必要ですか", "answer": "多くのサービスは障害者手帳の所持や障害支援区分の認定が前提になります。詳しい要件は個々のサービスにより異なるため、福祉課に確認してください。"},
+      {"question": "働くための支援もありますか", "answer": "はい。就労移行支援や就労継続支援（A型・B型）、就労定着支援など、就労に関する訓練等給付があります。"},
+      {"question": "相談支援事業所とは何ですか", "answer": "利用者に合ったサービス計画の作成や事業所とのマッチングを支援する専門機関です。具体的な事業所名や連絡先は確認中のため、まずは福祉課にお問い合わせください。"},
+      {"question": "詳しい制度内容はどこで確認できますか", "answer": "詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/fukushi/shougaifukushi.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の障害福祉サービスのページ</a>で確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-first",
+        "label": "初めて利用を検討",
+        "heading": "まず福祉課に相談する",
+        "bullets": ["介護給付と訓練等給付のどちらが必要か整理する", "障害者手帳の有無を確認しておく", "福祉課で利用の流れを聞く"],
+        "actions": [
+          {"label": "障害福祉サービスを見る", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaifukushi.html", "source": "菊川市公式"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      },
+      {
+        "id": "type-daily",
+        "label": "日常生活の支援がほしい",
+        "heading": "介護給付を確認する",
+        "bullets": ["居宅介護・短期入所・生活介護などが対象", "常時介護が必要な場合に検討する", "障害支援区分の認定が必要になることがある"],
+        "actions": [
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"},
+          {"label": "障がい者福祉を見る", "href": "/life/health-medical/disability-welfare/", "source": "菊川ライフハック"}
+        ]
+      },
+      {
+        "id": "type-work",
+        "label": "就労・自立を目指す",
+        "heading": "訓練等給付を確認する",
+        "bullets": ["就労移行支援・就労継続支援A型/B型などがある", "共同生活援助（グループホーム）の利用も選択肢", "就労定着支援で働き続ける支援も受けられる"],
+        "actions": [
+          {"label": "障害福祉サービスを見る", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaifukushi.html", "source": "菊川市公式"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      },
+      {
+        "id": "type-family",
+        "label": "家族として相談したい",
+        "heading": "家族の立場からも相談できる",
+        "bullets": ["本人に代わって家族が福祉課に相談してよい", "手当や助成制度もあわせて確認できる", "早めの相談で選択肢を把握しやすくなる"],
+        "actions": [
+          {"label": "障がい者福祉を見る", "href": "/life/health-medical/disability-welfare/", "source": "菊川ライフハック"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["必要な支援が介護給付か訓練等給付かを整理する", "福祉課（0537-37-1252）に電話で相談する"],
+      "this_week": ["障害者手帳や障害支援区分の状況を確認する", "相談支援事業所の紹介を受けられるか聞く"],
+      "outside": ["サービス利用計画の作成に進む", "利用開始後は定期的な見直しの機会を確認する"]
+    },
+    "action_grid": [
+      {"label": "障害福祉サービスを見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaifukushi.html"},
+      {"label": "福祉課に電話する", "href": "tel:0537-37-1252"},
+      {"label": "障がい者福祉を見る", "href": "/life/health-medical/disability-welfare/"},
+      {"label": "健康福祉部福祉課を見る", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/disability-welfare/",
+    "lead": "障がい者手帳をお持ちの方向けに、菊川市には手当・医療費助成・税や公共料金の減免などさまざまな制度があります。制度ごとに対象要件と申請書類が異なるため、まず自分が該当しそうな制度を福祉課で確認するのが近道です。",
+    "note": "担当は菊川市健康福祉部福祉課（電話0537-37-1252）です。手当や医療費助成には手帳の等級条件があるものが多く、診断書や通帳など複数の書類が必要になります。",
+    "real_cards": [
+      {"icon": "💴", "title": "手当は複数の種類がある", "body": "特別障害者手当、障害児福祉手当、特別児童扶養手当、在宅重度障害者介護者手当、重度心身障害児扶養手当など、対象者の年齢や障害の程度によって使える手当が異なります。"},
+      {"icon": "🏥", "title": "医療費助成もある", "body": "身体障害者手帳1・2級などが対象の重度障害者医療費助成、長期入院する精神障害者向けの精神障害者入院医療費助成があります。"},
+      {"icon": "🧾", "title": "税・公共料金の減免制度も", "body": "障害者手帳をお持ちの方向けに、税金や公共料金の減免制度があります。詳しくは福祉課にご確認ください。"},
+      {"icon": "📞", "title": "まず福祉課に相談する", "body": "どの制度が使えるかは手帳の種類・等級・世帯状況によって変わります。まずは福祉課（0537-37-1252）に電話し、自分の状況を伝えて確認しましょう。"}
+    ],
+    "qa": [
+      {"question": "障がい者向けの手当にはどんな種類がありますか", "answer": "特別障害者手当（重度障害・20歳以上）、障害児福祉手当（重度障害・20歳未満）、特別児童扶養手当、在宅重度障害者介護者手当、重度心身障害児扶養手当などがあります。対象要件は手当ごとに異なります。"},
+      {"question": "医療費の助成はありますか", "answer": "身体障害者手帳1・2級（または内部障害3級）、療育手帳A、精神障害者保健福祉手帳1級などが対象の重度障害者医療費助成があります。長期入院する精神障害者向けの精神障害者入院医療費助成もあります。"},
+      {"question": "申請に必要なものは何ですか", "answer": "制度により異なりますが、多くは診断書（発行から2ヶ月以内など期限があるもの）、マイナンバー確認書類、障害者手帳、通帳などが必要です。詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/fukushi/shougaisha.html\" target=\"_blank\" rel=\"noopener\">障害者の手当てなど</a>のページで確認してください。"},
+      {"question": "税金や公共料金の減免はありますか", "answer": "障害者手帳をお持ちの方向けの税金・公共料金の減免制度があります。詳細は福祉課にお問い合わせください。"},
+      {"question": "どの制度が自分に当てはまるか分かりません", "answer": "手帳の種類・等級・年齢・世帯状況によって使える制度が異なります。まず福祉課（0537-37-1252）に電話し、状況を伝えて相談してください。"},
+      {"question": "詳しい助成内容はどこで確認できますか", "answer": "詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/fukushi/shougaishanojoseinado.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の障害者の助成などのページ</a>で確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-allowance",
+        "label": "手当を確認したい",
+        "heading": "対象になりそうな手当を探す",
+        "bullets": ["特別障害者手当・障害児福祉手当などがある", "年齢・障害の程度で対象が変わる", "診断書など申請書類を事前に確認する"],
+        "actions": [
+          {"label": "障害者の手当てなどを見る", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaisha.html", "source": "菊川市公式"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      },
+      {
+        "id": "type-medical",
+        "label": "医療費が心配",
+        "heading": "医療費助成を確認する",
+        "bullets": ["重度障害者医療費助成は手帳等級が条件", "精神障害者は入院医療費助成もある", "医療保険証・通帳・手帳を持参して申請"],
+        "actions": [
+          {"label": "障害者の助成などを見る", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaishanojoseinado.html", "source": "菊川市公式"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      },
+      {
+        "id": "type-service",
+        "label": "サービス利用も検討",
+        "heading": "障害福祉サービスもあわせて確認",
+        "bullets": ["手当・助成とサービス利用は別制度", "生活面の支援が必要ならサービスも検討", "福祉課で両方まとめて相談できる"],
+        "actions": [
+          {"label": "障がい福祉サービスを見る", "href": "/life/health-medical/disability-services/", "source": "菊川ライフハック"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      },
+      {
+        "id": "type-family",
+        "label": "家族の将来に備えたい",
+        "heading": "扶養共済制度なども選択肢",
+        "bullets": ["心身障害者扶養共済制度という任意加入制度がある", "保護者が万一のときの備えになる", "加入を検討する場合は早めに福祉課へ相談する"],
+        "actions": [
+          {"label": "障害者の手当てなどを見る", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaisha.html", "source": "菊川市公式"},
+          {"label": "健康福祉部福祉課を見る", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/", "source": "菊川市公式"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["自分の手帳の種類・等級を確認する", "福祉課（0537-37-1252）に電話して該当する制度を聞く"],
+      "this_week": ["必要書類（診断書・手帳・通帳など）を準備する", "福祉課の窓口で申請する"],
+      "outside": ["継続的な手当・助成は更新手続きの有無を確認する", "サービス利用も必要であればあわせて相談する"]
+    },
+    "action_grid": [
+      {"label": "障害者の手当てなどを見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaisha.html"},
+      {"label": "障害者の助成などを見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaishanojoseinado.html"},
+      {"label": "福祉課に電話する", "href": "tel:0537-37-1252"},
+      {"label": "障がい福祉サービスを見る", "href": "/life/health-medical/disability-services/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/find-hospitals/",
+    "lead": "菊川市には市立の基幹病院「菊川市立総合病院」があり、市内の個別医療機関は小笠医師会のホームページで一元的に案内されています。急な体調不良か、かかりつけを探しているかで、確認すべき窓口が変わります。",
+    "note": "菊川市立総合病院（菊川市東横地1632、電話0537-35-2135）の外来受付は平日8時〜11時のみです。夜間・休日の急患対応は「小笠掛川急患診療所」が別途担当しています。市内の個別診療所を探す場合は小笠医師会のサイトが便利です。",
+    "real_cards": [
+      {"icon": "🏥", "title": "市立の基幹病院は菊川市立総合病院", "body": "内科・外科・整形外科・産婦人科・眼科・皮膚科・小児科・脳神経外科など13科目を擁する市立病院です。外来受付は平日8時〜11時のみで、土日祝・年末年始は休診です。"},
+      {"icon": "🩺", "title": "家庭医療センター（あかっちクリニック）もある", "body": "菊川市赤土にある家庭医療センターは、地域のかかりつけ医機能を担う施設です。原則予約制のため、受診前に電話（0537-73-2267）が必要です。"},
+      {"icon": "📋", "title": "個別医療機関は小笠医師会のサイトで確認", "body": "菊川市公式サイトの病院・診療所ページから、小笠医師会のホームページへのリンクがあり、地域の医師会が市内医療機関の情報を一元的に提供しています。"},
+      {"icon": "🚑", "title": "急を要するときは急患診療所へ", "body": "菊川市立総合病院の外来は平日日中のみのため、夜間・休日に体調が急変したときは小笠掛川急患診療所（電話0537-61-1299）を利用します。"}
+    ],
+    "qa": [
+      {"question": "菊川市に市立病院はありますか", "answer": "はい。「菊川市立総合病院」（菊川市東横地1632、電話0537-35-2135）があります。内科・外科・整形外科など13科目を擁しますが、外来受付は平日8時〜11時のみです。"},
+      {"question": "夜間や休日に体調が悪くなったらどうすればいいですか", "answer": "菊川市立総合病院の外来は平日日中のみのため、夜間・休日は<a href=\"/life/health-medical/holiday-night-emergency-care/\">小笠掛川急患診療所</a>を利用してください。"},
+      {"question": "かかりつけ医を探したいときはどうすればいいですか", "answer": "菊川市公式サイトの<a href=\"https://www.city.kikugawa.shizuoka.jp/shisetsu/kyuukyuu/index.html\" target=\"_blank\" rel=\"noopener\">病院・診療所ページ</a>から、市内医療機関を網羅している<a href=\"http://www.ogasaishikai.com/\" target=\"_blank\" rel=\"noopener\">小笠医師会のホームページ</a>を確認するのがおすすめです。"},
+      {"question": "家庭医療センターとはどんな施設ですか", "answer": "菊川市赤土にある「菊川市家庭医療センター（あかっちクリニック）」で、家庭医療（産婦人科を含む）を提供しています。原則予約制のため事前に電話（0537-73-2267）してください。"},
+      {"question": "歯科医院はどこで探せますか", "answer": "<a href=\"/life/health-medical/dental-care/\">歯科検診・口腔ケア</a>のページで紹介している菊川市医療個別マップ：歯科が便利です。"},
+      {"question": "全国の医療機関情報を調べたいときは", "answer": "厚生労働省が運営する<a href=\"https://www.iryou.teikyouseido.mhlw.go.jp/\" target=\"_blank\" rel=\"noopener\">医療情報ネット</a>でも、都道府県をまたいで医療機関を検索できます。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-urgent",
+        "label": "今すぐ受診したい",
+        "heading": "急を要するときの動き方",
+        "bullets": ["平日日中なら菊川市立総合病院へ", "夜間・休日は小笠掛川急患診療所へ", "受診前に電話で状況を伝える"],
+        "actions": [
+          {"label": "菊川市立総合病院に電話する", "href": "tel:0537-35-2135", "source": "0537-35-2135"},
+          {"label": "急患診療所のご案内を見る", "href": "/life/health-medical/holiday-night-emergency-care/", "source": "菊川ライフハック"}
+        ]
+      },
+      {
+        "id": "type-primary",
+        "label": "かかりつけを探したい",
+        "heading": "地域の医療機関を確認する",
+        "bullets": ["小笠医師会のサイトで市内医療機関を検索できる", "家庭医療センターは家庭医療全般に対応", "通いやすさや診療科目で選ぶとよい"],
+        "actions": [
+          {"label": "小笠医師会のサイトを見る", "href": "http://www.ogasaishikai.com/", "source": "小笠医師会"},
+          {"label": "家庭医療センターに電話する", "href": "tel:0537-73-2267", "source": "0537-73-2267"}
+        ]
+      },
+      {
+        "id": "type-specific",
+        "label": "特定の診療科を探したい",
+        "heading": "病院・診療所ページから確認",
+        "bullets": ["菊川市立総合病院は13科目を擁する", "専門的な診療は近隣市の病院も選択肢", "医療情報ネットで広域検索もできる"],
+        "actions": [
+          {"label": "病院・診療所を見る", "href": "https://www.city.kikugawa.shizuoka.jp/shisetsu/kyuukyuu/index.html", "source": "菊川市公式"},
+          {"label": "医療情報ネットを見る", "href": "https://www.iryou.teikyouseido.mhlw.go.jp/", "source": "厚生労働省"}
+        ]
+      },
+      {
+        "id": "type-checkup",
+        "label": "健診も受けたい",
+        "heading": "健診機関もあわせて確認",
+        "bullets": ["菊川市立総合病院には健診機能もある", "個別検診は指定の医療機関で受診できる", "総合検診（がん検診）は別途申込制"],
+        "actions": [
+          {"label": "特定健診・健康診断を見る", "href": "/life/health-medical/health-checkups/", "source": "菊川ライフハック"},
+          {"label": "菊川市立総合病院を見る", "href": "https://www.city.kikugawa.shizuoka.jp/hishokoho/sougoubyouin.html", "source": "菊川市公式"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["症状の程度と緊急性を確認する", "平日日中か夜間・休日かを確認して窓口を選ぶ"],
+      "this_week": ["かかりつけ医を決めていない場合は小笠医師会サイトで探す", "家庭医療センターなど予約制の施設は事前に電話する"],
+      "outside": ["持病がある場合は定期受診の医療機関を決めておく", "健診・検診のスケジュールもあわせて管理する"]
+    },
+    "action_grid": [
+      {"label": "病院・診療所を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/shisetsu/kyuukyuu/index.html"},
+      {"label": "菊川市立総合病院を見る", "href": "https://www.city.kikugawa.shizuoka.jp/hishokoho/sougoubyouin.html"},
+      {"label": "小笠医師会のサイトを見る", "href": "http://www.ogasaishikai.com/"},
+      {"label": "急患診療所のご案内を見る", "href": "/life/health-medical/holiday-night-emergency-care/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/health-checkups/",
+    "lead": "菊川市の健康診断は、国民健康保険の特定健診、総合検診（がん検診）、人間ドック・簡易脳ドックの費用助成など複数の制度が組み合わさっています。自分の加入している保険と目的に応じて、使える制度を整理しましょう。",
+    "note": "特定健診・総合検診の担当は健康福祉部健康づくり課（保健医療係、電話0537-37-1112）、人間ドック・簡易脳ドックの費用助成は市民課（電話0537-35-0915）が担当です。窓口が分かれている点に注意してください。",
+    "real_cards": [
+      {"icon": "🩺", "title": "特定健診は国保・後期高齢者医療の加入者向け", "body": "国民健康保険や後期高齢者医療制度に加入している方向けの健診です。生活習慣病の早期発見を目的としています。"},
+      {"icon": "🎗️", "title": "総合検診（がん検診）は申込制", "body": "胃・大腸・肺・乳・子宮頸・前立腺の6種類のがん検診がまとめて実施されます。電話または電子申請での申込が必要です。"},
+      {"icon": "💴", "title": "人間ドック・簡易脳ドックには費用助成がある", "body": "国民健康保険や後期高齢者医療の被保険者（保険料を滞納していない方）は、人間ドック等の費用の3分の2（上限2万円）の助成を受けられます。"},
+      {"icon": "📞", "title": "窓口は制度によって異なる", "body": "特定健診・総合検診は健康づくり課、人間ドック等の助成は市民課が担当です。どちらに聞くべきか迷ったら、まず健康づくり課（0537-37-1112）に確認するとよいでしょう。"}
+    ],
+    "qa": [
+      {"question": "特定健診とはどんな健診ですか", "answer": "国民健康保険や後期高齢者医療制度の加入者を対象に、生活習慣病の予防・早期発見を目的として実施される健診です。対象条件や実施時期は年度により案内されます。"},
+      {"question": "がん検診も同時に受けられますか", "answer": "総合検診（がん検診）は特定健診とは別に申込制で実施されます。詳しくは<a href=\"/life/health-medical/cancer-specific-checkups/\">がん検診</a>のページをご覧ください。"},
+      {"question": "人間ドックの費用は補助されますか", "answer": "はい。国民健康保険や後期高齢者医療の被保険者（保険料を滞納していない方）は、人間ドック等の費用の3分の2（100円未満切捨て、上限2万円）の助成を受けられます。担当は市民課（0537-35-0915）です。"},
+      {"question": "人間ドックの助成はどう申請しますか", "answer": "指定医療機関で受診する場合は受診前にオンラインまたは窓口で受診券を取得します。指定外医療機関の場合は受診後に結果書類と領収書を持参して申請します。"},
+      {"question": "どこで健診を受けられますか", "answer": "特定健診は契約医療機関、総合検診は集団検診または個別検診（指定医療機関）で受けられます。<a href=\"https://www.city.kikugawa.shizuoka.jp/faq/kenkou/kenkou/kobetusyuudanntigai.html\" target=\"_blank\" rel=\"noopener\">「集団検診」と「個別検診」の違い</a>のページも参考にしてください。"},
+      {"question": "詳しい制度内容はどこで確認できますか", "answer": "詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html\" target=\"_blank\" rel=\"noopener\">総合検診（がん検診）のページ</a>や<a href=\"https://www.city.kikugawa.shizuoka.jp/shimin/ninngenndokku.html\" target=\"_blank\" rel=\"noopener\">人間ドック・簡易脳ドックの費用助成のページ</a>で確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-specific",
+        "label": "特定健診を受けたい",
+        "heading": "国保・後期高齢者医療加入者向け",
+        "bullets": ["対象は国保・後期高齢者医療の加入者", "実施時期は年度ごとに案内される", "健康づくり課に確認するのが確実"],
+        "actions": [
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"},
+          {"label": "健康福祉部健康づくり課を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-cancer",
+        "label": "がん検診も気になる",
+        "heading": "総合検診（がん検診）を確認",
+        "bullets": ["6種類のがん検診が申込制でまとまっている", "電話または電子申請で申し込む", "締切に注意して早めに動く"],
+        "actions": [
+          {"label": "がん検診を見る", "href": "/life/health-medical/cancer-specific-checkups/", "source": "菊川ライフハック"},
+          {"label": "総合検診（がん検診）を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-dock",
+        "label": "人間ドックを検討中",
+        "heading": "費用助成の対象か確認する",
+        "bullets": ["国保・後期高齢者医療の被保険者が対象", "保険料の滞納がないことが条件", "上限2万円、費用の3分の2を助成"],
+        "actions": [
+          {"label": "人間ドックの費用助成を見る", "href": "https://www.city.kikugawa.shizuoka.jp/shimin/ninngenndokku.html", "source": "菊川市公式"},
+          {"label": "市民課に電話する", "href": "tel:0537-35-0915", "source": "0537-35-0915"}
+        ]
+      },
+      {
+        "id": "type-other",
+        "label": "他の保険に加入している",
+        "heading": "勤務先の健保組合の制度も確認",
+        "bullets": ["職場の健康保険組合でも健診補助がある場合が多い", "まずは勤務先や加入健保に確認する", "市の制度は国保・後期高齢者医療が対象の場合が多い"],
+        "actions": [
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"},
+          {"label": "医療機関の探し方を見る", "href": "/life/health-medical/find-hospitals/", "source": "菊川ライフハック"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["自分が加入している保険（国保・後期高齢者医療・職場の健保）を確認する", "健康づくり課（0537-37-1112）に電話して対象の健診を確認する"],
+      "this_week": ["特定健診・総合検診の受診券や申込方法を確認する", "人間ドックの助成を使う場合は市民課で受診券を取得する"],
+      "outside": ["健診結果を踏まえてかかりつけ医と相談する", "翌年度以降も継続して受診する"]
+    },
+    "action_grid": [
+      {"label": "総合検診（がん検診）を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html"},
+      {"label": "人間ドックの費用助成を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/shimin/ninngenndokku.html"},
+      {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112"},
+      {"label": "市民課に電話する", "href": "tel:0537-35-0915"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/health-promotion/",
+    "lead": "菊川市の健康づくりは「健康マイレージ事業」や「Vitalityきくがわウォーク」など、楽しみながら続けられる仕掛けが用意されています。生活習慣の相談から気軽な運動イベントまで、健康福祉部健康づくり課が窓口です。",
+    "note": "担当は菊川市健康福祉部健康づくり課（健康増進係、電話0537-37-1175）です。健康教室や出張健康相談「茶ちゃっと！出張健康チェック」なども実施されています。",
+    "real_cards": [
+      {"icon": "🚶", "title": "健康マイレージ事業でポイントを貯める", "body": "運動・食生活の改善・健診受診など健康づくりの取り組みに応じてポイントが貯まり、特典と交換できる「菊川市健康マイレージ」事業があります。"},
+      {"icon": "🏃", "title": "Vitalityきくがわウォークなどのイベントも", "body": "ウォーキングをテーマにしたイベント「Vitalityきくがわウォーク」が開催されています。地域ぐるみで体を動かす機会になっています。"},
+      {"icon": "🍵", "title": "出張健康相談「茶ちゃっと！出張健康チェック」", "body": "地域に出向いて健康チェックや相談を行う出張型の事業です。気軽に健康状態を確認できる機会として活用できます。"},
+      {"icon": "🥗", "title": "食育や生活習慣病予防の取り組みも", "body": "成人食育推進事業として、生活習慣病予防に関する健康教育や健康教室も健康づくり課健康増進係が担当しています。"}
+    ],
+    "qa": [
+      {"question": "健康マイレージ事業とは何ですか", "answer": "健診の受診や運動、食生活の改善などの健康づくりの取り組みに応じてポイントが貯まり、貯まったポイントで特典と交換できる菊川市独自の事業です。"},
+      {"question": "ウォーキングイベントはありますか", "answer": "はい。「Vitalityきくがわウォーク」など、ウォーキングを通じた健康づくりイベントが開催されています。詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/vitality_kikugawa_walk.html\" target=\"_blank\" rel=\"noopener\">菊川市公式のVitalityきくがわウォークのページ</a>をご覧ください。"},
+      {"question": "健康相談はどこでできますか", "answer": "健康福祉部健康づくり課（健康増進係、電話0537-37-1175）で健康相談を受け付けているほか、「茶ちゃっと！出張健康チェック」という出張型の健康相談事業もあります。"},
+      {"question": "生活習慣病予防の教室はありますか", "answer": "はい。生活習慣病予防に関する健康教室や健康教育の事業が実施されています。開催時期や内容は健康づくり課にお問い合わせください。"},
+      {"question": "食生活の相談もできますか", "answer": "成人食育推進事業として、食生活に関する相談や啓発活動が行われています。健康づくり課にご相談ください。"},
+      {"question": "詳しい事業内容はどこで確認できますか", "answer": "詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の健康福祉部健康づくり課のページ</a>で確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-mileage",
+        "label": "ポイントを貯めたい",
+        "heading": "健康マイレージ事業に参加する",
+        "bullets": ["健診受診や運動などでポイントが貯まる", "貯まったポイントは特典と交換できる", "参加方法は健康づくり課で確認できる"],
+        "actions": [
+          {"label": "菊川市健康マイレージを見る", "href": "http://www.city.kikugawa.shizuoka.jp/kenkouchouju/27maire-ji.html", "source": "菊川市公式"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175", "source": "0537-37-1175"}
+        ]
+      },
+      {
+        "id": "type-walk",
+        "label": "運動を始めたい",
+        "heading": "ウォーキングイベントに参加する",
+        "bullets": ["Vitalityきくがわウォークなどのイベントがある", "無理なく続けられる運動から始めやすい", "地域の人と一緒に取り組める"],
+        "actions": [
+          {"label": "Vitalityきくがわウォークを見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/vitality_kikugawa_walk.html", "source": "菊川市公式"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175", "source": "0537-37-1175"}
+        ]
+      },
+      {
+        "id": "type-consult",
+        "label": "健康相談をしたい",
+        "heading": "健康づくり課や出張相談を利用する",
+        "bullets": ["「茶ちゃっと！出張健康チェック」が地域で開催される", "健康づくり課の窓口でも相談できる", "生活習慣全般について気軽に相談できる"],
+        "actions": [
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175", "source": "0537-37-1175"},
+          {"label": "健康福祉部健康づくり課を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-checkup",
+        "label": "健診とあわせて考えたい",
+        "heading": "健診結果をもとに生活習慣を見直す",
+        "bullets": ["特定健診・総合検診の結果を活用できる", "生活習慣病予防の健康教室に参加できる", "食育・運動・相談を組み合わせて取り組める"],
+        "actions": [
+          {"label": "特定健診・健康診断を見る", "href": "/life/health-medical/health-checkups/", "source": "菊川ライフハック"},
+          {"label": "がん検診を見る", "href": "/life/health-medical/cancer-specific-checkups/", "source": "菊川ライフハック"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["自分が続けやすい健康づくりの取り組みを考える", "健康づくり課（0537-37-1175）に事業内容を問い合わせる"],
+      "this_week": ["健康マイレージ事業への参加方法を確認する", "近くで開催されるウォーキングイベントを調べる"],
+      "outside": ["健診結果を踏まえて生活習慣を見直す", "継続的な健康づくりの習慣を家族と共有する"]
+    },
+    "action_grid": [
+      {"label": "健康福祉部健康づくり課を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html"},
+      {"label": "菊川市健康マイレージを見る", "href": "http://www.city.kikugawa.shizuoka.jp/kenkouchouju/27maire-ji.html"},
+      {"label": "Vitalityきくがわウォークを見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/vitality_kikugawa_walk.html"},
+      {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/holiday-night-emergency-care/",
+    "lead": "菊川市には市立の急患診療所がなく、掛川市と共同で「小笠掛川急患診療所」を運営しています。休日・夜間に体調が急変したときは、まずこの診療所の電話番号を確認しておくと安心です。",
+    "note": "小笠掛川急患診療所は「希望の丘」内・中部ふくしあ2階（掛川市杉谷南1-1-30、電話0537-61-1299）にあります。交通事故・労災の診察は対応しておらず、受診前の事前連絡が必要です。",
+    "real_cards": [
+      {"icon": "📍", "title": "場所は掛川市杉谷南（希望の丘内）", "body": "小笠掛川急患診療所は「希望の丘」内の中部ふくしあ2階（掛川市杉谷南1-1-30）にあります。菊川市と掛川市が共同で運営する急患診療施設です。"},
+      {"icon": "🕖", "title": "平日夜間と日曜・祝日に対応", "body": "平日夜間は19時〜22時（受付21時30分まで）、日曜・祝日は9時〜12時（受付11時30分まで）と13時〜17時（受付16時30分まで）に対応しています。"},
+      {"icon": "🩺", "title": "診療科目は時間帯で異なる", "body": "平日夜間は内科・小児科、日曜・祝日は内科・小児科・外科・歯科（歯科は午前のみ）に対応しています。"},
+      {"icon": "☎️", "title": "受診前に必ず電話を", "body": "交通事故や労災による診察には対応していません。また症状によっては設備の都合で対応できないことがあるため、受診前に必ず電話（0537-61-1299）で確認してください。"}
+    ],
+    "qa": [
+      {"question": "菊川市に急患診療所はありますか", "answer": "菊川市単独の急患診療所はなく、掛川市と共同運営する「小笠掛川急患診療所」（掛川市杉谷南1-1-30、電話0537-61-1299）が休日夜間の一次窓口です。"},
+      {"question": "何時から何時まで診療していますか", "answer": "平日夜間は19時〜22時（受付21時30分まで）、日曜・祝日は9時〜12時（受付11時30分まで）と13時〜17時（受付16時30分まで）です。"},
+      {"question": "どの診療科に対応していますか", "answer": "平日夜間は内科・小児科、日曜・祝日は内科・小児科・外科・歯科（歯科は午前のみ）です。"},
+      {"question": "受診前に連絡は必要ですか", "answer": "はい。事前連絡が必要です。症状によっては検査・処置できる設備の都合により対応できない場合があるため、必ず電話（0537-61-1299）で確認してから来院してください。"},
+      {"question": "交通事故や仕事中のケガでも受診できますか", "answer": "いいえ。交通事故や労災に関する診察は受け付けていません。それぞれ別の医療機関を受診する必要があります。"},
+      {"question": "詳しい案内はどこで確認できますか", "answer": "詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の急患診療所のご案内</a>で確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-weeknight",
+        "label": "平日夜間",
+        "heading": "平日19時〜22時の対応",
+        "bullets": ["受付は21時30分まで", "内科・小児科に対応", "事前に電話で症状を伝える"],
+        "actions": [
+          {"label": "急患診療所に電話する", "href": "tel:0537-61-1299", "source": "0537-61-1299"},
+          {"label": "急患診療所のご案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-holiday",
+        "label": "日曜・祝日",
+        "heading": "日中2部制での対応",
+        "bullets": ["9時〜12時（受付11時30分まで）", "13時〜17時（受付16時30分まで）", "内科・小児科・外科・歯科（歯科は午前のみ）"],
+        "actions": [
+          {"label": "急患診療所に電話する", "href": "tel:0537-61-1299", "source": "0537-61-1299"},
+          {"label": "急患診療所のご案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-child",
+        "label": "子どもが急に発熱",
+        "heading": "小児科対応の時間帯を確認",
+        "bullets": ["平日夜間・日曜祝日ともに小児科対応", "受診前に症状と年齢を伝えておく", "母子手帳や保険証を忘れずに持参する"],
+        "actions": [
+          {"label": "急患診療所に電話する", "href": "tel:0537-61-1299", "source": "0537-61-1299"},
+          {"label": "夜間・休日診療を見る", "href": "/life/health-medical/night-holiday-medical/", "source": "菊川ライフハック"}
+        ]
+      },
+      {
+        "id": "type-daytime",
+        "label": "平日日中なら",
+        "heading": "菊川市立総合病院や医療機関を検討",
+        "bullets": ["平日日中は菊川市立総合病院の外来が利用できる", "個別の診療所は小笠医師会サイトで探せる", "軽症であれば通常の医療機関を優先する"],
+        "actions": [
+          {"label": "医療機関の探し方を見る", "href": "/life/health-medical/find-hospitals/", "source": "菊川ライフハック"},
+          {"label": "菊川市立総合病院に電話する", "href": "tel:0537-35-2135", "source": "0537-35-2135"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["症状と現在の時間帯を確認する", "小笠掛川急患診療所（0537-61-1299）に電話して受診可否を確認する"],
+      "this_week": ["保険証・お薬手帳など必要なものを準備しておく", "普段からかかりつけ医を決めておく"],
+      "outside": ["緊急性が高い場合は119番も検討する", "受診後は平日にかかりつけ医でフォローアップする"]
+    },
+    "action_grid": [
+      {"label": "急患診療所のご案内を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html"},
+      {"label": "急患診療所に電話する", "href": "tel:0537-61-1299"},
+      {"label": "菊川市立総合病院に電話する", "href": "tel:0537-35-2135"},
+      {"label": "医療機関の探し方を見る", "href": "/life/health-medical/find-hospitals/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/mental-health-consulting/",
+    "lead": "こころの不調が気になったときは、一人で抱え込まず相談できる窓口があります。菊川市では健康づくり課が精神保健事業を担当しており、障がい福祉の観点からは福祉課でも相談を受け付けています。まずは電話で状況を伝えることから始めましょう。",
+    "note": "菊川市には「きくがわこころの健康相談」という名称の相談事業がありますが、案内ページの内容は確認中です（要確認）。精神保健事業は健康福祉部健康づくり課（健康増進係、電話0537-37-1175）が所管しています。精神障害者保健福祉手帳や障害福祉サービスに関する相談は福祉課（電話0537-37-1252）が窓口です。",
+    "real_cards": [
+      {"icon": "💬", "title": "こころの相談窓口がある", "body": "「きくがわこころの健康相談」という相談事業が案内されています。実施日時や予約方法の詳細は確認中のため、まずは健康づくり課（0537-37-1175）に電話で問い合わせるのが確実です。"},
+      {"icon": "🏥", "title": "精神保健事業は健康づくり課が担当", "body": "健康福祉部健康づくり課の健康増進係が精神保健事業を所管しています。こころの健康について気になることがあれば、まずここに相談できます。"},
+      {"icon": "📋", "title": "手帳や福祉サービスの相談は福祉課へ", "body": "精神障害者保健福祉手帳の申請や、精神障害に関する医療費助成、障害福祉サービスの利用相談は福祉課（0537-37-1252）が窓口です。"},
+      {"icon": "☎️", "title": "県の相談窓口も併用できる", "body": "市の窓口に加えて、静岡県が運営する精神保健福祉センターなどの相談機関も利用できます。緊急性が高い場合は、まず身近な窓口に電話することが大切です。"}
+    ],
+    "qa": [
+      {"question": "こころの不調はどこに相談すればいいですか", "answer": "菊川市健康福祉部健康づくり課（健康増進係、電話0537-37-1175）が精神保健事業を担当しています。まずは電話で状況を伝えてみてください。"},
+      {"question": "「きくがわこころの健康相談」とはどんな相談ですか", "answer": "菊川市の相談事業の一つとして名称が確認できていますが、実施日時や予約方法などの詳細は確認中です（要確認）。詳しくは健康づくり課に直接お問い合わせください。"},
+      {"question": "精神障害者保健福祉手帳の相談もできますか", "answer": "はい。手帳の申請や医療費助成については福祉課（電話0537-37-1252）が窓口です。"},
+      {"question": "家族の様子が心配な場合も相談できますか", "answer": "はい。ご本人だけでなく、家族からの相談も可能です。まずは健康づくり課または福祉課に電話し、心配な状況を伝えてください。"},
+      {"question": "夜間や休日に緊急で相談したい場合は", "answer": "市の窓口は平日の受付時間内が基本です。緊急性が高い場合は、静岡県の精神保健福祉に関する相談窓口や医療機関への受診も検討してください。詳細は市役所代表（0537-35-2111）でも案内を受けられます。"},
+      {"question": "詳しい相談窓口の情報はどこで確認できますか", "answer": "詳しくは菊川市健康福祉部健康づくり課（0537-37-1175）または福祉課（0537-37-1252）に直接お問い合わせください。相談窓口の詳細ページは現在確認中です。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-first",
+        "label": "初めて相談したい",
+        "heading": "まず健康づくり課に電話する",
+        "bullets": ["こころの不調は健康づくり課が窓口", "電話で今の状況を伝えることから始める", "詳しい相談日程は窓口で確認する"],
+        "actions": [
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175", "source": "0537-37-1175"},
+          {"label": "健康福祉部健康づくり課を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-handbook",
+        "label": "手帳・制度を確認したい",
+        "heading": "精神障害者保健福祉手帳の相談",
+        "bullets": ["手帳の申請窓口は福祉課", "医療費助成もあわせて確認できる", "障害福祉サービスの利用相談も可能"],
+        "actions": [
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"},
+          {"label": "障がい者福祉を見る", "href": "/life/health-medical/disability-welfare/", "source": "菊川ライフハック"}
+        ]
+      },
+      {
+        "id": "type-family",
+        "label": "家族として心配",
+        "heading": "家族からの相談も可能",
+        "bullets": ["本人が相談を嫌がる場合も家族から相談できる", "普段の様子をメモしておくと伝えやすい", "一人で抱え込まず窓口に相談する"],
+        "actions": [
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175", "source": "0537-37-1175"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      },
+      {
+        "id": "type-service",
+        "label": "サービス利用も検討",
+        "heading": "障害福祉サービスもあわせて確認",
+        "bullets": ["精神障害も障害福祉サービスの対象になりうる", "就労支援や生活支援も選択肢にある", "福祉課で全体像を相談できる"],
+        "actions": [
+          {"label": "障がい福祉サービスを見る", "href": "/life/health-medical/disability-services/", "source": "菊川ライフハック"},
+          {"label": "福祉課に電話する", "href": "tel:0537-37-1252", "source": "0537-37-1252"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["今の気持ちや心配な様子をメモする", "健康づくり課（0537-37-1175）に電話で相談する"],
+      "this_week": ["手帳や制度が関係しそうであれば福祉課にも相談する", "必要に応じて医療機関の受診を検討する"],
+      "outside": ["継続的な相談が必要な場合は次回の相談日を確認する", "家族や周囲のサポート体制を整える"]
+    },
+    "action_grid": [
+      {"label": "健康福祉部健康づくり課を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html"},
+      {"label": "健康づくり課に電話する", "href": "tel:0537-37-1175"},
+      {"label": "福祉課に電話する", "href": "tel:0537-37-1252"},
+      {"label": "障がい者福祉を見る", "href": "/life/health-medical/disability-welfare/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/night-holiday-medical/",
+    "lead": "夜間や休日に急に具合が悪くなったとき、菊川市民が使えるのは掛川市と共同運営する「小笠掛川急患診療所」です。事前に電話番号と診療時間帯を知っておくだけで、いざというときの動きが大きく変わります。",
+    "note": "小笠掛川急患診療所（掛川市杉谷南1-1-30、電話0537-61-1299）が菊川市の夜間・休日診療の一次窓口です。菊川市立総合病院の外来は平日8時〜11時のみで、夜間・休日は対応していません。",
+    "real_cards": [
+      {"icon": "🌙", "title": "夜間・休日は急患診療所が頼り", "body": "菊川市立総合病院の外来は平日日中のみのため、夜間・休日に頼れるのは小笠掛川急患診療所です。電話番号（0537-61-1299）を控えておきましょう。"},
+      {"icon": "📞", "title": "行く前に必ず電話する", "body": "受診前の事前連絡が必要です。症状や年齢を伝えたうえで、実際に受診すべきか、他の医療機関を案内されるかが分かります。"},
+      {"icon": "🚗", "title": "場所は菊川市外（掛川市）", "body": "急患診療所は掛川市杉谷南にある「希望の丘」内・中部ふくしあ2階です。菊川市内ではないため、事前に道順を確認しておくと安心です。"},
+      {"icon": "🚫", "title": "交通事故・労災は対象外", "body": "交通事故や労災に関する診察は受け付けていません。該当する場合は別の医療機関を案内されます。"}
+    ],
+    "qa": [
+      {"question": "夜間・休日にまず何をすればいいですか", "answer": "小笠掛川急患診療所（電話0537-61-1299）に電話し、症状を伝えて受診の可否を確認してください。事前連絡なしでの来院は想定されていません。"},
+      {"question": "急患診療所はどこにありますか", "answer": "掛川市杉谷南1-1-30の「希望の丘」内、中部ふくしあ2階にあります。菊川市内ではなく掛川市内にあるため、初めて行く場合は道順を事前に確認しておくと安心です。"},
+      {"question": "菊川市立総合病院は夜間対応していますか", "answer": "いいえ。菊川市立総合病院の外来受付は平日8時〜11時のみで、夜間・休日は対応していません。夜間・休日は急患診療所を利用してください。"},
+      {"question": "子どもの急な発熱にも対応していますか", "answer": "はい。平日夜間・日曜祝日ともに小児科の診療に対応しています。詳しくは<a href=\"/life/health-medical/holiday-night-emergency-care/\">休日夜間の急患診療所</a>のページもご覧ください。"},
+      {"question": "歯が痛いときも受診できますか", "answer": "日曜・祝日の午前のみ歯科に対応しています。平日夜間は歯科の対応はありません。"},
+      {"question": "詳しい診療時間はどこで確認できますか", "answer": "詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の急患診療所のご案内</a>で確認してください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-decide",
+        "label": "受診すべきか迷う",
+        "heading": "まず電話で相談する",
+        "bullets": ["急患診療所（0537-61-1299）にまず電話する", "症状を具体的に伝える", "案内に従って受診するかどうか判断する"],
+        "actions": [
+          {"label": "急患診療所に電話する", "href": "tel:0537-61-1299", "source": "0537-61-1299"},
+          {"label": "急患診療所のご案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html", "source": "菊川市公式"}
+        ]
+      },
+      {
+        "id": "type-location",
+        "label": "場所を確認したい",
+        "heading": "掛川市杉谷南の希望の丘内",
+        "bullets": ["菊川市内ではなく掛川市にある", "中部ふくしあ2階が診療所の場所", "初めて行く場合は事前に地図で確認する"],
+        "actions": [
+          {"label": "急患診療所のご案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html", "source": "菊川市公式"},
+          {"label": "急患診療所に電話する", "href": "tel:0537-61-1299", "source": "0537-61-1299"}
+        ]
+      },
+      {
+        "id": "type-daytime",
+        "label": "平日日中に戻る場合",
+        "heading": "かかりつけ医や総合病院へ",
+        "bullets": ["応急処置後は平日にかかりつけ医を受診する", "菊川市立総合病院の外来は平日8〜11時", "継続治療が必要な場合は紹介状を活用する"],
+        "actions": [
+          {"label": "菊川市立総合病院に電話する", "href": "tel:0537-35-2135", "source": "0537-35-2135"},
+          {"label": "医療機関の探し方を見る", "href": "/life/health-medical/find-hospitals/", "source": "菊川ライフハック"}
+        ]
+      },
+      {
+        "id": "type-detail",
+        "label": "診療時間の詳細を見たい",
+        "heading": "休日夜間の急患診療所ページへ",
+        "bullets": ["診療科目・受付時間の詳細を確認できる", "平日夜間と日曜祝日で時間帯が異なる", "歯科は日曜祝日の午前のみ対応"],
+        "actions": [
+          {"label": "休日夜間の急患診療所を見る", "href": "/life/health-medical/holiday-night-emergency-care/", "source": "菊川ライフハック"},
+          {"label": "急患診療所のご案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html", "source": "菊川市公式"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["急患診療所の電話番号（0537-61-1299）を控えておく", "症状が出たらまず電話して案内を受ける"],
+      "this_week": ["自宅から急患診療所までの道順を確認しておく", "保険証やお薬手帳の保管場所を家族と共有する"],
+      "outside": ["受診後は平日にかかりつけ医でフォローアップする", "繰り返す症状があれば医療機関の探し方も確認する"]
+    },
+    "action_grid": [
+      {"label": "急患診療所のご案内を見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html"},
+      {"label": "急患診療所に電話する", "href": "tel:0537-61-1299"},
+      {"label": "菊川市立総合病院に電話する", "href": "tel:0537-35-2135"},
+      {"label": "休日夜間の急患診療所を見る", "href": "/life/health-medical/holiday-night-emergency-care/"}
+    ]
+  },
+  {
+    "href": "/life/health-medical/vaccinations/",
+    "lead": "予防接種は「子どもの定期接種」と「大人の予防接種」で担当課が分かれており、菊川市では子育て応援課こども保健係と健康づくり課保健医療係がそれぞれ窓口になっています。まずどちらの制度かを見分けることが第一歩です。",
+    "note": "こどもの予防接種は子育て応援課こども保健係（電話0537-37-1136）、おとなの予防接種は健康づくり課保健医療係（電話0537-37-1112）が担当です。対象年齢や実施時期は年度・ワクチンの種類によって異なります。",
+    "real_cards": [
+      {"icon": "👶", "title": "こどもの定期接種は子育て応援課", "body": "日本脳炎、麻しん・風しん（MR）など、こどもの定期予防接種は子育て応援課こども保健係（0537-37-1136）が担当します。母子手帳とあわせて接種状況を管理しましょう。"},
+      {"icon": "🧓", "title": "おとなの予防接種は健康づくり課", "body": "インフルエンザ、肺炎球菌、帯状疱疹など大人向けの予防接種は健康づくり課保健医療係（0537-37-1112）が担当です。詳しくは<a href=\"/life/health-medical/adult-vaccination/\">大人の予防接種</a>のページもご覧ください。"},
+      {"icon": "📅", "title": "接種スケジュールは種類ごとに異なる", "body": "ワクチンによって接種間隔や回数が異なります。とくに日本脳炎や麻しん・風しんは接種のタイミングを逃さないよう、案内が届いたら早めに確認しましょう。"},
+      {"icon": "🏥", "title": "接種は市内の契約医療機関で", "body": "多くの予防接種は、あらかじめ委託を受けた市内医療機関で実施されます。かかりつけ医がある場合はそこで受けられるか確認するとスムーズです。"}
+    ],
+    "qa": [
+      {"question": "予防接種は誰が窓口になりますか", "answer": "こどもの定期接種は子育て応援課こども保健係（0537-37-1136）、おとなの予防接種は健康づくり課保健医療係（0537-37-1112）が担当です。対象が子どもか大人かで窓口が変わります。"},
+      {"question": "日本脳炎ワクチンについて知りたいです", "answer": "<a href=\"https://www.city.kikugawa.shizuoka.jp/kosodate/nihonnouenr4.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の日本脳炎ワクチンについてのページ</a>で、接種間隔や過去に接種を逃した方への対応が案内されています。"},
+      {"question": "麻しん・風しんワクチンはどう案内されていますか", "answer": "<a href=\"https://www.city.kikugawa.shizuoka.jp/kenkouchouju/mashinhuushin.html\" target=\"_blank\" rel=\"noopener\">菊川市公式の麻しん・風しんのページ</a>で、対象年齢や大人向けの特別措置について確認できます。"},
+      {"question": "大人の予防接種はどこで確認できますか", "answer": "インフルエンザ・肺炎球菌・帯状疱疹などの大人向け予防接種は<a href=\"/life/health-medical/adult-vaccination/\">大人の予防接種</a>のページで詳しく案内しています。"},
+      {"question": "接種を受け忘れた場合はどうすればいいですか", "answer": "ワクチンの種類によっては特例的な対応がある場合があります。まずは該当する窓口（子どもは子育て応援課、大人は健康づくり課）に電話して相談してください。"},
+      {"question": "詳しい制度全体はどこで確認できますか", "answer": "詳しくは菊川市健康福祉部健康づくり課（0537-37-1112）にお問い合わせいただくか、菊川市公式サイトの予防接種関連ページをご確認ください。"}
+    ],
+    "tabs": [
+      {
+        "id": "type-child",
+        "label": "子どもの接種",
+        "heading": "定期接種のスケジュールを確認",
+        "bullets": ["日本脳炎・麻しん風しんなどが対象", "母子手帳で接種状況を管理する", "子育て応援課こども保健係が窓口"],
+        "actions": [
+          {"label": "日本脳炎ワクチンについて見る", "href": "https://www.city.kikugawa.shizuoka.jp/kosodate/nihonnouenr4.html", "source": "菊川市公式"},
+          {"label": "子育て応援課に電話する", "href": "tel:0537-37-1136", "source": "0537-37-1136"}
+        ]
+      },
+      {
+        "id": "type-adult",
+        "label": "大人の接種",
+        "heading": "インフルエンザ・肺炎球菌などを確認",
+        "bullets": ["季節性インフルエンザ・肺炎球菌が中心", "帯状疱疹ワクチンの案内も始まっている", "健康づくり課保健医療係が窓口"],
+        "actions": [
+          {"label": "大人の予防接種を見る", "href": "/life/health-medical/adult-vaccination/", "source": "菊川ライフハック"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"}
+        ]
+      },
+      {
+        "id": "type-mr",
+        "label": "麻しん・風しんが気になる",
+        "heading": "MRワクチンの対象を確認",
+        "bullets": ["定期接種の対象年齢がある", "大人向けの特別な案内が出ることもある", "妊娠を考えている方は早めに確認する"],
+        "actions": [
+          {"label": "麻しん・風しんを見る", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/mashinhuushin.html", "source": "菊川市公式"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"}
+        ]
+      },
+      {
+        "id": "type-missed",
+        "label": "接種を逃したかも",
+        "heading": "特例対応がないか確認する",
+        "bullets": ["ワクチンによっては経過措置がある", "母子手帳や記録を確認しておく", "該当窓口に早めに相談する"],
+        "actions": [
+          {"label": "子育て応援課に電話する", "href": "tel:0537-37-1136", "source": "0537-37-1136"},
+          {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112", "source": "0537-37-1112"}
+        ]
+      }
+    ],
+    "steps": {
+      "today": ["対象が子どもか大人かを確認する", "該当する窓口（子育て応援課または健康づくり課）に電話する"],
+      "this_week": ["母子手帳や接種記録を確認する", "契約医療機関に予約する"],
+      "outside": ["接種スケジュールを家族で共有する", "新しいワクチン（帯状疱疹など）の案内にも注意する"]
+    },
+    "action_grid": [
+      {"label": "大人の予防接種を見る", "href": "/life/health-medical/adult-vaccination/"},
+      {"label": "麻しん・風しんを見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/mashinhuushin.html"},
+      {"label": "子育て応援課に電話する", "href": "tel:0537-37-1136"},
+      {"label": "健康づくり課に電話する", "href": "tel:0537-37-1112"}
+    ]
+  }
+]

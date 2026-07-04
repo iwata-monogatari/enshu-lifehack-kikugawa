@@ -2,11 +2,17 @@
 
 | 分類 | 件数 |
 |---|---|
-| OK (2xx) | 59 |
-| リダイレクト (3xx) | 0 |
+| OK (2xx) | 148 |
+| リダイレクト (3xx) | 1 |
 | エラー (4xx/5xx) | 0 |
 | タイムアウト・接続不可 | 1 |
-| 合計(ユニークURL) | 60 |
+| 合計(ユニークURL) | 150 |
+
+## リダイレクト (遷移先の確認・差し替え候補)
+
+- [301] https://www.iryou.teikyouseido.mhlw.go.jp/
+  - → https://www.iryou.teikyouseido.mhlw.go.jp:443/znk-web/
+  - 使用ページ: life/health-medical/find-hospitals/index.html
 
 ## エラー・接続不可 (要対応)
 
