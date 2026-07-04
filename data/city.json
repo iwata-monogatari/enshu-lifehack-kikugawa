@@ -1,0 +1,32 @@
+{
+ "city_id": "kikugawa",
+ "city_name": "菊川市",
+ "site_name": "菊川ライフハック",
+ "site_url": "https://kikugawa.enshu-lifehack.com",
+ "official": {
+  "domain": "www.city.kikugawa.shizuoka.jp",
+  "top": "https://www.city.kikugawa.shizuoka.jp/",
+  "hall_name": "菊川市役所",
+  "hall_address": "〒439-8650 静岡県菊川市堀之内61",
+  "hall_tel": "0537-35-2111",
+  "branches": [
+   {
+    "name": "小笠支所",
+    "note": "中央公民館内（静岡県菊川市西方）。旧小笠町エリアの窓口。取扱業務は本庁と異なる場合があるため個別確認が必要"
+   }
+  ],
+  "tetsuduki_navi": "https://www.city.kikugawa.shizuoka.jp/shisei/shiyakushoannai/index.html",
+  "fire_emergency": "菊川市消防本部・消防署（1署体制）。119番通報の指令業務は中東遠消防指令センター（掛川市）が磐田・掛川・袋井・森町・菊川・御前崎の5市1町で共同運用"
+ },
+ "cv": {
+  "kaigo_lead": true,
+  "fudosan_link": true,
+  "monogatari_link": true,
+  "context_links": true
+ },
+ "notes": [
+  "2005年に旧菊川町・旧小笠町が合併して現在の菊川市。中央公民館内に小笠支所があり、旧小笠町エリアの一部手続きは支所単位で確認が必要",
+  "磐田・袋井・掛川に隣接し不動産商圏内。介護CVリード対象（磐田・袋井・掛川・森町と同様）",
+  "茶とメロンの産地として知られる。人口規模は掛川市・磐田市より小さく森町より大きい中間規模の市"
+ ]
+}
