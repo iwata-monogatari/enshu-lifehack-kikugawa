@@ -97,6 +97,7 @@ icons={'寺社':'⛩️','史跡・資料館':'🏛️','公園・運動':'🌳'
 for i,p in enumerate(DATA['places']):
  body+=f'<article class="portal-card" data-search-item data-category="{e(p["category"])}" id="place-{i+1}"><p class="portal-kicker">{e(p["category"])}</p><h3><span aria-hidden="true">{icons[p["category"]]}</span> {e(p["name"])}</h3><p>{e(p["body"])}</p><p><strong>場所：</strong>{e(p["address"])}</p><p><strong>訪問前に：</strong>{e(p["note"])}</p><p><a href="{e(p["url"])}" target="_blank" rel="noopener">公式の説明・地図を見る →</a></p><p class="meta">公開情報確認：{DATE}（現地確認ではありません）</p></article>'
 body+='</div></section>'+links([{'href':'/for/visit/','title':'訪問計画の立て方'},{'href':'/life/start-living/public-transit/','title':'バス・公共交通'},{'href':'/life/play-out/rent-public-facilities/','title':'施設予約の方法'}])
+body+='<aside class="portal-panel"><h2>訪ねる前に、昔の風景も見てみませんか</h2><p>菊川駅、堀之内、旧小笠町。菊川懐かし写真館では、場所・年代・出典から地域の写真をたどれます。いまの行き先案内と見比べると、まちの変化に気づくきっかけになります。</p>'+links([{'href':'https://kikugawaalb.atawi.link/','title':'菊川懐かし写真館で写真を探す'}])+'</aside>'
 write('/places/','菊川の地域スポット案内｜史跡・寺社・公園・農園','菊川の景色と歴史を、行き先の名前や分野から探せます。見学範囲、季節営業、予約、開館日を、訪問前に一緒に確認しましょう。',body,'菊川を訪ねる',['観光','寺院','神社','公園','農園','史跡','資料館'])
 
 # Dated, source-linked editorial update log rather than a blanket freshness claim.
@@ -126,7 +127,8 @@ for url,status,cls,title,desc in [
  fresh+=f'<a class="portal-card" href="{url}"><span class="portal-date {cls}">{status}</span><h3 style="margin-top:14px">{title}</h3><p>{desc}</p><span class="more">詳しく確認 →</span></a>'
 fresh+='</div>'+links([{'href':'/updates/','title':'検診・税・住宅など、今回の更新をすべて見る'},{'href':'/support/','title':'支援・補助制度の対象と金額を比較する'}])+'</section>'
 tools='<section><p class="portal-kicker">探す・整理する</p><h2>暮らしの疑問を、次の行動へ</h2><div class="portal-grid">'+card('/questions/','質問から答えを探す','「土日でもできる？」「何を持っていく？」分野とキーワードで回答を検索。','💬')+card('/checklists/','手続きをチェックする','転入、出産、結婚、転職、帰省。チェックを保存して、印刷もできます。','✅')+card('/places/','菊川の行き先を探す','史跡・寺社・公園・農園の特徴と、見学前に確かめたいこと。','🗺️')+'</div></section>'
-block='<!-- PORTAL:HOME:START -->'+purpose+urgent+fresh+tools+'<!-- PORTAL:HOME:END -->'
+memories='<section class="portal-panel" id="kikugawa-memories"><p class="portal-kicker">まちの記憶と、いまの暮らし</p><h2>昔の菊川を見て、いまの菊川を歩く。</h2><p>菊川駅や堀之内、旧小笠町の風景を写真でたどる「菊川懐かし写真館」。見慣れた場所の昔の姿を知ったら、現在の散策情報と合わせて、まちを訪ねてみませんか。</p>'+links([{'href':'https://kikugawaalb.atawi.link/','title':'菊川懐かし写真館を見る'},{'href':'/for/visit/','title':'いまの菊川の散策ガイドへ'}])+'</section>'
+block='<!-- PORTAL:HOME:START -->'+purpose+urgent+fresh+tools+memories+'<!-- PORTAL:HOME:END -->'
 if '<!-- PORTAL:HOME:START -->' in home:home=re.sub(r'<!-- PORTAL:HOME:START -->.*?<!-- PORTAL:HOME:END -->',lambda m:block,home,flags=re.S)
 else:home=home.replace('<section id="category-links">',block+'<section id="category-links">',1)
 home=re.sub(r'<section class="updates">.*?</section>','<section class="portal-panel"><h2>情報の確認状況</h2><p>市公式の参照先と、期限・窓口・制度の変更を照合しました。ページごとの確認範囲と、公式ページ間で案内が異なる事項は更新記録にまとめています。</p>'+links([{'href':'/updates/','title':'更新・確認記録を見る'},{'href':'https://www.city.kikugawa.shizuoka.jp/','title':'菊川市公式サイトへ'}])+'</section>',home,count=1,flags=re.S)
