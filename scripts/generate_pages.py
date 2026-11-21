@@ -165,9 +165,10 @@ def sources_html(sources, city_name):
         return f"<p class=\"mini\">出典URL未確定（{esc(city_name)}公式サイトでの個別確認が必要）</p>"
     links = []
     for s in sources:
+        authority = '国税庁公式' if s['url'].startswith('https://www.nta.go.jp/') else ('法務省公式' if s['url'].startswith('https://www.moj.go.jp/') else city_name + '公式')
         links.append(
             f'<a class="official-link" href="{esc(s["url"])}" target="_blank" rel="noopener">'
-            f'{esc(s["label"])} <span>{esc(city_name)}公式</span></a>'
+            f'{esc(s["label"])} <span>{esc(authority)}</span></a>'
         )
     return "".join(links)
 

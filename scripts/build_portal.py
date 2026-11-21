@@ -101,16 +101,17 @@ write('/places/','菊川の地域スポット案内｜史跡・寺社・公園�
 
 # Dated, source-linked editorial update log rather than a blanket freshness claim.
 updated=[t for t in TOPICS if t.get('content_review',{}).get('date')==DATE]
-body='<section class="portal-panel"><h2>今回確認した範囲</h2><p>既存155項目の参照先を横断し、菊川市公式の参照URL217件を取得確認しました。期限・年度・窓口時間・料金・リンク先を照合し、差異や不足があったページを下に記録しています。URLが開くことと、掲載事項すべてを再確認したことは区別しています。</p><p>新しい目的別ガイド、地域スポット案内、質問検索、チェックリストも追加しました。質問集は既存の回答を統合したもので、全回答を11月21日に確認済みとするものではありません。</p><p>水道電子申請と一部窓口時間は市公式ページ間に表記差があるため、利用前の確認先を明記しています。電話照会・現地訪問・実際の申請や施設利用は実施していません。</p></section><section><h2>更新した内容と根拠</h2>'
+body='<section class="portal-panel"><h2>今回確認した範囲</h2><p>既存155項目の参照先を横断し、菊川市公式の参照URL217件を取得確認しました。期限・年度・窓口時間・料金・リンク先を照合し、差異や不足があったページを下に記録しています。URLが開くことと、掲載事項すべてを再確認したことは区別しています。</p><p>新しい目的別ガイド、地域スポット案内、質問検索、チェックリストも追加しました。質問集は既存の回答を統合したもので、全回答を11月21日に確認済みとするものではありません。</p><p>水道電子申請・一部窓口時間・空き家バンクの提出先は公式案内に表記差があるため、利用前の確認先を明記しています。相続空き家の税特例と相続登記は、国税庁・法務省の現行案内も照合しました。電話照会・現地訪問・実際の申請や施設利用は実施していません。</p></section><section><h2>更新した内容と根拠</h2>'
 for t in updated:
  r=t['content_review'];label={s['url']:s['label'] for s in t.get('sources_kikugawa',[])}
  body+=f'<article class="portal-panel"><h3><a href="{e(t["href"])}">{e(t["title"])}</a></h3><p>{e(r["summary"])}</p><ul>'+''.join(f'<li><a href="{e(u)}" target="_blank" rel="noopener">{e(label.get(u,"菊川市公式の確認先"))}</a></li>' for u in r['sources'])+'</ul></article>'
 body+='</section>'
-write('/updates/','2026年11月21日の情報更新・確認記録','更新した内容、参照した市公式情報、確認できた範囲をまとめています。受付終了と受付中を分け、過去の案内を現在の募集として扱わないよう整理しました。',body,'更新記録',['最新','2026','2027','令和9年度'])
+write('/updates/','2026年11月21日の情報更新・確認記録','更新した内容、参照した市・国の公式情報、確認できた範囲をまとめています。受付終了と受付中を分け、過去の案内を現在の募集として扱わないよう整理しました。',body,'更新記録',['最新','2026','2027','令和9年度'])
 
 # Home: preserve the original category accordion and the Nov 19 photo/consultation area.
 homepath=ROOT/'index.html';home=homepath.read_text(encoding='utf-8')
 home=re.sub(r'<section class="hero">.*?</section>', '<section class="portal-hero"><p class="eyebrow">KIKUGAWA / 静岡県菊川市</p><h1>菊川で暮らす。訪ねる。<br>家族を支える。</h1><p class="lead">手続き、子育て、親の介護、実家のこと。知りたいことを、答えと次の行動につなげる暮らしのガイドです。</p><div class="portal-stats"><span>155の暮らしのガイド</span><span>'+str(len(questions))+'の質問と回答</span><span>公式情報への確認先つき</span></div></section>',home,count=1,flags=re.S) if 'class="portal-hero"' not in home else home
+home=re.sub(r'<span>\d+の質問と回答</span>', '<span>'+str(len(questions))+'の質問と回答</span>', home)
 home=home.replace('<main><div class="wrap">','<main class="portal"><div class="wrap">',1)
 purpose='<section><p class="portal-kicker">まずは、あなたの目的から</p><h2>菊川で、何をしたいですか？</h2><div class="portal-grid">'+card('/for/visit/','菊川を訪ねる','お茶、歴史、公園。開館日と見学範囲を確かめて、出かける計画を。','🍵')+card('/for/family/','菊川に親・実家がある','親の暮らし、介護、家の管理。帰省前に確認する順番を整理。','🏡')+card('/for/move/','移住・住み替えを考える','交通、学校、保育、住まい。契約前と引っ越し後を分けて準備。','🌿')+'</div></section>'
 urgent='<section class="portal-urgent"><h2>急いで確認したいとき</h2><div class="portal-grid">'+''.join(f'<a href="{u}">{t}</a>' for u,t in [('/life/emergency/fire-ambulance/','🚑 救急車・消防の連絡'),('/life/health-medical/holiday-night-emergency-care/','🏥 夜間・休日の診療'),('/life/emergency/evacuation-hazard-map/','🗺️ 避難所・ハザードマップ'),('/life/emergency/road-river-info/','🌧️ 道路・河川情報'),('/life/troubles-consult/consumer-fraud/','⚠️ 消費者被害・詐欺'),('/life/troubles-consult/living-costs-trouble/','🤝 生活費の相談')])+'</div><p>命に関わる緊急時は119番。上のリンクは行政・救急の確認先へご案内します。</p></section>'

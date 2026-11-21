@@ -22,7 +22,7 @@ def main():
         lines.append(f'<url><loc>{SITE}{u}</loc></url>')
     lines.append('</urlset>')
     out = ROOT / 'sitemap.xml'
-    out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    out.write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
     print(f'生成完了: {out}（{len(urls)}件）')
 
 if __name__ == '__main__':

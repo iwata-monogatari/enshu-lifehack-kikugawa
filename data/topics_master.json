@@ -1577,7 +1577,7 @@
   ],
   "facts": {
    "window": "菊川市建設経済部都市計画課",
-   "tel": "0537-35-0957（確認中: 本文未確認 0537-35-0957）",
+   "tel": "0537-35-0957",
    "note": "空き家無料相談会、空家等の除却（解体）補助制度、空き家バンクの案内あり。管理不全な空き家（特定空家）は固定資産税の住宅用地特例が解除される場合がある（一般制度）。"
   },
   "ai_checked_date": "2026-07-04",
@@ -1586,9 +1586,10 @@
   "verified_by": "machine",
   "content_review": {
    "date": "2026-11-21",
-   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 空き家バンクは宅建業者による登録申請であることを明記し、公式本文の提出先と末尾の問い合わせ先の表記差を補足しました。",
    "sources": [
-    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html"
    ]
   }
  },
@@ -1670,11 +1671,16 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/sonota.html",
     "label": "菊川市 その他の相談窓口（無料法律相談・司法書士相談）",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji05_00599.html",
+    "label": "法務省：相続登記の申請義務化",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "税務課資産税係（固定資産税）、農林課農地利用係（農地）、地域支援課（無料相談予約）",
-   "tel_zeimu": "0537-35-0913（税務課資産税係）（確認中: 本文未確認 0537-35-0913）",
+   "tel_zeimu": "0537-35-0913（税務課資産税係）",
    "tel_nourin": "0537-35-0939（農林課農地利用係）（確認中: 本文未確認 0537-35-0939）",
    "tel_chiiki": "0537-35-0925（地域支援課、無料法律相談・司法書士相談の予約）（確認中: 本文未確認 0537-35-0925）",
    "note": "相続登記・相続税申告は市役所の管轄外（法務局・税務署）。菊川市は司法書士無料相談（原則第4水曜日）と弁護士無料法律相談（原則第2・第3火曜日）を地域支援課経由で予約制で実施。"
@@ -1682,7 +1688,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "固定資産税・農地相続・無料相談窓口のページをそれぞれWebFetchで確認。相続登記・相続税は国の一般制度として案内し、菊川市固有の窓口情報と区別して記載。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "相続登記の起算日と、過去の相続の2027年3月31日期限を法務省の案内に基づき補足しました。",
+   "sources": [
+    "https://www.moj.go.jp/MINJI/minji05_00599.html"
+   ]
+  }
  },
  {
   "href": "/life/end-of-life/inherited-house/",
@@ -1725,19 +1738,31 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/sonota.html",
     "label": "菊川市 司法書士無料相談",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji05_00599.html",
+    "label": "法務省：相続登記の申請義務化",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "税務課資産税係（固定資産税）、都市計画課（空き家活用）、地域支援課（司法書士相談予約）",
-   "tel_zeimu": "0537-35-0913（確認中: 本文未確認 0537-35-0913）",
-   "tel_toshikei": "0537-35-0957（確認中: 本文未確認 0537-35-0957）",
+   "tel_zeimu": "0537-35-0913",
+   "tel_toshikei": "0537-35-0957",
    "tel_chiiki": "0537-35-0925（確認中: 本文未確認 0537-35-0925）",
    "note": "相続登記は法務局の管轄。菊川市周辺の空き家・実家の相談先として不動産会社（例：富士ヶ丘サービス）も選択肢の一つとして案内。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "名義変更（相続登記）・固定資産税・空き家活用の3つの論点に分けて整理。会社導線（富士ヶ丘サービス）はQAの一項目で控えめに紹介する形に留めた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "相続登記の起算日と、過去の相続の2027年3月31日期限を法務省の案内に基づき補足しました。",
+   "sources": [
+    "https://www.moj.go.jp/MINJI/minji05_00599.html"
+   ]
+  }
  },
  {
   "href": "/life/end-of-life/inherited-vacant-house/",
@@ -1784,6 +1809,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
     "label": "空家等の除却（解体）補助制度",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+    "label": "国税庁：相続空き家を売ったときの特例",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -1797,9 +1827,12 @@
   "verified_by": "machine",
   "content_review": {
    "date": "2026-11-21",
-   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 相続空き家の税特例を国税庁の現行期限・控除上限へ更新し、市の確認書と税務署の申告を区別しました。 空き家バンクは宅建業者による登録申請であることを明記し、公式本文の提出先と末尾の問い合わせ先の表記差を補足しました。",
    "sources": [
-    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/20170606.html",
+    "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html"
    ]
   }
  },
@@ -3507,7 +3540,7 @@
    }
   ],
   "facts": {
-   "window": "建設経済部都市計画課 住宅建築係（空き家バンク・補助金）",
+   "window": "空き家対策・除却補助・家屋等確認書：都市計画課。空き家バンクの登録申請：宅建業者を通じて提出先を確認（公式本文は市長公室営業戦略係、末尾問合せ欄は都市計画課）",
    "tel": "0537-35-0957",
    "akiyabank_status": "2026年5月27日時点で登録6件（900万〜1,650万円、JR菊川駅周辺中心）を確認",
    "old_seismic_cutoff": "昭和56年5月31日以前の建築は旧耐震基準の可能性あり（TOUKAI-0の対象年代と一致）"
@@ -3518,9 +3551,10 @@
   "verified_by": "machine",
   "content_review": {
    "date": "2026-11-21",
-   "summary": "取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "summary": "取得できなかった公式リンクを現行の関連案内へ変更しました。 空き家バンクは宅建業者による登録申請であることを明記し、公式本文の提出先と末尾の問い合わせ先の表記差を補足しました。",
    "sources": [
-    "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html"
+    "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html",
+    "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html"
    ]
   }
  },
@@ -3578,6 +3612,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
     "label": "空家等の除却（解体）補助制度",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html",
+    "label": "菊川市：空き家バンクの登録要件・提出先",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -3591,10 +3630,11 @@
   "verified_by": "machine",
   "content_review": {
    "date": "2026-11-21",
-   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 取得できなかった公式リンクを現行の関連案内へ変更しました。 空き家バンクは宅建業者による登録申請であることを明記し、公式本文の提出先と末尾の問い合わせ先の表記差を補足しました。",
    "sources": [
     "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
-    "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/ecommit.html"
+    "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/ecommit.html",
+    "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html"
    ]
   }
  },
@@ -3797,6 +3837,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/20170606.html",
     "label": "相続した空き家の譲渡所得の3,000万円特別控除について",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+    "label": "国税庁：相続空き家を売ったときの特例",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -3807,7 +3852,15 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "路線価ページ・相続空き家特別控除ページをWebFetchで確認。資産税係の電話番号を裏取り。具体的な税率・税額計算式は個別ケースによるため本文では断定を避けた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "相続空き家の税特例を国税庁の現行期限・控除上限へ更新し、市の確認書と税務署の申告を区別しました。",
+   "sources": [
+    "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/20170606.html"
+   ]
+  }
  },
  {
   "href": "/life/housing/public-housing-consultation/",
@@ -3956,12 +4009,17 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
     "label": "空家等の除却（解体）補助制度",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+    "label": "国税庁：相続空き家を売ったときの特例",
+    "confidence": "high"
    }
   ],
   "facts": {
-   "window": "建設経済部都市計画課住宅建築係（空き家バンク登録）／企画財政部税務課資産税係（税金証明）",
+   "window": "空き家対策・除却補助・家屋等確認書：都市計画課。空き家バンクの登録申請：宅建業者を通じて提出先を確認（公式本文は市長公室営業戦略係、末尾問合せ欄は都市計画課）",
    "tel": "都市計画課住宅建築係 0537-35-0957／税務課資産税係 0537-35-0913",
-   "special_deduction": "相続空き家譲渡所得3,000万円特別控除：昭和56年5月31日以前建築、譲渡価格1億円以下等が条件。適用期限はページ記載が令和5年12月31日までとなっており、2026年時点の最新適用期限は要都市計画課確認"
+   "special_deduction": "適用期間は2027年12月31日まで。相続からの売却期限・建物等の要件あり。控除上限は通常3,000万円、対象の相続人が3人以上なら2,000万円（2024年以後の譲渡）。国税庁・所轄税務署で確認。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "相続空き家特別控除ページ・空き家バンク・路線価ページをWebFetchで確認。特別控除の適用期限がページ記載時点(令和5年12月31日まで)から更新されている可能性があるため、本文・factsとも「最新の適用期間を確認」の注記を入れた。",
@@ -3969,9 +4027,12 @@
   "verified_by": "machine",
   "content_review": {
    "date": "2026-11-21",
-   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 相続空き家の税特例を国税庁の現行期限・控除上限へ更新し、市の確認書と税務署の申告を区別しました。 空き家バンクは宅建業者による登録申請であることを明記し、公式本文の提出先と末尾の問い合わせ先の表記差を補足しました。",
    "sources": [
-    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/20170606.html",
+    "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html"
    ]
   }
  },
@@ -4038,9 +4099,10 @@
   "verified_by": "machine",
   "content_review": {
    "date": "2026-11-21",
-   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 空き家バンクは宅建業者による登録申請であることを明記し、公式本文の提出先と末尾の問い合わせ先の表記差を補足しました。",
    "sources": [
-    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html"
    ]
   }
  },
@@ -8146,8 +8208,8 @@
   ],
   "facts": {
    "window": "建設経済部都市計画課",
-   "tel": "0537-35-0957（確認中: 本文未確認 0537-35-0957）",
-   "note": "ワンストップ相談会（宅地建物取引士・司法書士・税理士・建築士参加）は事前予約制、静岡県空き家対策推進協議会事務局（054-247-3823）へ申込み。会社導線（富士ヶ丘サービス）はqa/real_cardsで控えめに記載"
+   "tel": "0537-35-0957",
+   "note": "ワンストップ相談会（宅地建物取引士・司法書士・税理士・建築士参加）は事前予約制、静岡県空き家対策推進協議会事務局（054-247-3823）へ申込み"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "都市計画課の空き家対策窓口、ワンストップ相談会の実施実績（令和6年11月開催）、空き家バンク・解体AI査定の各制度をWebFetchで確認。",
@@ -8155,9 +8217,10 @@
   "verified_by": "machine",
   "content_review": {
    "date": "2026-11-21",
-   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 空き家バンクは宅建業者による登録申請であることを明記し、公式本文の提出先と末尾の問い合わせ先の表記差を補足しました。",
    "sources": [
-    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html"
    ]
   }
  },
@@ -8827,7 +8890,7 @@
    }
   ],
   "facts": {
-   "window": "分野により産業支援センター(0537-35-0930)／都市計画課(0537-35-0957)／環境推進課(0537-35-0916)／農林課(0537-35-0938)（確認中: 本文未確認 0537-35-0916）（確認中: 本文未確認 0537-35-0938）",
+   "window": "分野により産業支援センター(0537-35-0930)／都市計画課(0537-35-0957)／環境推進課(0537-35-0916)／農林課(0537-35-0938)（確認中: 本文未確認 0537-35-0938）",
    "tel": "0537-35-0930",
    "startup_round": "令和8年度の二次公募は2026年12月1〜15日、最終日は17時必着です（11月21日時点では受付開始前）。今回から資金計画書が必要です。補助は対象経費の2分の1以内・上限50万円で、創業前または創業後2年以内、特定創業支援等事業の支援などの条件があります。"
   },
