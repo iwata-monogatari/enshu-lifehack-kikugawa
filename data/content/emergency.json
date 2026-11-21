@@ -67,43 +67,159 @@
   "lead": "災害情報を確実に受け取るには、平常時の登録がカギです。菊川市はメール配信サービス「茶こちゃんメール」と、セグメント配信に対応した菊川市LINE公式アカウントの2本立てで防災情報を発信しています。それぞれの特徴を知って、自分に合った方法で備えましょう。",
   "note": "茶こちゃんメールとLINEは配信内容や仕組みが異なるため、両方登録しておくと情報の取りこぼしを減らせます。登録は無料ですが通信料は利用者負担です。",
   "real_cards": [
-   {"icon": "📧", "title": "茶こちゃんメールは空メール登録", "body": "「kikugawa-city@raiden.ktaiwork.jp」宛に件名・本文なしのメールを送信し、返信メールのURLから配信を希望する情報を選択すると登録完了です。震度4以上の地震や火災・気象警報は自動配信されます。"},
-   {"icon": "💬", "title": "LINEはセグメント配信に対応", "body": "菊川市LINE公式アカウント（ID：@kikugawa_city）は「友だち追加」「QRコード」「ID検索」の3通りで登録できます。年代や欲しい情報を設定すると、必要な情報だけを受け取れます。防災情報は「コロナ・防災」メニューから確認できます。"},
-   {"icon": "🔥", "title": "消防からの火災情報メールもある", "body": "菊川市消防本部は茶こちゃんメールと連携し、市内で発生した火災情報（規模の大小を問わず）を配信しています。登録方法は茶こちゃんメールと同様です。"},
-   {"icon": "📡", "title": "SNS・アプリ情報も市が収集", "body": "菊川市はFASTALERTというシステムを使い、SNSやNewsDigestアプリに投稿された災害関連情報をAIと有人監視で収集・分類し、市の対応に役立てています。市民側の登録が必須のサービスではありませんが、NewsDigestなどの一般向け防災アプリも参考になります。"}
+   {
+    "icon": "📩",
+    "title": "茶こちゃんメールの送信元が変更",
+    "body": "2026年4月24日から登録・配信メールアドレスは bousai.kikugawa-city@raiden.ktaiwork.jp です。受信拒否設定をしている場合は公式の登録手順に従って見直してください。迷惑メールと区別するため、アドレスは市公式ページで照合してください。"
+   },
+   {
+    "icon": "📧",
+    "title": "茶こちゃんメールは空メール登録",
+    "body": "「kikugawa-city@raiden.ktaiwork.jp」宛に件名・本文なしのメールを送信し、返信メールのURLから配信を希望する情報を選択すると登録完了です。震度4以上の地震や火災・気象警報は自動配信されます。"
+   },
+   {
+    "icon": "💬",
+    "title": "LINEはセグメント配信に対応",
+    "body": "菊川市LINE公式アカウント（ID：@kikugawa_city）は「友だち追加」「QRコード」「ID検索」の3通りで登録できます。年代や欲しい情報を設定すると、必要な情報だけを受け取れます。防災情報は「コロナ・防災」メニューから確認できます。"
+   },
+   {
+    "icon": "🔥",
+    "title": "消防からの火災情報メールもある",
+    "body": "菊川市消防本部は茶こちゃんメールと連携し、市内で発生した火災情報（規模の大小を問わず）を配信しています。登録方法は茶こちゃんメールと同様です。"
+   },
+   {
+    "icon": "📡",
+    "title": "SNS・アプリ情報も市が収集",
+    "body": "菊川市はFASTALERTというシステムを使い、SNSやNewsDigestアプリに投稿された災害関連情報をAIと有人監視で収集・分類し、市の対応に役立てています。市民側の登録が必須のサービスではありませんが、NewsDigestなどの一般向け防災アプリも参考になります。"
+   }
   ],
   "qa": [
-   {"question": "茶こちゃんメールとLINE、どちらを登録すればいいですか", "answer": "両方登録しておくのがおすすめです。茶こちゃんメールは震度4以上の地震などが自動配信される仕組みがあり、LINEはセグメント配信で自分に合った情報を受け取れます。詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/anzen/tyakotyannme-ru.html\" target=\"_blank\" rel=\"noopener\">茶こちゃんメールのページ</a>と<a href=\"https://www.city.kikugawa.shizuoka.jp/hishokoho/lineousikiakaunnto.html\" target=\"_blank\" rel=\"noopener\">LINE公式アカウントのページ</a>をご覧ください。"},
-   {"question": "茶こちゃんメールの登録方法を教えてください", "answer": "「kikugawa-city@raiden.ktaiwork.jp」宛に件名・本文なしのメールを送信します。届いた返信メール内のURLにアクセスし、受け取りたい情報の種類を選択すれば登録完了です。"},
-   {"question": "LINEで防災情報だけ受け取ることはできますか", "answer": "はい。菊川市LINE公式アカウントは年代や受け取りたい情報を任意で設定できるセグメント配信に対応しています。防災情報は「コロナ・防災」メニューから確認できます。"},
-   {"question": "登録に費用はかかりますか", "answer": "登録自体は無料ですが、メールの送受信にかかる通信料は利用者負担です。"},
-   {"question": "火災情報も受け取れますか", "answer": "菊川市消防本部が茶こちゃんメールと連携し、市内で発生した火災情報を規模の大小にかかわらず配信しています。登録は茶こちゃんメールと同じ手順です。"},
-   {"question": "防災行政無線が聞き取りにくいときはどうすればいいですか", "answer": "屋外スピーカーが聞き取りにくい場合の個別の電話応答サービスなどは、2026年7月時点で公式ページ上に明確な記載を確認できませんでした。聞き取れなかった内容は危機管理課（0537-35-0923）に確認するか、茶こちゃんメール・LINEでの受信を基本にすることをおすすめします。"}
+   {
+    "question": "茶こちゃんメールとLINE、どちらを登録すればいいですか",
+    "answer": "両方登録しておくのがおすすめです。茶こちゃんメールは震度4以上の地震などが自動配信される仕組みがあり、LINEはセグメント配信で自分に合った情報を受け取れます。詳しくは<a href=\"https://www.city.kikugawa.shizuoka.jp/anzen/tyakotyannme-ru.html\" target=\"_blank\" rel=\"noopener\">茶こちゃんメールのページ</a>と<a href=\"https://www.city.kikugawa.shizuoka.jp/hishokoho/lineousikiakaunnto.html\" target=\"_blank\" rel=\"noopener\">LINE公式アカウントのページ</a>をご覧ください。"
+   },
+   {
+    "question": "茶こちゃんメールの登録方法を教えてください",
+    "answer": "「kikugawa-city@raiden.ktaiwork.jp」宛に件名・本文なしのメールを送信します。届いた返信メール内のURLにアクセスし、受け取りたい情報の種類を選択すれば登録完了です。"
+   },
+   {
+    "question": "LINEで防災情報だけ受け取ることはできますか",
+    "answer": "はい。菊川市LINE公式アカウントは年代や受け取りたい情報を任意で設定できるセグメント配信に対応しています。防災情報は「コロナ・防災」メニューから確認できます。"
+   },
+   {
+    "question": "登録に費用はかかりますか",
+    "answer": "登録自体は無料ですが、メールの送受信にかかる通信料は利用者負担です。"
+   },
+   {
+    "question": "火災情報も受け取れますか",
+    "answer": "菊川市消防本部が茶こちゃんメールと連携し、市内で発生した火災情報を規模の大小にかかわらず配信しています。登録は茶こちゃんメールと同じ手順です。"
+   },
+   {
+    "question": "防災行政無線が聞き取りにくいときはどうすればいいですか",
+    "answer": "屋外スピーカーが聞き取りにくい場合の個別の電話応答サービスなどは、2026年7月時点で公式ページ上に明確な記載を確認できませんでした。聞き取れなかった内容は危機管理課（0537-35-0923）に確認するか、茶こちゃんメール・LINEでの受信を基本にすることをおすすめします。"
+   }
   ],
   "tabs": [
-   {"id": "type-mail", "label": "メールで受け取りたい", "heading": "茶こちゃんメールに登録する", "bullets": ["指定アドレスへ空メールを送信する", "返信メールのURLから配信内容を選択する", "震度4以上の地震などは自動配信される"], "actions": [
-     {"label": "茶こちゃんメールを見る", "href": "https://www.city.kikugawa.shizuoka.jp/anzen/tyakotyannme-ru.html", "source": "菊川市公式"}
-   ]},
-   {"id": "type-line", "label": "LINEで受け取りたい", "heading": "菊川市LINE公式アカウントを友だち追加する", "bullets": ["ID「@kikugawa_city」で検索するかQRコードを読み取る", "受け取りたい情報や年代を設定する", "「コロナ・防災」メニューから防災情報を確認する"], "actions": [
-     {"label": "LINE公式アカウントを見る", "href": "https://www.city.kikugawa.shizuoka.jp/hishokoho/lineousikiakaunnto.html", "source": "菊川市公式"}
-   ]},
-   {"id": "type-fire", "label": "火災情報も知りたい", "heading": "消防の火災情報メールを確認する", "bullets": ["茶こちゃんメールと同じ仕組みで配信される", "規模の大小を問わず市内の火災情報を配信", "登録方法は茶こちゃんメールのページで確認できる"], "actions": [
-     {"label": "災害情報案内を見る", "href": "https://www.city.kikugawa.shizuoka.jp/shoubouhonbu/saigaijyouhou.html", "source": "菊川市公式"}
-   ]},
-   {"id": "type-elderly", "label": "高齢の家族の分も設定したい", "heading": "家族と一緒に登録を確認する", "bullets": ["スマートフォンの操作が苦手な場合は家族が代理で設定する", "文字を大きくする、通知音を確認するなど使いやすさも調整する", "登録後は実際に通知が届くかテストしておくと安心"], "actions": [
-     {"label": "危機管理課に電話する", "href": "tel:0537-35-0923", "source": "0537-35-0923"}
-   ]}
+   {
+    "id": "type-mail",
+    "label": "メールで受け取りたい",
+    "heading": "茶こちゃんメールに登録する",
+    "bullets": [
+     "指定アドレスへ空メールを送信する",
+     "返信メールのURLから配信内容を選択する",
+     "震度4以上の地震などは自動配信される"
+    ],
+    "actions": [
+     {
+      "label": "茶こちゃんメールを見る",
+      "href": "https://www.city.kikugawa.shizuoka.jp/anzen/tyakotyannme-ru.html",
+      "source": "菊川市公式"
+     }
+    ]
+   },
+   {
+    "id": "type-line",
+    "label": "LINEで受け取りたい",
+    "heading": "菊川市LINE公式アカウントを友だち追加する",
+    "bullets": [
+     "ID「@kikugawa_city」で検索するかQRコードを読み取る",
+     "受け取りたい情報や年代を設定する",
+     "「コロナ・防災」メニューから防災情報を確認する"
+    ],
+    "actions": [
+     {
+      "label": "LINE公式アカウントを見る",
+      "href": "https://www.city.kikugawa.shizuoka.jp/hishokoho/lineousikiakaunnto.html",
+      "source": "菊川市公式"
+     }
+    ]
+   },
+   {
+    "id": "type-fire",
+    "label": "火災情報も知りたい",
+    "heading": "消防の火災情報メールを確認する",
+    "bullets": [
+     "茶こちゃんメールと同じ仕組みで配信される",
+     "規模の大小を問わず市内の火災情報を配信",
+     "登録方法は茶こちゃんメールのページで確認できる"
+    ],
+    "actions": [
+     {
+      "label": "災害情報案内を見る",
+      "href": "https://www.city.kikugawa.shizuoka.jp/shoubouhonbu/saigaijyouhou.html",
+      "source": "菊川市公式"
+     }
+    ]
+   },
+   {
+    "id": "type-elderly",
+    "label": "高齢の家族の分も設定したい",
+    "heading": "家族と一緒に登録を確認する",
+    "bullets": [
+     "スマートフォンの操作が苦手な場合は家族が代理で設定する",
+     "文字を大きくする、通知音を確認するなど使いやすさも調整する",
+     "登録後は実際に通知が届くかテストしておくと安心"
+    ],
+    "actions": [
+     {
+      "label": "危機管理課に電話する",
+      "href": "tel:0537-35-0923",
+      "source": "0537-35-0923"
+     }
+    ]
+   }
   ],
   "steps": {
-   "today": ["茶こちゃんメールに空メールを送って登録する", "菊川市LINE公式アカウントを友だち追加する"],
-   "this_week": ["LINEの受信設定（年代・情報の種類）をカスタマイズする", "家族の分も登録できているか確認する"],
-   "outside": ["訓練や実際の警報時に通知が届くか確認する", "内容が分かりにくい場合は危機管理課に問い合わせる"]
+   "today": [
+    "茶こちゃんメールに空メールを送って登録する",
+    "菊川市LINE公式アカウントを友だち追加する"
+   ],
+   "this_week": [
+    "LINEの受信設定（年代・情報の種類）をカスタマイズする",
+    "家族の分も登録できているか確認する"
+   ],
+   "outside": [
+    "訓練や実際の警報時に通知が届くか確認する",
+    "内容が分かりにくい場合は危機管理課に問い合わせる"
+   ]
   },
   "action_grid": [
-   {"label": "茶こちゃんメールを見る（菊川市公式）", "href": "https://www.city.kikugawa.shizuoka.jp/anzen/tyakotyannme-ru.html"},
-   {"label": "菊川市LINE公式アカウントを見る", "href": "https://www.city.kikugawa.shizuoka.jp/hishokoho/lineousikiakaunnto.html"},
-   {"label": "防災情報リンク先を見る", "href": "https://www.city.kikugawa.shizuoka.jp/anzen/bousaijouhoulink.html"},
-   {"label": "危機管理課に電話する", "href": "tel:0537-35-0923"}
+   {
+    "label": "茶こちゃんメールを見る（菊川市公式）",
+    "href": "https://www.city.kikugawa.shizuoka.jp/anzen/tyakotyannme-ru.html"
+   },
+   {
+    "label": "菊川市LINE公式アカウントを見る",
+    "href": "https://www.city.kikugawa.shizuoka.jp/hishokoho/lineousikiakaunnto.html"
+   },
+   {
+    "label": "防災情報リンク先を見る",
+    "href": "https://www.city.kikugawa.shizuoka.jp/anzen/bousaijouhoulink.html"
+   },
+   {
+    "label": "危機管理課に電話する",
+    "href": "tel:0537-35-0923"
+   }
   ]
  },
  {

@@ -40,19 +40,38 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/yojikyoiku/jidoukurabu/mousikomi.html",
     "label": "放課後児童クラブ申込みについて",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/r9zidoukurabu.html",
+    "label": "令和9年度放課後児童クラブ申込み",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/r8zidoukurabu.html",
+    "label": "令和8年度放課後児童クラブ申込み",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "こども未来部こども政策課 こども政策係",
    "tel": "0537-37-1171",
    "location": "プラザけやき内",
-   "hours": "平日8:30-12:00,13:00-16:30（水曜のみ19:00まで）",
-   "fee": "確認中（要確認。月額制＋祝日利用加算・おやつ代等、年度により改定の可能性）"
+   "hours": "通常の申込受付は平日8:30〜16:30。延長日はこども政策課へ確認",
+   "fee": "令和9年度は通年利用が月額6,000円、祝日利用加算が月額1,000円、おやつ代が月額1,000円です。長期休業のみは春休み3,000円・夏休み9,000円・冬休み3,000円。長期休業のおやつ代はクラブごとに異なります。",
+   "application_period": "2027年4月入所の一斉受付は終了しました（新規：2026年11月2〜13日、継続：10月19〜30日）。期間後はこども政策課のみで受け付けます。2026年12月14日以降の提出は2027年5月の入所調整となるため、4月利用を希望する場合は早めに相談してください。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "菊川市公式サイトで窓口（こども政策課0537-37-1171）・受付方法の枠組みを確認。具体的な利用料は年度改定があるため本文・factsとも確認中扱いとした。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "令和9年度の一斉受付終了、期間後の提出先、利用料と令和8年度途中入所の日程を更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/r9zidoukurabu.html",
+    "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/r8zidoukurabu.html"
+   ]
+  }
  },
  {
   "href": "/life/education/educational-consulting/",
@@ -91,8 +110,8 @@
     "confidence": "high"
    },
    {
-    "url": "http://www.city.kikugawa.shizuoka.jp/kosodate/kyouiku/shou_chuugakkou/documents/konoyubir6.pdf",
-    "label": "教育支援センター「このゆびとーまれ」案内",
+    "url": "https://www.city.kikugawa.shizuoka.jp/gakkoukyouiku/",
+    "label": "学校教育課・教育相談室の問い合わせ",
     "confidence": "medium"
    }
   ],
@@ -103,7 +122,14 @@
    "consult_hours": "確認中（要確認。相談日時の詳細は学校教育課へ要問合せ）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "学校教育課が総合窓口であること、教育支援センター「このゆびとーまれ」・校内教育支援センター・スクールカウンセラー配置の存在を公式情報・議員活動記事で確認。相談の具体的な曜日時間は公式ページに明記がなく確認中とした。"
+  "ai_notes": "学校教育課が総合窓口であること、教育支援センター「このゆびとーまれ」・校内教育支援センター・スクールカウンセラー配置の存在を公式情報・議員活動記事で確認。相談の具体的な曜日時間は公式ページに明記がなく確認中とした。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/gakkoukyouiku/"
+   ]
+  }
  },
  {
   "href": "/life/education/elementary-middle-school/",
@@ -233,14 +259,21 @@
   ],
   "facts": {
    "window": "教育文化部学校教育課",
-   "tel": "0537-73-1113（確認中: 本文未確認 0537-73-1113）",
-   "timing": "例年10月頃実施、案内は9月中旬〜下旬頃送付見込み（年度により変動）",
-   "venue": "菊川市中央公民館ほか"
+   "tel": "0537-73-1113",
+   "timing": "2027年度入学予定者向け：2026年10月22日・23日（内科検診・知能検査）。日程終了後の相談は学校教育課へ",
+   "venue": "菊川市中央公民館（下平川6225）"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "公式ページをWebFetchで確認。実施時期・会場・窓口を把握。正確な日程は年度ごとに更新されるため本文では目安表現とした。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "就学時健康診断の2026年10月日程が終了したことと、未受診・転入時の相談先を明記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/gakkoukyouiku/syuugakujikennsinn.html"
+   ]
+  }
  },
  {
   "href": "/life/education/school-district-transfer/",
@@ -622,7 +655,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "茶こちゃんメール（空メール登録、震度4以上自動配信）とLINE公式アカウント（@kikugawa_city、セグメント配信）を公式ページで確認。防災行政無線の個別電話応答サービス有無は確認できず「確認中」扱い。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "茶こちゃんメールの現行登録・配信アドレスを追記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/anzen/tyakotyannme-ru.html"
+   ]
+  }
  },
  {
   "href": "/life/emergency/earthquake/",
@@ -1528,6 +1568,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/kikakuseisaku/akiyabank.html",
     "label": "菊川市 空き家バンク事業",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "label": "空家等の除却（解体）補助制度",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -1538,7 +1583,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "菊川市公式の空家対策ページ・空き家バンクページをWebFetchで確認。担当課・電話番号は都市計画課で一貫。補助制度の詳細な金額・条件は年度により変わる可能性があるため本文では断定を避けた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+   ]
+  }
  },
  {
   "href": "/life/end-of-life/",
@@ -1727,6 +1779,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyataisaku.html",
     "label": "菊川市 空家対策",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "label": "空家等の除却（解体）補助制度",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -1737,7 +1794,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "空き家バンク・譲渡所得特別控除・空家対策（除却補助）の3ページをWebFetchで確認し、活用・売却・解体の選択肢ごとに整理。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+   ]
+  }
  },
  {
   "href": "/life/end-of-life/pension-inheritance/",
@@ -1932,6 +1996,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/kosodate/ninshin_kosodate/teate_josei_shien/index.html",
     "label": "手当・助成・支援の一覧",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html",
+    "label": "マイナ保険証・資格確認書",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -1943,7 +2012,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "こども医療費助成の対象年齢・無償化開始時期（令和5年10月）・受給者証申請の必要書類を公式サイトで確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "従来の健康保険証を前提とした持ち物案内を、現行の医療保険の資格確認方法に更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html"
+   ]
+  }
  },
  {
   "href": "/life/family-grow/child-vaccination/",
@@ -2297,18 +2373,37 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/yojikyoiku/byogoji.html",
     "label": "病後児保育事業",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/reiwa9nenndo.html",
+    "label": "令和9年度入園手続き",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/reiwa8nenndohoikumousikomi.html",
+    "label": "令和8年度入園手続き",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "こども政策課",
    "tel": "0537-37-1171",
    "fee": "4時間未満1,100円／4時間以上2,200円（食事料込み、後払い）",
-   "target_age": "生後6か月〜就学前（牧之原保育園のみ生後10か月〜）"
+   "target_age": "生後6か月〜就学前（牧之原保育園のみ生後10か月〜）",
+   "application_period": "令和9年度（2027年4〜6月入園）の第1期受付は終了しました。第2期は2026年10月19日〜2027年1月8日です。2027年1月12日以降は、特別な理由がある場合を除き5月以降の入園申込みとなります。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "リフレッシュ・一時保育の対象年齢・料金・申込時期（通常/随時）・実施施設数（12施設）を公式サイトで確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "令和9年度の第2期受付と令和8年度の途中入園を区別し、必要書類の確認先を更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/reiwa9nenndo.html",
+    "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/reiwa8nenndohoikumousikomi.html"
+   ]
+  }
  },
  {
   "href": "/life/family-grow/nursery-school/",
@@ -2352,17 +2447,31 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/yojikyoiku/musyoka.html",
     "label": "幼児教育・保育無償化",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/reiwa9nenndo.html",
+    "label": "令和9年度入園手続き",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "こども政策課",
    "tel": "こども政策係 0537-37-1171／幼保こども園係 0537-37-1131",
-   "note": "教育・保育給付認定は1号・2号・3号の3区分"
+   "note": "教育・保育給付認定は1号・2号・3号の3区分",
+   "application_period": "令和9年度（2027年4〜6月入園）の第1期受付は終了しました。第2期は2026年10月19日〜2027年1月8日です。2027年1月12日以降は、特別な理由がある場合を除き5月以降の入園申込みとなります。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "施設の種類（保育園・認定こども園・小規模保育事業所）と認定区分の枠組みを公式サイトで確認。具体的な申込時期は年度別ページで案内されるため断定を避けた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "令和9年度の第2期受付と令和8年度の途中入園を区別し、必要書類の確認先を更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/reiwa9nenndo.html",
+    "https://www.city.kikugawa.shizuoka.jp/kodomoseisaku/reiwa8nenndohoikumousikomi.html"
+   ]
+  }
  },
  {
   "href": "/life/family-grow/parenting-support/",
@@ -2404,6 +2513,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/ogasajidoukan.html",
     "label": "小笠児童館・おがさ子育て支援センター",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "日曜交付窓口・水曜延長",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -2414,7 +2528,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "こども家庭センターの窓口機能・子育て応援課4係の役割分担・児童館2館の存在を公式サイト・検索結果で確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "プラザけやきの延長窓口を第2・第4水曜18時30分までに更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/family-grow/pregnancy/",
@@ -2468,6 +2589,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/ninpukenkoushinsa.html",
     "label": "妊婦健康診査",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "日曜交付窓口・水曜延長",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -2479,7 +2605,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "妊娠届出書の提出・母子健康手帳交付は完全予約制であることを公式サイトで確認。産後ケア事業（満1歳未満対象、7日間まで）もあわせて確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "プラザけやきの延長窓口を第2・第4水曜18時30分までに更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/family-grow/single-parent-support/",
@@ -2526,6 +2659,16 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/kosodate/ninshin_kosodate/teate_josei_shien/index.html",
     "label": "手当・助成・支援の一覧",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "日曜交付窓口・水曜延長",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html",
+    "label": "マイナ保険証・資格確認書",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -2536,7 +2679,15 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "児童扶養手当の支給要件・支給回数、ひとり親家庭等医療費助成の対象・有効期限（毎年6月30日）を公式サイトで確認。支給額は年度改定の可能性があり確認中扱い。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "プラザけやきの延長窓口を第2・第4水曜18時30分までに更新しました。 従来の健康保険証を前提とした持ち物案内を、現行の医療保険の資格確認方法に更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/adult-vaccination/",
@@ -2591,7 +2742,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "健康づくり課(保健医療係)が成人予防接種(インフルエンザ・肺炎球菌等)を担当。帯状疱疹ワクチンは公式ページで新設案内あり。個別の対象年齢・自己負担額は年度ごとに更新されるため直近の公式ページ確認を案内する形にした。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "帯状疱疹ワクチンの令和8年度期間と、定期接種・任意接種助成の区別を追記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/taijyouhousinwakutin.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/cancer-specific-checkups/",
@@ -2634,13 +2792,21 @@
   ],
   "facts": {
    "window": "菊川市健康福祉部健康づくり課（保健医療係）",
-   "tel": "0537-37-1112"
+   "tel": "0537-37-1112",
+   "cancer_application": "令和8年度のがん検診申込みは終了し、令和9年度（2027年度）分を受付中です。一次締切は2027年5月31日、実施予定は2027年9月〜2028年1月、問診票は2027年8月頃発送予定です。"
   },
   "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
   "ai_notes": "総合検診（がん検診）は胃・大腸・肺・乳・子宮頸・前立腺の6種。申込制で電話または電子申請、令和8年度は8/31申込締切・9月〜1月実施予定。集団検診はプラザけやき等・個別検診は菊川市立総合病院健診センター等で実施。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "がん検診の受付年度、一次締切と実施予定を更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/dental-care/",
@@ -2780,6 +2946,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/shougaishanojoseinado.html",
     "label": "障害者の助成など",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html",
+    "label": "マイナ保険証・資格確認書",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -2790,7 +2961,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "手帳制度に紐づく手当（特別障害者手当・障害児福祉手当・特別児童扶養手当等）と医療費助成（重度障害者医療費助成・精神障害者入院医療費助成）を福祉課が所管。申請には各種手帳・診断書・通帳等が必要（詳細は制度ごとに異なる）。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "従来の健康保険証を前提とした持ち物案内を、現行の医療保険の資格確認方法に更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/find-hospitals/",
@@ -2885,13 +3063,21 @@
   ],
   "facts": {
    "window": "菊川市健康福祉部健康づくり課（保健医療係）",
-   "tel": "0537-37-1112"
+   "tel": "0537-37-1112",
+   "cancer_application": "令和8年度のがん検診申込みは終了し、令和9年度（2027年度）分を受付中です。一次締切は2027年5月31日、実施予定は2027年9月〜2028年1月、問診票は2027年8月頃発送予定です。"
   },
   "status": "machine-verified",
   "ai_checked_date": "2026-07-04",
   "ai_notes": "特定健診は国保加入者等が対象で、人間ドック・簡易脳ドックの費用助成（3分の2、上限20,000円、市民課0537-35-0915）とあわせて選べる。総合検診（がん検診）は電話・電子申請の申込制。健診の申込締切・実施時期は年度ごとに変動するため直近の公式案内を確認する形にした。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "がん検診の受付年度、一次締切と実施予定を更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/health-promotion/",
@@ -2930,11 +3116,6 @@
     "url": "http://www.city.kikugawa.shizuoka.jp/kenkouchouju/27maire-ji.html",
     "label": "菊川市健康マイレージ",
     "confidence": "high"
-   },
-   {
-    "url": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/vitality_kikugawa_walk.html",
-    "label": "Vitalityきくがわウォーク",
-    "confidence": "high"
    }
   ],
   "facts": {
@@ -2945,7 +3126,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "健康増進係が健康教室・健康チェック・健康マイレージ事業・成人食育推進事業・精神保健事業などを所管。「茶ちゃっと！出張健康チェック」という出張健康相談事業や「Vitalityきくがわウォーク」など、菊川市独自のウォーキング施策がある。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kenkoudukuri.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/holiday-night-emergency-care/",
@@ -2976,6 +3164,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/kyuukan.html",
     "label": "急患診療所のご案内",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html",
+    "label": "マイナ保険証・資格確認書",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -2986,7 +3179,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "菊川市は掛川市と共同で「小笠掛川急患診療所」（希望の丘内・中部ふくしあ2階、掛川市杉谷南1-1-30）を運営。平日夜間19〜22時（内科・小児科）、日曜祝日9〜12時・13〜17時（内科・小児科・外科・歯科、歯科は午前のみ）。交通事故・労災は対応不可、受診前の事前連絡が必要。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "従来の健康保険証を前提とした持ち物案内を、現行の医療保険の資格確認方法に更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/",
@@ -3109,6 +3309,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/hishokoho/sougoubyouin.html",
     "label": "菊川市立総合病院",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html",
+    "label": "マイナ保険証・資格確認書",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -3119,7 +3324,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "holiday-night-emergency-careと同一施設（小笠掛川急患診療所）を扱うが、こちらは「夜間・休日にどう動くか」という利用者視点での案内として構成（判断フロー・持ち物・受診前の電話確認を中心に）。菊川市立総合病院の外来は平日日中のみで夜間休日は非対応である点も明記。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "従来の健康保険証を前提とした持ち物案内を、現行の医療保険の資格確認方法に更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html"
+   ]
+  }
  },
  {
   "href": "/life/health-medical/vaccinations/",
@@ -3221,8 +3433,8 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/mokuzoujuutaku.html",
-    "label": "TOUKAI（東海・倒壊）-0",
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html",
+    "label": "住宅の耐震・防災（TOUKAI-0+）",
     "confidence": "high"
    }
   ],
@@ -3233,7 +3445,15 @@
    "young_household_subsidy": "若者世帯定住促進補助金：一般世帯上限25万円、三世代同居・隣接住宅は上限40万円（living-soon.jsonのwant-to-liveで確認済みの内容と整合）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "都市計画図等・都市計画課組織ページ・除却補助・TOUKAI-0をWebFetchで確認。市街化調整区域での建築制限、都市計画係と住宅建築係の役割分担を裏取り。"
+  "ai_notes": "都市計画図等・都市計画課組織ページ・除却補助・TOUKAI-0をWebFetchで確認。市街化調整区域での建築制限、都市計画係と住宅建築係の役割分担を裏取り。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html"
+   ]
+  }
  },
  {
   "href": "/life/housing/buy-house/",
@@ -3281,8 +3501,8 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/mokuzoujuutaku.html",
-    "label": "TOUKAI（東海・倒壊）-0",
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html",
+    "label": "住宅の耐震・防災（TOUKAI-0+）",
     "confidence": "high"
    }
   ],
@@ -3295,7 +3515,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "空き家バンク事業・登録物件一覧・若者世帯定住促進補助金・TOUKAI-0のページをWebFetchで確認。物件価格帯・件数は取得時点のスナップショットである旨をnoteに明記。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html"
+   ]
+  }
  },
  {
   "href": "/life/housing/clean-parents-house/",
@@ -3338,13 +3565,18 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/mercarishops.html",
-    "label": "環境資源ギャラリーのメルカリShops活用",
+    "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/ecommit.html",
+    "label": "環境資源ギャラリーの不要品リユース事業",
     "confidence": "high"
    },
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyataisaku.html",
     "label": "空家対策",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "label": "空家等の除却（解体）補助制度",
     "confidence": "high"
    }
   ],
@@ -3356,7 +3588,15 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "粗大ごみ戸別収集・環境資源ギャラリー・メルカリShops活用ページをWebFetchで確認。相続登記など権利関係は市の制度案内対象外である旨を本文に明記。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/ecommit.html"
+   ]
+  }
  },
  {
   "href": "/life/housing/earthquake-demolition/",
@@ -3389,8 +3629,8 @@
   "status": "ai-checked",
   "sources_kikugawa": [
    {
-    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/mokuzoujuutaku.html",
-    "label": "TOUKAI（東海・倒壊）-0",
+    "url": "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html",
+    "label": "住宅の耐震・防災（TOUKAI-0+）",
     "confidence": "high"
    },
    {
@@ -3413,13 +3653,22 @@
    "window": "建設経済部都市計画課 住宅建築係",
    "tel": "0537-35-0957",
    "seismic_cutoff": "昭和56年5月31日以前建築の木造住宅が対象",
-   "reinforcement_subsidy": "耐震補強：高齢者・要介護者・障がい者居住は上限120万円、その他住宅は上限100万〜115万円（ページにより記載差あり、要都市計画課確認）",
-   "demolition_subsidy": "除却補助：解体工事費の23％と上限30万円のいずれか低い方。工事開始予定日14日前までに交付申請が必要"
+   "reinforcement_subsidy": "通常は上限115万円。居住者全員が65歳以上、要介護者が居住、重度の障がい者が居住する住宅は上限120万円。診断・設計・工事等の要件は市の現行案内を確認",
+   "demolition_subsidy": "空き家解体補助は、市内の未使用の旧耐震木造住宅で、耐震診断で倒壊の危険があり、特定空家等相当の不良住宅であることなど、すべての要件を満たす場合が対象です。敷地内の全建築物を解体して更地にする必要があり、補助は空き家本体の工事費の23％・上限30万円。家財処分、物置・離れ、アスベスト調査等は対象外です。申請前に住宅建築係（0537-35-0957）へ相談してください。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "TOUKAI-0・耐震補強補助・除却補助制度・解体費用シミュレーターをWebFetchで確認。補助上限額の記載がページ間でわずかに異なるため、申請前に都市計画課での最終確認を促す注記を本文に入れた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 2026年度の耐震補強補助上限を現行の市公式案内に合わせました。 取得できなかった公式リンクを現行の関連案内へ変更しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/taishinhokyou.html",
+    "https://www.city.kikugawa.shizuoka.jp/kurashi/juutaku/taishin_bousai/index.html"
+   ]
+  }
  },
  {
   "href": "/life/housing/",
@@ -3702,6 +3951,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/rosenka.html",
     "label": "路線価とは何ですか？",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "label": "空家等の除却（解体）補助制度",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -3712,7 +3966,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "相続空き家特別控除ページ・空き家バンク・路線価ページをWebFetchで確認。特別控除の適用期限がページ記載時点(令和5年12月31日まで)から更新されている可能性があるため、本文・factsとも「最新の適用期間を確認」の注記を入れた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+   ]
+  }
  },
  {
   "href": "/life/housing/vacant-house/",
@@ -3768,13 +4029,20 @@
   "facts": {
    "window": "建設経済部都市計画課 住宅建築係",
    "tel": "0537-35-0957",
-   "demolition_subsidy": "解体工事費の23％と上限30万円のいずれか低い方",
+   "demolition_subsidy": "空き家解体補助は、市内の未使用の旧耐震木造住宅で、耐震診断で倒壊の危険があり、特定空家等相当の不良住宅であることなど、すべての要件を満たす場合が対象です。敷地内の全建築物を解体して更地にする必要があり、補助は空き家本体の工事費の23％・上限30万円。家財処分、物置・離れ、アスベスト調査等は対象外です。申請前に住宅建築係（0537-35-0957）へ相談してください。",
    "onestop_soudan": "空き家ワンストップ相談会は静岡県空き家対策推進協議会事務局（054-247-3823）が予約窓口。開催実績は令和6年11月16日開催分まで確認、継続開催かは要最新確認"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "空家対策・空き家バンク・除却補助制度・ワンストップ相談会ページをWebFetchで確認。相談会は開催年度により実施有無が変わるため「最新の相談会日程は要確認」の注記を本文に入れた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+   ]
+  }
  },
  {
   "href": "/life/living-soon/about-kikugawa/",
@@ -4372,6 +4640,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/tenshutsutodoke.html",
     "label": "転出届",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html",
+    "label": "マイナ保険証・資格確認書",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -4385,7 +4658,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "公式ページで窓口名・電話・受付時間・必要書類（本人確認書類、各種保険証等）・郵送対応を確認。マイナポータル等オンライン申請の記載は見当たらず「明記なし」扱い。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "従来の健康保険証を前提とした持ち物案内を、現行の医療保険の資格確認方法に更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shimin/mainahokensho.html"
+   ]
+  }
  },
  {
   "href": "/life/moving-out/moving-away/",
@@ -4520,21 +4800,41 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/suidou/kaishitodoke.html",
     "label": "上下水道使用開始・休止・廃止届",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "label": "水道料金・電子申請の案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "生活環境部水道課／水道料金お客さまセンター",
-   "tel": "0537-73-1120（お客さまセンター）／0537-73-1115（水道課）（確認中: 本文未確認 0537-73-1115）",
-   "fax": "0537-73-1117（確認中: 本文未確認 0537-73-1117）",
+   "tel": "0537-73-1120（水道料金お客さまセンター）",
+   "fax": "0537-73-1121（水道料金お客さまセンター）",
    "deadline": "希望日の3営業日前まで",
-   "reception_hours": "平日午前8時15分〜午後5時（水曜のみ午後7時まで）、土日祝日不可",
+   "reception_hours": "平日8:15〜17:00（土日祝日を除く）。水曜延長は2026年7月から廃止",
    "operation_body": "菊川市（生活環境部水道課）による市営運営と確認。企業団ではない。",
-   "settlement_method": "確認中（要確認。公式ページに精算方法の詳細記載が見当たらず、水道課への直接確認を案内）"
+   "settlement_method": "確認中（要確認。公式ページに精算方法の詳細記載が見当たらず、水道課への直接確認を案内）",
+   "note": "電子申請の案内はありますが、公式の料金ページにはメンテナンスによる利用停止の記載も残っています。利用可否は水道料金お客さまセンター（0537-73-1120）に確認し、希望日の3営業日前までに手続きしてください。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "水道は菊川市水道課による市営運営と確認。使用休止（引っ越し時）は窓口・FAXで希望日の3営業日前までの届出が必要と確認。精算方法の詳細記載は見当たらず「確認中」とした。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "水道窓口の水曜延長廃止と受付時間を更新しました。 水道の電子申請について公式ページ間の表記差を明記し、利用前の確認先を案内しました。 水道開始・休止の窓口、FAX番号と受付時間を現行案内に合わせました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/suidou/kaishinituite.html",
+    "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/parents-care/adult-guardianship/",
@@ -4702,18 +5002,30 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/choujukaigo/service_woukeruniha.html",
     "label": "菊川市 サービスを受けるには",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "地域包括支援センター（けやき窓口／あかっち窓口）",
    "tel_keyaki": "0537-37-1120",
    "tel_akacchi": "0537-73-1818",
-   "hours": "月〜金曜（祝日除く）8:15〜17:00、けやき窓口は水曜のみ夜7時まで"
+   "hours": "通常は平日8:15〜17:00。けやきの延長窓口は第2・第4水曜18:30まで。時間外相談は事前確認"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "菊川市は地域包括支援センターが「けやき窓口」（菊川地域）と「あかっち窓口」（小笠地域）の2窓口体制であることを公式ページで確認。受付時間・電話番号も同ページに記載あり。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "市の窓口変更に合わせて時間案内を更新しました。地域包括支援センターの旧時間表記との相違があるため、時間外相談は事前確認としています。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/parents-care/check-parents/",
@@ -4773,7 +5085,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "磐田・掛川版とは異なる菊川市独自の見守り施策（QRコードシール配付事業、GPS探索機器事業、わんわんパトロール隊）を公式ページで確認し、それらを軸に執筆。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "高齢者補聴器購入費助成の対象概要と購入前申請を追記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/choujukaigo/zaitakufukusijigyou.html"
+   ]
+  }
  },
  {
   "href": "/life/parents-care/community-support-center/",
@@ -4800,18 +5119,30 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/choujukaigo/koureishanosoudan.html",
     "label": "菊川市地域包括支援センター（けやき窓口・あかっち窓口）",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "けやき窓口（プラザけやき内、菊川地域担当）／あかっち窓口（菊川市家庭医療センター内、小笠地域担当）",
    "tel_keyaki": "0537-37-1120",
    "tel_akacchi": "0537-73-1818",
-   "hours": "月〜金曜（祝日除く）8:15〜17:00、けやき窓口は水曜のみ夜7時まで"
+   "hours": "通常は平日8:15〜17:00。けやきの延長窓口は第2・第4水曜18:30まで。時間外相談は事前確認"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "磐田市（7か所）・掛川市（5か所）と異なり、菊川市は地区数ではなく2窓口（けやき窓口＝菊川地域、あかっち窓口＝小笠地域）体制であることを公式ページで確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "市の窓口変更に合わせて時間案内を更新しました。地域包括支援センターの旧時間表記との相違があるため、時間外相談は事前確認としています。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/parents-care/dementia-consultation/",
@@ -5481,7 +5812,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "菊川市施設予約システムの存在と利用者登録が必要なこと、体育施設の抽選・一般予約の日程ルール、中央公民館が窓口予約であることを公式ページで確認済み。",
   "verified_date": "2026-07-04",
-  "verified_by": "ai"
+  "verified_by": "ai",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "スポーツ施設予約の4月例外と、学校施設等の年度ごとの団体登録を補足しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/chuusenkai.html"
+   ]
+  }
  },
  {
   "href": "/life/play-out/sports-facilities/",
@@ -5571,15 +5909,22 @@
    }
   ],
   "facts": {
-   "window": "教育文化部社会教育課（0537-73-1114）（確認中: 本文未確認 0537-73-1114）",
-   "tel": "0537-36-3200（和田公園プール・開設期間中のみ）",
+   "window": "菊川市スポーツ協会",
+   "tel": "0537-73-0115（スポーツ協会）。プール0537-36-3200は開設期間中のみ",
    "hours": "午前9時〜午後4時30分（休憩11時50分〜13時）、月曜休業（祝日の場合は翌日）",
-   "note": "料金は無料（コインロッカー代100円のみ、使用後返金）。開設期間は年度により変更（例年7月中旬〜8月下旬頃）のため要確認"
+   "note": "和田公園コミュニティプールの2026年開園期間（7月18日〜8月23日）は終了しました。2027年の開園日程は、今回確認した市公式ページには掲載されていません。次回の利用前に公式案内を確認してください。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "和田公園コミュニティプールの営業時間・料金・休業日・電話番号を公式ページで確認。開設期間の具体的な年月日は年度更新のため目安として扱い、訪問前の要確認事項とした。",
   "verified_date": "2026-07-04",
-  "verified_by": "ai"
+  "verified_by": "ai",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "和田公園プールの2026年開園期間終了と、開設期間外の問い合わせ先を反映しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/wadapool.html"
+   ]
+  }
  },
  {
   "href": "/life/play-out/visit-library/",
@@ -5828,16 +6173,30 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/madoguchigyomuitaku.html",
     "label": "市民課窓口業務の一部を民間事業者に委託しています",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "本庁（生活環境部市民課）・小笠支所（中央公民館内）小笠市民課",
-   "tel": "0537-35-2111（本庁代表）／0537-73-1111（小笠支所）（確認中: 本文未確認 0537-73-1111）",
+   "tel": "0537-35-2111（本庁代表）／0537-73-1111（小笠支所）",
    "address": "〒439-8650 静岡県菊川市堀之内61",
-   "hours": "平日8:15〜17:00（日曜開庁・水曜延長あり）"
+   "hours": "通常は平日8:15〜17:00。2026年7月から水曜延長は対象窓口18:30まで（けやきは第2・第4水曜）",
+   "branch_address": "小笠支所：菊川市下平川6225（中央公民館内）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "本庁・小笠支所の所在地と電話番号、日曜開庁・水曜延長の存在をWebFetch/WebSearchで確認。小笠支所単体の直通番号は明確な公式記載が少なく、支所代表番号を記載。"
+  "ai_notes": "本庁・小笠支所の所在地と電話番号、日曜開庁・水曜延長の存在をWebFetch/WebSearchで確認。小笠支所単体の直通番号は明確な公式記載が少なく、支所代表番号を記載。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "日曜窓口の対象業務、水曜延長時間、小笠支所の所在地を更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/chuuoukouminkan_2.html"
+   ]
+  }
  },
  {
   "href": "/life/start-living/dog-registration/",
@@ -6162,6 +6521,16 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/inunekonotouroku.html",
     "label": "犬の登録",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "label": "水道料金・電子申請の案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -6170,7 +6539,16 @@
    "deadline": "転入した日から14日以内"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "転入届の窓口・期限・持ち物をWebFetchで確認し、水道・ごみ・犬の登録など関連手続きへのリンクを整理した。"
+  "ai_notes": "転入届の窓口・期限・持ち物をWebFetchで確認し、水道・ごみ・犬の登録など関連手続きへのリンクを整理した。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "水道の電子申請について公式ページ間の表記差を明記し、利用前の確認先を案内しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/suidou/kaishinituite.html",
+    "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/start-living/moving-address-change/",
@@ -6291,6 +6669,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/mynumber5.html",
     "label": "マイナンバーカードに関するお知らせ",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -6301,7 +6684,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "受け取り窓口が菊川地区・小笠地区で異なること、受付時間、必要書類をWebFetchで確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "2026年7月以降の日曜カード交付の条件を追記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/start-living/pets-lost-animals/",
@@ -6538,6 +6928,16 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/zaisei/shisetu/suidojigyousyo.html",
     "label": "菊川市水道事務所",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/kaishinituite.html",
+    "label": "水道の開始・休止手続き",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -6548,7 +6948,16 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "料金体系・支払い方法（PayPay対応含む）・検針サイクルをWebFetchで確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "水道窓口の水曜延長廃止と受付時間を更新しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/suidou/kaishinituite.html",
+    "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/start-living/water-start-stop-fees/",
@@ -6609,17 +7018,37 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/suidou/jousuidou.html",
     "label": "上水道",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "label": "水道料金・電子申請の案内",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "水道料金お客さまセンター",
-   "tel": "0537-73-1120",
-   "fax": "0537-73-1117（確認中: 本文未確認 0537-73-1117）",
+   "tel": "0537-73-1120（水道料金お客さまセンター）",
+   "fax": "0537-73-1121（水道料金お客さまセンター）",
    "deadline": "希望日の3営業日前まで（土日祝日受付不可）",
-   "note": "使用開始・使用休止届は電子申請対応。使用者変更届・廃止届は書面のみ"
+   "note": "電子申請の案内はありますが、公式の料金ページにはメンテナンスによる利用停止の記載も残っています。利用可否は水道料金お客さまセンター（0537-73-1120）に確認し、希望日の3営業日前までに手続きしてください。",
+   "reception_hours": "平日8:15〜17:00（土日祝日を除く）。水曜延長は2026年7月から廃止"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "届出期限（3営業日前）、電子申請の対象範囲、ファックス番号をWebFetchで確認。moving-outカテゴリの停止手続き情報とも整合。"
+  "ai_notes": "届出期限（3営業日前）、電子申請の対象範囲、ファックス番号をWebFetchで確認。moving-outカテゴリの停止手続き情報とも整合。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "水道の電子申請について公式ページ間の表記差を明記し、利用前の確認先を案内しました。 水道開始・休止の窓口、FAX番号と受付時間を現行案内に合わせました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/suidou/kaishinituite.html",
+    "https://www.city.kikugawa.shizuoka.jp/suidou/suidouryoukin.html",
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/troubles-consult/animal-pet-consultation/",
@@ -6741,13 +7170,20 @@
   ],
   "facts": {
    "window": "企画財政部税務課徴収対策係",
-   "tel": "0537-35-0910（確認中: 本文未確認 0537-35-0910）",
-   "note": "延滞金は納期限翌日起算、当初2か月年2.4%・それ以降年8.7%（令和4〜7年）。督促状送付後10日で滞納処分の対象。分割納付の具体的な要件は個別相談"
+   "tel": "0537-35-0910",
+   "note": "2026年の延滞金は、納期限の翌日から1か月まで年2.8%、その後年9.1%。過年度分や端数処理は市の計算方法を確認。分割納付等は個別相談"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "税務課徴収対策係の連絡先、延滞金の利率・滞納処分の流れをWebFetchで確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "2026年の延滞金率に更新し、低率期間を「2か月」から正しい「1か月」に修正しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/zeimu/enntaikinn-tainousyhobunn.html"
+   ]
+  }
  },
  {
   "href": "/life/troubles-consult/care-consultation/",
@@ -6795,17 +7231,29 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/fukushi/keyaki.html",
     "label": "菊川市総合保健福祉センター（プラザけやき）",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "健康福祉部長寿介護課（地域包括支援センター）",
    "tel": "0537-37-1120（けやき窓口）／0537-73-1818（あかっち窓口）",
-   "hours": "平日8:15-17:00（けやき窓口は水曜のみ19:00まで）"
+   "hours": "通常は平日8:15〜17:00。けやきの延長窓口は第2・第4水曜18:30まで。時間外相談は事前確認"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "地域包括支援センターの窓口（けやき・あかっち）の連絡先・受付時間をWebFetchで確認。介護保険申請の詳細はparents-careカテゴリと重複するため、ここでは相談入口として記載。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "市の窓口変更に合わせて時間案内を更新しました。地域包括支援センターの旧時間表記との相違があるため、時間外相談は事前確認としています。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/troubles-consult/child-consultation/",
@@ -7689,6 +8137,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/akiyakaitai.html",
     "label": "解体費用のAI無料査定",
     "confidence": "medium"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "label": "空家等の除却（解体）補助制度",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -7699,7 +8152,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "都市計画課の空き家対策窓口、ワンストップ相談会の実施実績（令和6年11月開催）、空き家バンク・解体AI査定の各制度をWebFetchで確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/city-tax-payment/",
@@ -7891,10 +8351,18 @@
   ],
   "facts": {
    "window": "総務部総務課",
-   "tel": "0537-35-0921（確認中: 本文未確認 0537-35-0921）"
+   "tel": "0537-35-0921（確認中: 本文未確認 0537-35-0921）",
+   "current_recruitment": "2027年4月1日採用予定の再追加募集（社会福祉士・精神保健福祉士、社会人経験区分を含む）は、2026年11月5日に申込受付を終了しました。11月21日時点で掲載されているこの募集の受付は終了しています。新たな募集は市の職員採用ページで確認してください。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "職員採用ページをWebFetchで確認。一般事務職（大卒程度他）・消防職の募集区分、総務課0537-35-0921。試験日程は年度更新のため本文は一般的な案内にとどめた。"
+  "ai_notes": "職員採用ページをWebFetchで確認。一般事務職（大卒程度他）・消防職の募集区分、総務課0537-35-0921。試験日程は年度更新のため本文は一般的な案内にとどめた。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "職員採用の再追加募集について、2026年11月5日の受付終了を明記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/soumu/shokuinsaiyou.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/light-vehicle-tax/",
@@ -7992,6 +8460,11 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/shimin/konbini.html",
     "label": "証明書のコンビニ交付サービス",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html",
+    "label": "2026年7月からの日曜窓口・水曜延長の変更",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -8001,7 +8474,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "市民課住民記録係(0537-35-0917)を確認。税・年金窓口での利用（コンビニ交付・e-Tax）の視点も本文に反映。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "2026年7月以降の日曜カード交付の条件を追記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shisei/mainanbakyuzitukouhu-suiyouencho.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/national-health-insurance-tax/",
@@ -8098,7 +8578,14 @@
    "tel": "0537-35-0915（確認中: 本文未確認 0537-35-0915）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "国保・年金の届出ページをWebFetchで確認。14日以内の届出ルール、市民課国保年金係0537-35-0915（end-of-lifeカテゴリの既存判明情報と一致）。"
+  "ai_notes": "国保・年金の届出ページをWebFetchで確認。14日以内の届出ルール、市民課国保年金係0537-35-0915（end-of-lifeカテゴリの既存判明情報と一致）。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "保険証到着待ちの旧表現を資格確認書類と14日以内の届出に修正しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/shimin/kokuhotodokede.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/resident-tax/",
@@ -8141,7 +8628,7 @@
    },
    {
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/r6teigakugenzei.html",
-    "label": "定額減税について",
+    "label": "国外転出される方の個人住民税",
     "confidence": "high"
    }
   ],
@@ -8150,7 +8637,14 @@
    "tel": "0537-35-0912（確認中: 本文未確認 0537-35-0912）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "市・県民税ページをWebFetchで確認。普通徴収は年4回（6・8・10・12月）、特別徴収は給与天引き。市民税係0537-35-0912を確認。"
+  "ai_notes": "市・県民税ページをWebFetchで確認。普通徴収は年4回（6・8・10・12月）、特別徴収は給与天引き。市民税係0537-35-0912を確認。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "リンク先が国外転出時の住民税案内に変わっていたため、質問と出典名を現行の内容に合わせました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/zeimu/r6teigakugenzei.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/start-business/",
@@ -8201,16 +8695,29 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/keieikiban/hanrokakudai.html",
     "label": "経営基盤強化（販路拡大）補助金",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/sougyousien/sougyouhojyokin.html",
+    "label": "令和8年度創業支援事業費補助金・二次公募",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "建設経済部産業支援センター",
-   "tel": "0537-35-0930"
+   "tel": "0537-35-0930",
+   "startup_round": "令和8年度の二次公募は2026年12月1〜15日、最終日は17時必着です（11月21日時点では受付開始前）。今回から資金計画書が必要です。補助は対象経費の2分の1以内・上限50万円で、創業前または創業後2年以内、特定創業支援等事業の支援などの条件があります。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "2026年3月開設の産業支援センターが創業支援の中心窓口であることをWebFetchで確認。EnGAWAビジネススクール・特定創業支援等事業の優遇措置を確認。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "創業支援補助金の二次公募日程と、新たに必要な資金計画書を追記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/sangyou/sougyousien/sougyouhojyokin.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/start-farming/",
@@ -8264,7 +8771,14 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "農林課農業振興係(0537-35-0938)・農地利用係(0537-35-0939)を確認。新規就農専用の窓口ページは見当たらず、農業振興係が相談窓口である旨をWeb情報から補強。地域計画（人・農地プラン、市内10地区）を確認。茶・メロン産地との断定は避け「産地として知られる」の表現に留めた。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "桜田市民農園の申込受付終了を反映しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/nourin/siminnouen.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/subsidies/",
@@ -8305,14 +8819,28 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/nourin/hojyojigyo.html",
     "label": "補助事業・保険制度",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "label": "空家等の除却（解体）補助制度",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "分野により産業支援センター(0537-35-0930)／都市計画課(0537-35-0957)／環境推進課(0537-35-0916)／農林課(0537-35-0938)（確認中: 本文未確認 0537-35-0916）（確認中: 本文未確認 0537-35-0938）",
-   "tel": "0537-35-0930"
+   "tel": "0537-35-0930",
+   "startup_round": "令和8年度の二次公募は2026年12月1〜15日、最終日は17時必着です（11月21日時点では受付開始前）。今回から資金計画書が必要です。補助は対象経費の2分の1以内・上限50万円で、創業前または創業後2年以内、特定創業支援等事業の支援などの条件があります。"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "分野別に補助金ページが多数あることを検索で確認。全補助金の網羅一覧ページは見当たらず、代表例を確認済みURLとして採用。着手前申請ルールを本文に明記。"
+  "ai_notes": "分野別に補助金ページが多数あることを検索で確認。全補助金の網羅一覧ページは見当たらず、代表例を確認済みURLとして採用。着手前申請ルールを本文に明記。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "空き家解体補助の対象要件、敷地内全建築物の解体条件、対象外経費を補足しました。 創業支援補助金の二次公募日程と、新たに必要な資金計画書を追記しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/jokyakuhojo.html",
+    "https://www.city.kikugawa.shizuoka.jp/sangyou/sougyousien/sougyouhojyokin.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/tax/",
@@ -8402,14 +8930,33 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/yuubinseikyuu.html",
     "label": "郵便で請求する場合",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/shikennminzei_syoumei.html",
+    "label": "所得証明書・所得課税証明書",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.city.kikugawa.shizuoka.jp/zeimu/koukashoumeisho.html",
+    "label": "税務証明書の交付請求時の本人確認",
+    "confidence": "high"
    }
   ],
   "facts": {
-   "window": "企画財政部税務課（市民税係0537-35-0912／資産税係0537-35-0913）（確認中: 本文未確認 0537-35-0912）（確認中: 本文未確認 0537-35-0913）",
-   "tel": "0537-35-0912（確認中: 本文未確認 0537-35-0912）"
+   "window": "交付窓口：本庁市民課・小笠支所。課税内容の問い合わせ：税務課",
+   "tel": "0537-35-0912（税務課市民税係）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "本人確認書類の要件・郵送請求方法・手数料300円/件（固定資産評価通知書等は無料）をWebFetchで確認。"
+  "ai_notes": "本人確認書類の要件・郵送請求方法・手数料300円/件（固定資産評価通知書等は無料）をWebFetchで確認。",
+  "content_review": {
+   "date": "2026-11-21",
+   "summary": "証明書の交付窓口、本人確認書類の表現、証明年度の読み方を更新しました。 税証明書の郵送先と、未申告の場合の発行所要期間を修正・補足しました。",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/zeimu/shikennminzei_syoumei.html",
+    "https://www.city.kikugawa.shizuoka.jp/zeimu/koukashoumeisho.html",
+    "https://www.city.kikugawa.shizuoka.jp/zeimu/yuubinseikyuu.html"
+   ]
+  }
  },
  {
   "href": "/life/work-life/tax-guide/",

@@ -42,6 +42,8 @@ function extractLead(href) {
 
 function main() {
   const topicsMaster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/topics_master.json'), 'utf8'));
+  const portalPath = path.join(ROOT, 'data/portal_pages.json');
+  if (fs.existsSync(portalPath)) topicsMaster.push(...JSON.parse(fs.readFileSync(portalPath, 'utf8')));
   const searchIndex = topicsMaster
     .map((topic) => {
       const lead = extractLead(topic.href);

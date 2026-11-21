@@ -30,6 +30,7 @@ CITY = ROOT / "data" / "city.json"
 CONTENT_DIR = ROOT / "data" / "content"
 LIFE_DIR = ROOT / "life"
 STAGING_DIR = ROOT / "_staging"
+FACT_LABELS = json.loads((ROOT / "data/fact_labels.json").read_text(encoding="utf-8"))
 
 PUBLISHABLE_STATUSES = ("ai-checked", "machine-verified", "human-verified", "published")
 
@@ -155,7 +156,7 @@ def facts_html(facts):
         return ""
     rows = []
     for k, v in facts.items():
-        rows.append(f"<p class=\"mini\"><b>{esc(k)}</b>：{esc(v)}</p>")
+        rows.append(f"<p class=\"mini\"><b>{esc(FACT_LABELS.get(k,k))}</b>：{esc(v)}</p>")
     return "".join(rows)
 
 
@@ -235,6 +236,11 @@ def render_page(item, city, category_items, content_map):
             lead = f"{esc(city_name)}の{esc(category)}に関する「{esc(title)}」について、公式ページの情報を整理しています。"
 
     note_html = f'<div class="note">{esc(content["note"])}</div>' if content and content.get("note") else ""
+    review = item.get('content_review')
+    if review:
+        note_html = (f'<div class="note content-update"><strong>{esc(review["date"])} 情報更新</strong>'
+                     f'<p>{esc(review["summary"])}</p></div>') + note_html
+    verified_label = '基礎情報の確認日' if review else '最終確認日'
     rich_html = ""
     if content:
         rich_html = "".join([
@@ -249,6 +255,7 @@ def render_page(item, city, category_items, content_map):
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | {esc(site_name)}</title>
 <meta name="description" content="{esc(city_name)}の{esc(category)}に関する情報を整理する非公式ナビです。最新・正確な情報は必ず{esc(city_name)}公式ページで確認してください。">
+<link rel="canonical" href="{esc(city['site_url'] + item['href'])}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260702"><!-- PART:head-css:END --></head><body>
 <!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">{esc(site_name)}</a></div></header><!-- PART:header:END -->
@@ -262,7 +269,7 @@ def render_page(item, city, category_items, content_map):
 <h2 class="sec">あわせて確認したい{esc(category)}のリンク</h2><div class="official">{related_links_html(item, category_items)}</div>
 {cv_block_html(city)}
 <section class="feedback-box" id="feedback"><h2 class="sec" style="margin-top:0">これで解決しそうですか？</h2><p class="mini" style="margin:0 0 10px">いただいた反応は、ページ改善のためだけに使います。お名前や連絡先は取得しません。</p><div class="fb-actions"><button type="button" class="fb-btn" data-feedback="solved">解決しそう</button><button type="button" class="fb-btn" data-feedback="still_worried">まだ不安</button><button type="button" class="fb-btn" data-feedback="could_not_find">探している情報がなかった</button></div><p class="fb-thanks">ありがとうございました。いただいた声は今後のページ改善に役立てます。</p></section>
-<p class="verified">最終確認日：{esc(verified_date)} ／ 本ページは公式情報を整理したものです。最新・正確な情報は必ず{esc(city_name)}公式ページで確認してください。</p>
+<p class="verified">{verified_label}：{esc(verified_date)} ／ 本ページは公式情報を整理したものです。今回の更新範囲はページ上部に記載しています。最新・正確な情報は必ず{esc(city_name)}公式ページで確認してください。</p>
 </div></main><!-- PART:footer:START --><!-- PART:footer:END -->
 </body></html>
 """
@@ -272,11 +279,15 @@ def render_page(item, city, category_items, content_map):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--category")
+    ap.add_argument("--content-only", action="store_true", help="既存HTMLのhead・共通部品を保持して本文を全件再生成する")
+    ap.add_argument("--review-date", help="指定日に内容を確認・更新した項目のみ再生成する")
     args = ap.parse_args()
 
     ledger, city = load()
     content_map = load_content_map()
     items = [i for i in ledger if not args.category or i["category"] == args.category]
+    if args.review_date:
+        items = [i for i in items if i.get('content_review', {}).get('date') == args.review_date]
 
     by_category = {}
     for i in ledger:
@@ -291,6 +302,12 @@ def main():
         out_base = ROOT if verified else STAGING_DIR
         out_path = out_base / rel / "index.html"
         out_path.parent.mkdir(parents=True, exist_ok=True)
+        if args.content_only and out_path.exists():
+            original = out_path.read_text(encoding="utf-8")
+            main = re.search(r'<main>.*?</main>', html, re.S)
+            if not main or len(re.findall(r'<main>', original)) != 1:
+                raise ValueError(f'本文範囲を一意に特定できません: {out_path}')
+            html = re.sub(r'<main>.*?</main>', lambda m: main.group(), original, count=1, flags=re.S)
         out_path.write_text(html, encoding="utf-8", newline="\n")
         if verified:
             n_published += 1

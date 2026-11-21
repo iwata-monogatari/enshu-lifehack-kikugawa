@@ -13,7 +13,9 @@ PUBLISHABLE_STATUSES = ('ai-checked', 'machine-verified', 'human-verified', 'pub
 def main():
     ledger = json.loads((ROOT / 'data/topics_master.json').read_text(encoding='utf-8'))
     published = [t for t in ledger if t.get('status') in PUBLISHABLE_STATUSES]
-    urls = ['/', '/terms/'] + sorted(t['href'] for t in published)
+    portal_path = ROOT / 'data/portal_pages.json'
+    portal = json.loads(portal_path.read_text(encoding='utf-8')) if portal_path.exists() else []
+    urls = ['/', '/terms/'] + sorted({t['href'] for t in published} | {t['href'] for t in portal})
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
