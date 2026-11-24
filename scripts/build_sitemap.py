@@ -15,11 +15,16 @@ def main():
     published = [t for t in ledger if t.get('status') in PUBLISHABLE_STATUSES]
     portal_path = ROOT / 'data/portal_pages.json'
     portal = json.loads(portal_path.read_text(encoding='utf-8')) if portal_path.exists() else []
+    editorial = json.loads((ROOT / 'data/portal_content.json').read_text(encoding='utf-8'))
+    recent = {item['href']: item['review_date'] for item in editorial['articles'] if item.get('review_date')}
+    if editorial.get('home_search'):
+        recent['/'] = editorial['home_search']['date']
     urls = ['/', '/terms/'] + sorted({t['href'] for t in published} | {t['href'] for t in portal})
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
-        lines.append(f'<url><loc>{SITE}{u}</loc></url>')
+        lastmod = f'<lastmod>{recent[u]}</lastmod>' if u in recent else ''
+        lines.append(f'<url><loc>{SITE}{u}</loc>{lastmod}</url>')
     lines.append('</urlset>')
     out = ROOT / 'sitemap.xml'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')

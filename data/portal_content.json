@@ -46,6 +46,10 @@
             {
               "href": "/life/start-living/public-transit/#current-information",
               "title": "菊川駅の送迎と公共交通を確認"
+            },
+            {
+              "href": "/for/station/#pickup",
+              "title": "菊川駅の北口・南口と送迎場所を確認"
             }
           ]
         },
@@ -67,6 +71,10 @@
             {
               "href": "https://kikugawaalb.atawi.link/features/",
               "title": "菊川の文化財・風景の写真特集へ"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/",
+              "title": "堀之内・小笠などの昔の空中写真を地名から見る"
             }
           ]
         },
@@ -642,6 +650,268 @@
         {
           "url": "https://www.city.kikugawa.shizuoka.jp/kenkouchouju/29seijinn.html",
           "label": "総合検診"
+        }
+      ]
+    },
+    {
+      "href": "/for/station/",
+      "title": "JR菊川駅の送迎・北口と南口・バス乗り場",
+      "lead": "静岡県のJR菊川駅で車の送迎はどこへ行くか、北口と南口をどう移動するか、バスや電車の時刻をどこで調べるかをまとめました。",
+      "review_date": "2026-11-24",
+      "synonyms": [
+        "菊川駅 北口",
+        "菊川駅 南口",
+        "菊川駅 送迎",
+        "菊川駅 一般車乗降場",
+        "菊川駅 バス乗り場",
+        "菊川駅 時刻表",
+        "菊川駅 構内図"
+      ],
+      "image": {
+        "src": "/assets/kikugawa-station-south-480.webp",
+        "width": 480,
+        "height": 360,
+        "alt": "曲線を描くひさしと階段があるJR菊川駅の南口",
+        "source": "https://commons.wikimedia.org/wiki/File:2026_Kikugawa_Station_06.jpg",
+        "credit": "Halowand／Wikimedia Commons",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "date": "2026年4月5日撮影・縮小してWebP化"
+      },
+      "sections": [
+        {
+          "id": "pickup",
+          "title": "車で迎えに行くなら北口の仮設乗降場",
+          "paragraphs": [
+            "駅南口の一般車乗降場の復旧は2027年2月ごろに延期されました。工事中の送迎は、市の案内にある北口の一般車仮設乗降場を確認してください。",
+            "北口の乗降場へ向かう経路は、市のチラシvol.8の入出場ルート図にあります。出発前に最新のお知らせと、現地の誘導表示をご確認ください。迎えに行く人と降りる人には、南北どちらで待ち合わせるかを先に伝えておくと迷いにくくなります。"
+          ],
+          "links": [
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/documents/tirashi8-2.pdf",
+              "title": "北口の仮設乗降場と車の入出場ルート（PDF）"
+            },
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/documents/kouki.pdf",
+              "title": "南口の復旧延期のお知らせ（PDF）"
+            },
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/jiyuutuuroseibi.html",
+              "title": "市の工事案内・最新の変更を確認"
+            }
+          ]
+        },
+        {
+          "id": "exits",
+          "title": "北口・南口を歩いて行き来する",
+          "paragraphs": [
+            "南北自由通路は2026年3月28日に開通し、橋上駅舎では翌29日から利用が始まりました。線路を挟んだ南北の移動や迎えの待ち合わせには自由通路を使えます。",
+            "車いす・ベビーカーで移動する場合は、出発前に市の構内案内図で北口・南口のエレベーターの位置と改札への道を確認できます。"
+          ],
+          "links": [
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/documents/ekichirashi_vol7.pdf",
+              "title": "北口・南口と自由通路の構内案内図（PDF）"
+            },
+            {
+              "href": "https://jr-central.co.jp/news/release/_pdf/000044909.pdf",
+              "title": "JR東海の新駅舎・エレベーター設備の案内（PDF）"
+            }
+          ]
+        },
+        {
+          "id": "bus",
+          "title": "バスの乗り場と行き先を確認する",
+          "paragraphs": [
+            "静鉄バスの菊川浜岡線は、公式の乗り場案内では1番です。27系統は西横地経由、28系統は菊川市立病院経由です。行きたい停留所を経由する便か、利用日の時刻表と車両の表示で確認してください。",
+            "市のコミュニティバスは平日運行です。定時定路線と予約型コミタクくんでは使い方が異なるため、先に路線図と運行日を確認してください。"
+          ],
+          "links": [
+            {
+              "href": "https://www.justline.co.jp/busstop/kikugawa-2/",
+              "title": "静鉄バスの菊川駅乗り場と時刻表"
+            },
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+              "title": "菊川市コミュニティバスの路線図・時刻表"
+            },
+            {
+              "href": "/life/start-living/public-transit/",
+              "title": "市内の公共交通の使い方"
+            }
+          ]
+        },
+        {
+          "id": "train",
+          "title": "電車の時刻は利用日と方面を選ぶ",
+          "paragraphs": [
+            "JR東海道本線の駅です。JR東海の時刻表で「菊川」を検索し、金谷・静岡方面か、掛川・浜松方面かを選びます。曜日や臨時の運行変更に備え、当日の案内を確認してください。"
+          ],
+          "links": [
+            {
+              "href": "https://railway.jr-central.co.jp/time-schedule/search/",
+              "title": "JR東海の各駅の時刻表"
+            },
+            {
+              "href": "https://traininfo.jr-central.co.jp/zairaisen/index.html",
+              "title": "JR東海の在来線運行状況"
+            }
+          ]
+        },
+        {
+          "id": "visit",
+          "title": "駅周辺を歩く・昔の駅と見比べる",
+          "paragraphs": [
+            "待ち合わせの場所が決まったら、堀之内の古い街並みや赤れんが倉庫を調べられます。駅舎の変化を見たい方は、地上写真か、周辺全体が分かる空中写真を選べます。"
+          ],
+          "links": [
+            {
+              "href": "/for/visit/#section-1",
+              "title": "いまの菊川駅周辺の散策案内"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/kikugawa-station/",
+              "title": "菊川駅の新旧駅舎・ホームの写真"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/station-horinouchi/",
+              "title": "菊川駅前・堀之内・西方を空中写真で見る"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/jiyuutuuroseibi.html",
+          "label": "菊川市の工事・送迎場所の案内"
+        },
+        {
+          "url": "https://jr-central.co.jp/news/release/_pdf/000044909.pdf",
+          "label": "JR東海の自由通路と橋上駅舎の案内"
+        },
+        {
+          "url": "https://www.justline.co.jp/busstop/kikugawa-2/",
+          "label": "静鉄バスの菊川駅乗り場案内"
+        },
+        {
+          "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+          "label": "菊川市のコミュニティバス案内"
+        }
+      ]
+    },
+    {
+      "href": "/for/year-end/",
+      "title": "菊川市の年末年始2026–2027｜ごみ収集・図書館・バス",
+      "lead": "菊川市で2026年末から2027年始に予定を立てる方へ。家庭ごみと持ち込み、図書館の返却、コミュニティバスを、年内に確認する順番でまとめました。",
+      "review_date": "2026-11-24",
+      "synonyms": [
+        "菊川市 年末年始 ごみ",
+        "菊川市 ごみ 年内最終",
+        "菊川市 図書館 年末年始",
+        "コミタクくん 年末年始",
+        "粗大ごみ 年末 年始"
+      ],
+      "sections": [
+        {
+          "id": "garbage",
+          "title": "家庭ごみは自治会とごみの種類を先に確認",
+          "paragraphs": [
+            "ステーションでの収集日は自治会の区分とごみの種類で変わります。市の令和8年度カレンダーで自治会名を探してから、12月の年内最終日と1月の年明け最初の日を両方控えておきます。",
+            "燃えるごみと資源物の収集日は同じとは限りません。市の案内では、収集当日の朝8時までに決められた収集場所へ出すことになっています。"
+          ],
+          "links": [
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/calendar/r8calender.html",
+              "title": "自治会別のごみ収集カレンダー（市公式）"
+            },
+            {
+              "href": "/life/start-living/garbage-sorting-calendar/",
+              "title": "カレンダーの探し方と分別の案内"
+            }
+          ]
+        },
+        {
+          "id": "carry-in",
+          "title": "粗大ごみを自分で持ち込む場合",
+          "paragraphs": [
+            "環境資源ギャラリーへ直接持ち込む場合は、受け入れられる品目と営業日の両方を確認します。予約対象日には専用の予約ページで事前に空きを確認してください。",
+            "自治会の収集カレンダーと、施設へ直接持ち込める日程は別です。年末の持ち込みを予定している場合は予約ページの対象日と施設の案内を優先してください。"
+          ],
+          "links": [
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/kankyoushigen.html",
+              "title": "環境資源ギャラリーの所在地・利用案内（市公式）"
+            },
+            {
+              "href": "https://gallery-yoyaku.rsvsys.jp/",
+              "title": "ごみ持込予約の対象日・空きを確認"
+            },
+            {
+              "href": "/life/start-living/bulky-garbage-dropoff/",
+              "title": "粗大ごみの持ち込みと回収の違い"
+            }
+          ]
+        },
+        {
+          "id": "library",
+          "title": "図書館は返却期限と開館日を合わせて確認",
+          "paragraphs": [
+            "菊川文庫・小笠図書館は12月29日から1月3日まで休館です。両館とも通常は月曜休館のため、この期間の前後に行く場合も、各館のカレンダーと貸出時に示された返却期限を確かめてください。",
+            "休館中に返却したい場合は、資料の種類によって返却ポストを利用できるかが変わるため、図書館の公式案内で確認してください。"
+          ],
+          "links": [
+            {
+              "href": "https://tosyo.city.kikugawa.shizuoka.jp/use/notice.html",
+              "title": "開館日・資料の返却方法（図書館公式）"
+            },
+            {
+              "href": "https://tosyo.city.kikugawa.shizuoka.jp/library/kikugawa.html",
+              "title": "菊川文庫のカレンダー"
+            },
+            {
+              "href": "/life/play-out/visit-library/",
+              "title": "菊川文庫と小笠図書館の利用方法"
+            }
+          ]
+        },
+        {
+          "id": "bus",
+          "title": "バスの運休に合わせて往復の移動を決める",
+          "paragraphs": [
+            "菊川市の定時定路線バスとコミタクくんは12月29日から1月3日まで運休します。通常も土日・祝日は運休です。利用日が決まったら、行きと帰り両方の便を確認してください。",
+            "JRや静鉄バスを組み合わせる場合は、各社で利用日の時刻表を確認してください。駅で家族に迎えに来てもらう場合は、工事中の送迎場所も先に確認できます。"
+          ],
+          "links": [
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+              "title": "コミュニティバスの運行日・時刻表（市公式）"
+            },
+            {
+              "href": "/for/station/",
+              "title": "菊川駅の送迎場所・JRと静鉄バスの確認先"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/calendar/r8calender.html",
+          "label": "菊川市の自治会別ごみ収集カレンダー"
+        },
+        {
+          "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/kankyoushigen.html",
+          "label": "菊川市の環境資源ギャラリー案内"
+        },
+        {
+          "url": "https://gallery-yoyaku.rsvsys.jp/",
+          "label": "掛川市・菊川市のごみ持込予約"
+        },
+        {
+          "url": "https://tosyo.city.kikugawa.shizuoka.jp/use/notice.html",
+          "label": "菊川市立図書館の利用案内"
+        },
+        {
+          "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+          "label": "菊川市のコミュニティバス案内"
         }
       ]
     }
@@ -1257,8 +1527,16 @@
         ],
         "links": [
           {
+            "href": "/for/station/",
+            "title": "JR菊川駅の送迎・北口南口・バス乗り場"
+          },
+          {
             "href": "https://kikugawaalb.atawi.link/features/kikugawa-station/",
             "title": "新旧の菊川駅を写真で見る"
+          },
+          {
+            "href": "/for/year-end/",
+            "title": "年末年始の暮らしの確認先をまとめて見る"
           }
         ]
       },
@@ -1266,6 +1544,12 @@
         "title": "年末年始の収集日を確認",
         "notices": [
           "garbage-year-end"
+        ],
+        "links": [
+          {
+            "href": "/for/year-end/",
+            "title": "年末年始の暮らしの確認先をまとめて見る"
+          }
         ]
       },
       "/life/play-out/visit-library/": {
@@ -1277,9 +1561,19 @@
           {
             "href": "https://kikugawaalb.atawi.link/features/library-and-city-hall/",
             "title": "菊川文庫の建物を写真で見る"
+          },
+          {
+            "href": "/for/year-end/",
+            "title": "年末年始の暮らしの確認先をまとめて見る"
           }
         ]
       }
     }
+  },
+  "home_search": {
+    "description": "菊川市の手続き、子育て、介護、防災と暮らしの相談先を探せます。菊川駅の送迎・バス乗り場、地域の散策、年末年始の確認先も公式案内付きで掲載。",
+    "image": "/assets/kikugawa-tea-fields-1280.webp",
+    "image_alt": "菊川の丘に広がる茶畑",
+    "date": "2026-11-24"
   }
 }

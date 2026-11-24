@@ -11,6 +11,7 @@ DATA=json.loads((ROOT/'data/portal_content.json').read_text(encoding='utf-8'))
 DATE=DATA['date']
 CURRENT=DATA['current_information']
 NOTICES={notice['id']:notice for notice in CURRENT['notices']}
+HOME_SEARCH=DATA['home_search']
 FACT_LABELS=json.loads((ROOT/'data/fact_labels.json').read_text(encoding='utf-8'))
 TOPICS=json.loads((ROOT/'data/topics_master.json').read_text(encoding='utf-8'))
 CONTENTS={x['href']:x for p in (ROOT/'data/content').glob('*.json') for x in json.loads(p.read_text(encoding='utf-8'))}
@@ -21,7 +22,7 @@ CSS='<link rel="stylesheet" href="/assets/portal.css?v=20261121b">'
 JS='<script src="/assets/portal.js?v=20261121" defer></script>'
 CURRENT_CSS='<link rel="stylesheet" href="/assets/portal-current.css?v=20261124">'
 def links(items):return '<div class="portal-links">'+''.join(f'<a href="{e(x["href"])}">{e(x["title"])}</a>' for x in items)+'</div>'
-def sources(items):return '<section class="portal-sources"><h2>公式情報・確認先</h2><p>確認日：'+DATE+'。開館・募集・制度の変更はリンク先でご確認ください。</p><ul>'+''.join(f'<li><a href="{e(x["url"])}" target="_blank" rel="noopener">{e(x["label"])}</a>'+ (f' <small>（{e(x["checked_on"])}確認）</small>' if x.get('checked_on') else '')+'</li>' for x in items)+'</ul></section>'
+def sources(items,checked_on=DATE):return '<section class="portal-sources"><h2>公式情報・確認先</h2><p>確認日：'+checked_on+'。開館・募集・制度の変更はリンク先でご確認ください。</p><ul>'+''.join(f'<li><a href="{e(x["url"])}" target="_blank" rel="noopener">{e(x["label"])}</a>'+ (f' <small>（{e(x["checked_on"])}確認）</small>' if x.get('checked_on') else '')+'</li>' for x in items)+'</ul></section>'
 def notice_item(notice, detail=False, show_guide=True):
  title=e(notice['title'])
  schedule=e(notice['schedule'])
@@ -60,14 +61,24 @@ def home_hero(question_count):
 
 def card(url,title,desc,icon='🧭',meta=''):
  return f'<a class="portal-card" href="{e(url)}"><span class="icon" aria-hidden="true">{e(icon)}</span><h3>{e(title)}</h3><p>{e(desc)}</p>'+ (f'<p class="meta">{e(meta)}</p>' if meta else '')+'<span class="more">詳しく見る →</span></a>'
-def write(href,title,lead,body,category='暮らしのガイド',synonyms=None,page_date=DATE):
+def share_meta(href,title,description,image,image_alt,article=False):
+ page_url=SITE+href
+ image_url=SITE+image
+ props={'og:type':'article' if article else 'website','og:locale':'ja_JP','og:site_name':'菊川ライフハック','og:title':title,'og:description':description,'og:url':page_url,'og:image':image_url,'og:image:alt':image_alt}
+ return ''.join(f'<meta property="{key}" content="{e(value)}">' for key,value in props.items())+'<meta name="twitter:card" content="summary_large_image">'
+
+def article_photo(photo):
+ return f'<figure class="portal-panel"><img src="{e(photo["src"])}" width="{e(photo["width"])}" height="{e(photo["height"])}" alt="{e(photo["alt"])}" style="display:block;max-width:100%;height:auto;border-radius:10px"><figcaption class="mini">{e(photo["date"])}。写真 <a href="{e(photo["source"])}">{e(photo["credit"])}</a>（<a href="{e(photo["license"])}">CC BY 4.0</a>）</figcaption></figure>'
+
+def write(href,title,lead,body,category='暮らしのガイド',synonyms=None,page_date=DATE,preview=None):
  headcss=(ROOT/'parts/head-css.html').read_text(encoding='utf-8').strip()
  header=(ROOT/'parts/header.html').read_text(encoding='utf-8').strip()
  disclaimer=(ROOT/'parts/disclaimer.html').read_text(encoding='utf-8').strip()
  footer=(ROOT/'parts/footer.html').read_text(encoding='utf-8').strip()
+ preview_meta=share_meta(href,title,lead,preview['src'],preview['alt'],article=True) if preview else ''
  document=f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} | 菊川ライフハック</title><meta name="description" content="{e(lead)}"><link rel="canonical" href="{SITE}{href}"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<!-- PART:head-css:START -->{headcss}<!-- PART:head-css:END -->{CSS}{CURRENT_CSS if 'id="current-information"' in body else ''}{JS}</head><body>
+<!-- PART:head-css:START -->{headcss}<!-- PART:head-css:END -->{CSS}{CURRENT_CSS if 'id="current-information"' in body else ''}{JS}{preview_meta}</head><body>
 <!-- PART:header:START -->{header}<!-- PART:header:END -->
 <!-- PART:disclaimer:START -->{disclaimer}<!-- PART:disclaimer:END -->
 <!-- PORTAL:NAV:START -->{NAV}<!-- PORTAL:NAV:END -->
@@ -80,19 +91,23 @@ def write(href,title,lead,body,category='暮らしのガイド',synonyms=None,pa
 
 # Purpose-oriented authored guides.
 for a in DATA['articles']:
- body='<p class="portal-count">情報確認・編集：2026年11月21日</p>'
+ review_date=a.get('review_date')
+ photo=a.get('image')
+ body=f'<p class="portal-count">公式情報確認：<time datetime="{review_date}">{review_date}</time></p>' if review_date else '<p class="portal-count">情報確認・編集：2026年11月21日</p>'
  latest=a.get('latest_sections')
  if latest:
   body+=f'<p class="portal-count">追加確認：<time datetime="{e(latest["date"])}">{e(latest["date"])}</time>（{"、".join(e(a['sections'][i]['title']) for i in latest['sections'])}）</p>'
- body+='<ul class="portal-toc">'+''.join(f'<li><a href="#section-{i}">{e(s["title"])}</a></li>' for i,s in enumerate(a['sections']))+'</ul>'
+ body+='<ul class="portal-toc">'+''.join(f'<li><a href="#{e(s.get("id",f"section-{i}"))}">{e(s["title"])}</a></li>' for i,s in enumerate(a['sections']))+'</ul>'
+ if photo:body+=article_photo(photo)
  for i,s in enumerate(a['sections']):
-  body+=f'<section id="section-{i}"><h2>{e(s["title"])}</h2>'+''.join(f'<p>{e(p)}</p>' for p in s['paragraphs'])+links(s['links'])+'</section>'
+  body+=f'<section id="{e(s.get("id",f"section-{i}"))}"><h2>{e(s["title"])}</h2>'+''.join(f'<p>{e(p)}</p>' for p in s['paragraphs'])+links(s['links'])+'</section>'
   if i==0 and a.get('table'):
    t=a['table'];body+='<section><h2>目的別に条件を比較する</h2><p class="portal-count">表は横にスクロールできます。</p><div class="portal-table-wrap" tabindex="0" role="region" aria-label="支援制度の比較表"><table class="portal-table"><thead><tr>'+''.join(f'<th scope="col">{e(h)}</th>' for h in t['headers'])+'</tr></thead><tbody>'
    for row in t['rows']:body+='<tr>'+''.join(f'<td>{e(v)}</td>' for v in row[:-1])+f'<td><a href="/life/{e(row[-1])}/">詳細・窓口を見る</a></td></tr>'
    body+='</tbody></table></div></section>'
- body+=sources(a['sources'])
- write(a['href'],a['title'],a['lead'],body, '目的別ガイド', page_date=latest['date'] if latest else DATE)
+ body+=sources(a['sources'],review_date or DATE)
+ preview=photo or ({'src':HOME_SEARCH['image'],'alt':HOME_SEARCH['image_alt']} if review_date else None)
+ write(a['href'],a['title'],a['lead'],body, '目的別ガイド', a.get('synonyms'), page_date=review_date or (latest['date'] if latest else DATE), preview=preview)
 
 def filters(categories,placeholder,pagesize=0):
  return f'<section data-filter data-page-size="{pagesize}"><div class="portal-search"><div class="search-word"><label for="filter-word">言葉で探す</label><input id="filter-word" type="search" data-search-input placeholder="{e(placeholder)}"></div><div><label for="filter-category">分野を選ぶ</label><select id="filter-category" data-category-input><option value="">すべての分野</option>'+''.join(f'<option value="{e(c)}">{e(c)}</option>' for c in categories)+'</select></div></div><p class="portal-count" data-result-count aria-live="polite"></p><p class="portal-empty" data-no-results hidden>該当する項目がありません。別の言葉で探すか、分野を「すべて」に戻してください。</p>'
@@ -155,6 +170,10 @@ write('/updates/','菊川の最新情報・更新記録','菊川駅の送迎、�
 
 # Home: preserve the original category accordion and the Nov 19 photo/consultation area.
 homepath=ROOT/'index.html';home=homepath.read_text(encoding='utf-8')
+home=re.sub(r'<meta name="description" content="[^"]*">',lambda _:f'<meta name="description" content="{e(HOME_SEARCH["description"])}">',home,count=1)
+share_block='<!-- PORTAL:SHARE:START -->'+share_meta('/','菊川ライフハック｜菊川市の暮らし・手続き・地域の案内',HOME_SEARCH['description'],HOME_SEARCH['image'],HOME_SEARCH['image_alt'])+'<!-- PORTAL:SHARE:END -->'
+if '<!-- PORTAL:SHARE:START -->' in home:home=re.sub(r'<!-- PORTAL:SHARE:START -->.*?<!-- PORTAL:SHARE:END -->',lambda _:share_block,home,flags=re.S)
+else:home=home.replace('</head>',share_block+'</head>',1)
 home=re.sub(r'<section class="(?:hero|portal-hero(?: kikugawa-home-hero)?)">.*?</section>',lambda _:home_hero(len(questions)),home,count=1,flags=re.S)
 home_css='<link rel="stylesheet" href="/assets/kikugawa-home.css?v=20261124b">'
 if home_css not in home:home=home.replace('</head>',home_css+CURRENT_CSS+'</head>',1)
@@ -171,8 +190,8 @@ for url,status,cls,title,desc in [
  fresh+=f'<a class="portal-card" href="{url}"><span class="portal-date {cls}">{status}</span><h3 style="margin-top:14px">{title}</h3><p>{desc}</p><span class="more">詳しく確認 →</span></a>'
 fresh+='</div>'+links([{'href':'/updates/','title':'検診・税・住宅など、今回の更新をすべて見る'},{'href':'/support/','title':'支援・補助制度の対象と金額を比較する'}])+'</section>'
 tools='<section><p class="portal-kicker">探す・整理する</p><h2>暮らしの疑問を、次の行動へ</h2><div class="portal-grid">'+card('/questions/','質問から答えを探す','「土日でもできる？」「何を持っていく？」分野とキーワードで回答を検索。','💬')+card('/checklists/','手続きをチェックする','転入、出産、結婚、転職、帰省。チェックを保存して、印刷もできます。','✅')+card('/places/','菊川の行き先を探す','史跡・寺社・公園・農園の特徴と、見学前に確かめたいこと。','🗺️')+'</div></section>'
-memories='<section class="portal-panel" id="kikugawa-memories"><p class="portal-kicker">まちの記憶と、いまの暮らし</p><h2>昔の菊川を見て、いまの菊川を歩く。</h2><p>菊川駅や堀之内、旧小笠町の風景を写真でたどる「菊川懐かし写真館」。見慣れた場所の昔の姿を知ったら、現在の散策情報と合わせて、まちを訪ねてみませんか。</p>'+links([{'href':'https://kikugawaalb.atawi.link/','title':'菊川懐かし写真館を見る'},{'href':'/for/visit/','title':'いまの菊川の散策ガイドへ'}])+'</section>'
-block='<!-- PORTAL:HOME:START -->'+purpose+urgent+current_information()+fresh+tools+memories+'<!-- PORTAL:HOME:END -->'
+memories='<section class="portal-panel" id="kikugawa-memories"><p class="portal-kicker">まちの記憶と、いまの暮らし</p><h2>昔の菊川を見て、いまの菊川を歩く。</h2><p>菊川駅や堀之内、旧小笠町の風景を写真でたどる「菊川懐かし写真館」。見慣れた場所の昔の姿を知ったら、現在の散策情報と合わせて、まちを訪ねてみませんか。</p>'+links([{'href':'https://kikugawaalb.atawi.link/','title':'菊川懐かし写真館を見る'},{'href':'https://kikugawaalb.atawi.link/aerial-areas/','title':'昔の空中写真を地区別に探す'},{'href':'/for/visit/','title':'いまの菊川の散策ガイドへ'}])+'</section>'
+block='<!-- PORTAL:HOME:START -->'+purpose+urgent+current_information()+links([{'href':'/for/station/','title':'菊川駅の送迎・乗り場を調べる'},{'href':'/for/year-end/','title':'菊川市の年末年始の暮らしを確認する'}])+fresh+tools+memories+'<!-- PORTAL:HOME:END -->'
 if '<!-- PORTAL:HOME:START -->' in home:home=re.sub(r'<!-- PORTAL:HOME:START -->.*?<!-- PORTAL:HOME:END -->',lambda m:block,home,flags=re.S)
 else:home=home.replace('<section id="category-links">',block+'<section id="category-links">',1)
 home=re.sub(r'<section class="updates">.*?</section>','<section class="portal-panel"><h2>情報の確認状況</h2><p>市公式の参照先と、期限・窓口・制度の変更を照合しました。ページごとの確認範囲と、公式ページ間で案内が異なる事項は更新記録にまとめています。</p>'+links([{'href':'/updates/','title':'更新・確認記録を見る'},{'href':'https://www.city.kikugawa.shizuoka.jp/','title':'菊川市公式サイトへ'}])+'</section>',home,count=1,flags=re.S)

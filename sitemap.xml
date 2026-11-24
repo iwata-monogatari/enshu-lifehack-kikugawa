@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://kikugawa.enshu-lifehack.com/</loc></url>
+<url><loc>https://kikugawa.enshu-lifehack.com/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/terms/</loc></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/checklists/</loc></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/checklists/baby/</loc></url>
@@ -11,7 +11,9 @@
 <url><loc>https://kikugawa.enshu-lifehack.com/checklists/parents/</loc></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/for/family/</loc></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/for/move/</loc></url>
+<url><loc>https://kikugawa.enshu-lifehack.com/for/station/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/for/visit/</loc></url>
+<url><loc>https://kikugawa.enshu-lifehack.com/for/year-end/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/guide/</loc></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/life/education/</loc></url>
 <url><loc>https://kikugawa.enshu-lifehack.com/life/education/after-school-club/</loc></url>
