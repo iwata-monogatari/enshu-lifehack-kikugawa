@@ -47,7 +47,7 @@ def home_hero(question_count):
  return f'''<section class="portal-hero kikugawa-home-hero">
  <div class="home-hero-copy">
   <p class="eyebrow">静岡県菊川市</p>
-  <h1>菊川で暮らす。訪ねる。<br>家族を支える。</h1>
+  <h1>菊川で暮らす。<wbr>訪ねる。<br>家族を支える。</h1>
   <p class="lead">手続き、子育て、親の介護、実家のこと。知りたいことを、答えと次の行動につなげる暮らしのガイドです。</p>
   <div class="portal-stats"><span>155の暮らしのガイド</span><span>{question_count}の質問と回答</span></div>
   <nav class="home-hero-links" aria-label="菊川の案内"><a href="#current-information">菊川の最新情報</a><a href="/for/visit/">菊川の散策ガイド</a></nav>
@@ -156,7 +156,7 @@ write('/updates/','菊川の最新情報・更新記録','菊川駅の送迎、�
 # Home: preserve the original category accordion and the Nov 19 photo/consultation area.
 homepath=ROOT/'index.html';home=homepath.read_text(encoding='utf-8')
 home=re.sub(r'<section class="(?:hero|portal-hero(?: kikugawa-home-hero)?)">.*?</section>',lambda _:home_hero(len(questions)),home,count=1,flags=re.S)
-home_css='<link rel="stylesheet" href="/assets/kikugawa-home.css?v=20261124">'
+home_css='<link rel="stylesheet" href="/assets/kikugawa-home.css?v=20261124b">'
 if home_css not in home:home=home.replace('</head>',home_css+CURRENT_CSS+'</head>',1)
 home=home.replace('<main><div class="wrap">','<main class="portal"><div class="wrap">',1)
 purpose='<section><p class="portal-kicker">まずは、あなたの目的から</p><h2>菊川で、何をしたいですか？</h2><div class="portal-grid">'+card('/for/visit/','菊川を訪ねる','お茶、歴史、公園。開館日と見学範囲を確かめて、出かける計画を。','🍵')+card('/for/family/','菊川に親・実家がある','親の暮らし、介護、家の管理。帰省前に確認する順番を整理。','🏡')+card('/for/move/','移住・住み替えを考える','交通、学校、保育、住まい。契約前と引っ越し後を分けて準備。','🌿')+'</div></section>'
@@ -167,7 +167,6 @@ fresh='<section><p class="portal-kicker">2026年11月21日確認</p><h2>受付�
 for url,status,cls,title,desc in [
  ('/life/family-grow/nursery-school/','第2期受付中','','2027年度の保育園・こども園','第2期は2027年1月8日まで。途中入園との違い、書類の準備を確認。'),
  ('/life/education/after-school-club/','一斉受付終了','ended','2027年度の放課後児童クラブ','期間後はこども政策課へ。12月14日以降の提出は2027年5月の入所調整。'),
- ('/life/work-life/start-business/','12月1日受付開始','soon','創業支援補助金の二次公募','12月15日17時必着。新たに必要な資金計画書と申請条件を確認。'),
  ('/life/start-living/city-hall-branches/','窓口運用変更','info','水曜・日曜の窓口を利用する前に','水曜延長は18:30まで。日曜は予約済みマイナンバーカード交付のみ。')]:
  fresh+=f'<a class="portal-card" href="{url}"><span class="portal-date {cls}">{status}</span><h3 style="margin-top:14px">{title}</h3><p>{desc}</p><span class="more">詳しく確認 →</span></a>'
 fresh+='</div>'+links([{'href':'/updates/','title':'検診・税・住宅など、今回の更新をすべて見る'},{'href':'/support/','title':'支援・補助制度の対象と金額を比較する'}])+'</section>'

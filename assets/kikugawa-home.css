@@ -4,6 +4,11 @@ body .portal .kikugawa-home-hero {
   gap: clamp(20px, 3vw, 38px);
   align-items: center;
 }
+.kikugawa-home-hero .home-hero-copy { container-type: inline-size; }
+body .portal .kikugawa-home-hero h1 {
+  font-size: clamp(24px, 8.4cqi, 38px);
+  word-break: keep-all;
+}
 .kikugawa-home-hero figure { margin: 0; }
 .kikugawa-home-hero img {
   display: block;
