@@ -6026,19 +6026,31 @@
     "url": "https://www.city.kikugawa.shizuoka.jp/toshokan/index.html",
     "label": "教育文化部図書館",
     "confidence": "high"
+   },
+   {
+    "url": "https://tosyo.city.kikugawa.shizuoka.jp/use/notice.html",
+    "label": "菊川市立図書館の利用案内",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "教育文化部図書館（菊川文庫・小笠図書館）",
    "tel": "0537-36-2220（菊川文庫）／0537-73-1132（小笠図書館）",
    "address": "菊川文庫: 菊川市堀之内61（市役所本庁西隣）／小笠図書館: 菊川市下平川6225（中央公民館東隣）",
-   "hours": "午前10時〜午後6時（両館共通）。休館日は月曜・祝日・年末年始・月末整理期間等（詳細は開館カレンダーで要確認）",
-   "note": "貸出カードの作成条件・貸出冊数期間は公式ページの詳細確認まで至らず確認中（要確認）"
+   "hours": "火曜〜日曜の10時〜18時（両館共通）。月曜、年末年始、特別整理期間は休館。月曜以外の祝日は開館。",
+   "note": "両館共通の無料カードを作るには、住所・氏名・生年月日を示す証明書を持参。利用対象や貸出点数は図書館公式の利用案内で確認。"
   },
   "ai_checked_date": "2026-07-04",
   "ai_notes": "菊川文庫・小笠図書館の所在地・電話番号・開館時間（10時〜18時）を公式ページで確認済み（educationカテゴリの調査結果と一致）。貸出カード作成の具体的な必要書類は確認中とした。",
   "verified_date": "2026-07-04",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "content_review": {
+   "date": "2026-11-24",
+   "summary": "年末年始の開館日を確認",
+   "sources": [
+    "https://tosyo.city.kikugawa.shizuoka.jp/use/notice.html"
+   ]
+  }
  },
  {
   "href": "/life/start-living/bulky-garbage-dropoff/",
@@ -6432,7 +6444,14 @@
    "note": "地区別（A〜J等）に収集カレンダーが分かれる。『5374（ごみなし）』アプリでも確認可能。年度ごとに更新（令和8年度版が最新）"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "地区別カレンダーの存在とアプリ、環境推進課の連絡先をWebFetch/WebSearchで確認。ごみの出し方一覧表PDFは取得エラーのため、テキストページの情報で代替確認した。"
+  "ai_notes": "地区別カレンダーの存在とアプリ、環境推進課の連絡先をWebFetch/WebSearchで確認。ごみの出し方一覧表PDFは取得エラーのため、テキストページの情報で代替確認した。",
+  "content_review": {
+   "date": "2026-11-24",
+   "summary": "年末年始の収集日を確認",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/calendar/r8calender.html"
+   ]
+  }
  },
  {
   "href": "/life/start-living/how-to-garbage/",
@@ -6876,7 +6895,15 @@
    "fare": "小学生以上100円、未就学児無料。障害者手帳・要介護1以上・市内在住75歳以上等は免除"
   },
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "定時定路線7コース＋デマンド型コミタクくん2コースの計9コース運行体制、運賃・免除制度、予約先をWebSearch/WebFetchで確認。"
+  "ai_notes": "定時定路線7コース＋デマンド型コミタクくん2コースの計9コース運行体制、運賃・免除制度、予約先をWebSearch/WebFetchで確認。",
+  "content_review": {
+   "date": "2026-11-24",
+   "summary": "菊川駅の送迎・年末年始の運行",
+   "sources": [
+    "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/jiyuutuuroseibi.html",
+    "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html"
+   ]
+  }
  },
  {
   "href": "/life/start-living/resident-registration/",

@@ -26,6 +26,7 @@
         {
           "title": "駅周辺で、菊川の歴史と高台の景色に触れる",
           "paragraphs": [
+            "駅南口の一般車乗降場は、菊川市の工事案内で復旧が2027年2月ごろに延期されています。車で送迎する場合は、出発前に市の最新チラシを確認してください。",
             "報恩寺は堀之内1219にあり、市の案内では菊川駅から徒歩約5分。駅周辺散策の候補ですが、寺院は日常の信仰の場でもあります。行事や境内の掲示を優先し、建物内部の拝観可否は個別に確認してください。",
             "菊川公園は半済1550-5の小高い丘にあり、駅南西側から向かう道には坂があります。平坦な散歩だけを希望する場合は、高低差を含む公式ウォーキングマップを先に確認すると判断しやすくなります。"
           ],
@@ -41,6 +42,10 @@
             {
               "href": "https://kikugawaalb.atawi.link/features/red-brick-warehouse/",
               "title": "菊川赤れんが倉庫を写真で見る"
+            },
+            {
+              "href": "/life/start-living/public-transit/#current-information",
+              "title": "菊川駅の送迎と公共交通を確認"
             }
           ]
         },
@@ -128,19 +133,40 @@
             {
               "href": "https://blueberryogasa.com/",
               "title": "ブルーベリーの郷公式サイト"
+            },
+            {
+              "href": "/places/#place-26",
+              "title": "丹野池の場所と訪問前の注意"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/tanno-pond/",
+              "title": "丹野池と周辺の景観を写真で見る"
             }
           ]
         },
         {
-          "title": "11月21日時点のイベント・季節施設",
+          "title": "冬のイベント・開館日・移動を確認する",
           "paragraphs": [
-            "菊川産業祭2026の開催予定日だった11月15日は終了しています。市のイベントページには過去の案内も残るため、掲載日と開催日を分けて読みます。駅南朝市・フリーマーケットは、同ページで休止中・次回未定と案内されています。",
-            "和田公園プールの2026年開園期間は7月18日〜8月23日でした。公園に行くことと、プールを利用できることは別です。2027年の営業日程を確認するまでは、前年の期間をそのまま予定に使わないでください。"
+            "きくがわおんぱく2026は2026年12月13日まで。音楽・食・アートなど市内各地の体験企画です。開催日・空き状況・予約の要否はプログラムごとに確認してください。",
+            "菊川文庫・小笠図書館の年末年始は12月29日から翌年1月3日まで休館です。市内をバスで移動する場合は、運行日も先に確認してください。",
+            "和田公園プールの2026年の開園期間は終了しました。次の開園日は公式案内でご確認ください。"
           ],
           "links": [
             {
-              "href": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/ivent/iventjouhou.html",
-              "title": "市のイベント情報を見る"
+              "href": "https://kikugawaonpaku.jp/",
+              "title": "きくがわおんぱくのプログラム（主催者公式）"
+            },
+            {
+              "href": "https://www.city.kikugawa.shizuoka.jp/cgi-bin/event_cal_multi/calendar.cgi",
+              "title": "市のイベントカレンダー"
+            },
+            {
+              "href": "/life/play-out/visit-library/#current-information",
+              "title": "図書館の年末年始の休館日"
+            },
+            {
+              "href": "/life/start-living/public-transit/#current-information",
+              "title": "公共交通の運行日・送迎場所"
             },
             {
               "href": "/life/play-out/swimming-pools/",
@@ -181,8 +207,30 @@
         {
           "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/ivent/iventjouhou.html",
           "label": "イベント情報"
+        },
+        {
+          "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/jiyuutuuroseibi.html",
+          "label": "工事案内と最新のチラシ（市公式）",
+          "checked_on": "2026-11-24"
+        },
+        {
+          "url": "https://tosyo.city.kikugawa.shizuoka.jp/use/notice.html",
+          "label": "開館日・休館日（図書館公式）",
+          "checked_on": "2026-11-24"
+        },
+        {
+          "url": "https://kikugawaonpaku.jp/",
+          "label": "プログラム一覧（主催者公式）",
+          "checked_on": "2026-11-24"
         }
-      ]
+      ],
+      "latest_sections": {
+        "date": "2026-11-24",
+        "sections": [
+          1,
+          6
+        ]
+      }
     },
     {
       "href": "/for/family/",
@@ -905,7 +953,11 @@
       "body": "皇円阿闍梨にまつわる伝承や、移築された朱塗りの山門で知られる寺院。",
       "note": "宝物や建物内部の公開状況は、参拝前に確認してください。",
       "address": "市公式地図で確認",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/oukoekyouin.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/oukoekyouin.html",
+      "photo": {
+        "href": "https://kikugawaalb.atawi.link/features/oshokyoin/",
+        "title": "応声教院の山門・石段を写真で見る"
+      }
     },
     {
       "name": "横地城跡",
@@ -913,7 +965,11 @@
       "body": "曲輪や堀切など、中世山城の地形が残る国指定史跡の一部。",
       "note": "坂・階段あり。2026年度の整備工事予定があるため現地の通行案内を優先。",
       "address": "東横地",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/shiteibunkazai/yokochishijoukanato.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/shiteibunkazai/yokochishijoukanato.html",
+      "photo": {
+        "href": "https://kikugawaalb.atawi.link/features/yokochi-castle/",
+        "title": "横地城跡を写真で見る"
+      }
     },
     {
       "name": "太郎坊大権現",
@@ -945,7 +1001,11 @@
       "body": "長屋門や母屋、蔵、濠などが国の重要文化財となっている住宅です。",
       "note": "現在も居住中。建物内部と庭園には入れません。内部を覗き込む行為も控えてください。",
       "address": "下平川（詳細は公式地図）",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/kurodake.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/kurodake.html",
+      "photo": {
+        "href": "https://kikugawaalb.atawi.link/features/kuroda-daikan/",
+        "title": "黒田家代官屋敷を写真で見る"
+      }
     },
     {
       "name": "代官屋敷資料館",
@@ -1049,7 +1109,11 @@
       "body": "農業用のため池の周囲に散策路や東屋が整備されています。",
       "note": "水辺の散策路を利用し、水中や管理区域に立ち入らないでください。",
       "address": "市公式地図で確認",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/tannoike.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/tannoike.html",
+      "photo": {
+        "href": "https://kikugawaalb.atawi.link/features/tanno-pond/",
+        "title": "丹野池の風景を写真で見る"
+      }
     },
     {
       "name": "桜づつみ公園",
@@ -1099,5 +1163,123 @@
       "address": "下平川618-1",
       "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/maizoubunkazaisenta-dokidoki.html"
     }
-  ]
+  ],
+  "current_information": {
+    "date": "2026-11-24",
+    "home": [
+      "memorial-tree",
+      "top-news",
+      "station-pickup",
+      "onpaku",
+      "library-year-end",
+      "bus-year-end",
+      "garbage-year-end",
+      "startup"
+    ],
+    "notices": [
+      {
+        "id": "station-pickup",
+        "title": "菊川駅南口の一般車乗降場",
+        "schedule": "復旧予定は2027年2月ごろ",
+        "summary": "駅南駅前広場の一般車乗降場は復旧が延期されました。車で迎えに行く前に、市の工事案内と現地の誘導表示を確認してください。",
+        "url": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/jiyuutuuroseibi.html",
+        "official": "工事案内と最新のチラシ（市公式）",
+        "href": "/life/start-living/public-transit/"
+      },
+      {
+        "id": "library-year-end",
+        "title": "菊川文庫・小笠図書館の年末年始",
+        "schedule": "2026年12月29日〜2027年1月3日休館",
+        "summary": "両館の年末年始の休館期間です。通常の月曜休館もあるため、貸出・返却の予定は各館のカレンダーとあわせて確認してください。",
+        "url": "https://tosyo.city.kikugawa.shizuoka.jp/use/notice.html",
+        "official": "開館日・休館日（図書館公式）",
+        "href": "/life/play-out/visit-library/"
+      },
+      {
+        "id": "bus-year-end",
+        "title": "コミュニティバスの年末年始",
+        "schedule": "2026年12月29日〜2027年1月3日運休",
+        "summary": "定時定路線も予約型のコミタクくんも、この期間は運休です。土日・祝日も運休のため、前後の運行日と時刻表を確認してください。",
+        "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
+        "official": "運行案内・時刻表（市公式）",
+        "href": "/life/start-living/public-transit/"
+      },
+      {
+        "id": "garbage-year-end",
+        "title": "年末年始の家庭ごみ収集",
+        "schedule": "自治会別の12月・1月の日程",
+        "summary": "自治会の該当区分を探し、ごみの種類ごとに年内最終日と年明け最初の収集日を確認してください。",
+        "url": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/calendar/r8calender.html",
+        "official": "自治会別ごみ収集カレンダー（市公式）",
+        "href": "/life/start-living/garbage-sorting-calendar/"
+      },
+      {
+        "id": "memorial-tree",
+        "title": "後期記念樹の受け取り",
+        "schedule": "2026年11月24日〜27日",
+        "summary": "申込済みの方への配布です。受け取りは菊川市役所本庁3階の農林課です。市からの通知もご確認ください。",
+        "url": "https://www.city.kikugawa.shizuoka.jp/nourin/kinenju.html",
+        "official": "配布場所と問い合わせ（市公式）"
+      },
+      {
+        "id": "top-news",
+        "title": "2026年 菊川市10大ニュース投票",
+        "schedule": "2026年12月4日まで",
+        "summary": "今年の市内のできごとから、印象に残ったニュースを選びます。候補一覧と投票フォームは市の案内にあります。",
+        "url": "https://www.city.kikugawa.shizuoka.jp/eigyou/r810dainews.html",
+        "official": "候補一覧と投票フォーム（市公式）"
+      },
+      {
+        "id": "onpaku",
+        "title": "きくがわおんぱく2026",
+        "schedule": "2026年12月13日まで",
+        "summary": "音楽・食・アートなど市内各地の体験企画です。開催日・空き状況・予約の要否はプログラムごとに確認してください。",
+        "url": "https://kikugawaonpaku.jp/",
+        "official": "プログラム一覧（主催者公式）",
+        "href": "/for/visit/#section-6"
+      },
+      {
+        "id": "startup",
+        "title": "創業支援事業費補助金の二次公募",
+        "schedule": "2026年12月1日〜15日 17時必着",
+        "summary": "市内での創業を考えている方は、応募条件と資金計画書などの提出書類を事前に確認できます。",
+        "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/sougyousien/sougyouhojyokin.html",
+        "official": "募集要領と申請書類（市公式）",
+        "href": "/life/work-life/start-business/"
+      }
+    ],
+    "guide_notes": {
+      "/life/start-living/public-transit/": {
+        "title": "菊川駅の送迎・年末年始の運行",
+        "notices": [
+          "station-pickup",
+          "bus-year-end"
+        ],
+        "links": [
+          {
+            "href": "https://kikugawaalb.atawi.link/features/kikugawa-station/",
+            "title": "新旧の菊川駅を写真で見る"
+          }
+        ]
+      },
+      "/life/start-living/garbage-sorting-calendar/": {
+        "title": "年末年始の収集日を確認",
+        "notices": [
+          "garbage-year-end"
+        ]
+      },
+      "/life/play-out/visit-library/": {
+        "title": "年末年始の開館日を確認",
+        "notices": [
+          "library-year-end"
+        ],
+        "links": [
+          {
+            "href": "https://kikugawaalb.atawi.link/features/library-and-city-hall/",
+            "title": "菊川文庫の建物を写真で見る"
+          }
+        ]
+      }
+    }
+  }
 }

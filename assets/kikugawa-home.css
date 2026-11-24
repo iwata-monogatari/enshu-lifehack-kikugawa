@@ -1,0 +1,42 @@
+body .portal .kikugawa-home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.16fr);
+  gap: clamp(20px, 3vw, 38px);
+  align-items: center;
+}
+.kikugawa-home-hero figure { margin: 0; }
+.kikugawa-home-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.kikugawa-home-hero figcaption {
+  margin-top: 9px;
+  color: #f1f4ec;
+  font-size: .78rem;
+  line-height: 1.7;
+}
+.kikugawa-home-hero figcaption a { color: #fff; }
+.kikugawa-home-hero .home-hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+.kikugawa-home-hero .home-hero-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  border: 1px solid #e4d2a4;
+  border-radius: 8px;
+  padding: 4px 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.kikugawa-home-hero .home-hero-links a:hover { background: #ffffff18; }
+.kikugawa-home-hero .home-hero-links a:focus-visible,
+.kikugawa-home-hero figcaption a:focus-visible { outline-color: #f7e2a5; }
+@media (max-width: 840px) {
+  body .portal .kikugawa-home-hero { grid-template-columns: minmax(0, 1fr); }
+}
