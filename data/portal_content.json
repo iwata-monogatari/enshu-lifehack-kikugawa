@@ -50,6 +50,10 @@
             {
               "href": "/for/station/#pickup",
               "title": "菊川駅の北口・南口と送迎場所を確認"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/station-horinouchi/",
+              "title": "菊川駅前・堀之内・西方の昔の空中写真を見る"
             }
           ]
         },
@@ -93,6 +97,10 @@
             {
               "href": "https://kikugawaalb.atawi.link/features/yokochi-castle/",
               "title": "横地城跡の標柱や切り通しを写真で見る"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/yokochi/",
+              "title": "横地城跡周辺の東横地・西横地を空中写真で見る"
             }
           ]
         },
@@ -115,6 +123,10 @@
             {
               "href": "/places/?q=塩の道",
               "title": "塩の道公園の案内"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/ogasa/",
+              "title": "黒田家代官屋敷のある下平川周辺を空中写真で見る"
             }
           ]
         },
@@ -149,6 +161,14 @@
             {
               "href": "https://kikugawaalb.atawi.link/features/tanno-pond/",
               "title": "丹野池と周辺の景観を写真で見る"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/kawakami-tanno/",
+              "title": "丹野池周辺の川上・丹野を空中写真で見る"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/kurasawa-makinohara/",
+              "title": "棚田や茶畑のある倉沢・牧之原周辺を空から見る"
             }
           ]
         },
@@ -401,6 +421,14 @@
             {
               "href": "/life/living-soon/about-kikugawa/",
               "title": "菊川で暮らす前の基本情報"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/",
+              "title": "住む地区の家並みや道を昔の空中写真でたどる"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/aerial-areas/honjo-kamo/",
+              "title": "住宅地の候補を調べるときに、本所・加茂の空中写真を見比べる"
             }
           ]
         },
@@ -422,6 +450,10 @@
             {
               "href": "/life/housing/earthquake-demolition/",
               "title": "耐震補助の条件"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/kikugawa-flood-history/",
+              "title": "菊川の浸水記録を写真で見る"
             }
           ]
         },
@@ -697,6 +729,10 @@
             {
               "href": "https://www.city.kikugawa.shizuoka.jp/toshikeikaku/ekikita/jiyuutuuroseibi.html",
               "title": "市の工事案内・最新の変更を確認"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/photos/commons-5ae135e5db/",
+              "title": "2026年の菊川駅北口の外観を見る"
             }
           ]
         },
@@ -715,6 +751,10 @@
             {
               "href": "https://jr-central.co.jp/news/release/_pdf/000044909.pdf",
               "title": "JR東海の新駅舎・エレベーター設備の案内（PDF）"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/photos/commons-9d57131ed1/",
+              "title": "2026年撮影の南北自由通路を見る"
             }
           ]
         },
@@ -870,6 +910,14 @@
             {
               "href": "/life/play-out/visit-library/",
               "title": "菊川文庫と小笠図書館の利用方法"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/photos/commons-121a24e367/",
+              "title": "菊川文庫の外観を見る（2021年撮影）"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/photos/commons-3508f1d535/",
+              "title": "小笠図書館の外観を見る（2017年撮影）"
             }
           ]
         },
@@ -1167,7 +1215,13 @@
       "body": "上倉沢の千框（せんがまち）と呼ばれる棚田。農作業が続く景観を眺める場所です。",
       "note": "田や畦へ無断で入らず、農作業・通行の妨げにならない場所から。",
       "address": "上倉沢",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/uekurasawatanada.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/uekurasawatanada.html",
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/aerial-areas/kurasawa-makinohara/",
+          "title": "倉沢周辺の地形を昔の空中写真で見る"
+        }
+      ]
     },
     {
       "name": "片葉の葦",
@@ -1227,7 +1281,13 @@
       "photo": {
         "href": "https://kikugawaalb.atawi.link/features/oshokyoin/",
         "title": "応声教院の山門・石段を写真で見る"
-      }
+      },
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/aerial-areas/nakauchida/",
+          "title": "應聲教院のある中内田周辺を空中写真で見る"
+        }
+      ]
     },
     {
       "name": "横地城跡",
@@ -1239,7 +1299,13 @@
       "photo": {
         "href": "https://kikugawaalb.atawi.link/features/yokochi-castle/",
         "title": "横地城跡を写真で見る"
-      }
+      },
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/aerial-areas/yokochi/",
+          "title": "東横地・西横地の空中写真で城跡周辺の地形を見る"
+        }
+      ]
     },
     {
       "name": "太郎坊大権現",
@@ -1275,7 +1341,13 @@
       "photo": {
         "href": "https://kikugawaalb.atawi.link/features/kuroda-daikan/",
         "title": "黒田家代官屋敷を写真で見る"
-      }
+      },
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/aerial-areas/ogasa/",
+          "title": "代官屋敷のある下平川周辺を空中写真で見る"
+        }
+      ]
     },
     {
       "name": "代官屋敷資料館",
@@ -1283,7 +1355,13 @@
       "body": "黒田家の武具や生活の品、建物の保存修理資料を展示。",
       "note": "通常10〜16時、火〜日曜（祝祭日翌日・年末年始除く）。240円、中学生以下・市民は証明持参で無料。",
       "address": "下平川862-1",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/kurodake_2.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/kurodake_2.html",
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-6a2dcb69c7/",
+          "title": "代官屋敷資料館の外観を見る（2022年撮影）"
+        }
+      ]
     },
     {
       "name": "塩の道公園",
@@ -1299,7 +1377,13 @@
       "body": "今川義忠にゆかりがあり、木像などの文化財が伝わる寺院。",
       "note": "木像や襖絵の見学可否は寺院側へ確認。外から常時見られるとは限りません。",
       "address": "市公式地図で確認",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/seihayashiji.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/seihayashiji.html",
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/ndl-980806-122-yoshitada/",
+          "title": "正林寺の今川義忠墓を古い資料の写真で見る"
+        }
+      ]
     },
     {
       "name": "獅子ヶ鼻砦跡",
@@ -1383,7 +1467,13 @@
       "photo": {
         "href": "https://kikugawaalb.atawi.link/features/tanno-pond/",
         "title": "丹野池の風景を写真で見る"
-      }
+      },
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/aerial-areas/kawakami-tanno/",
+          "title": "丹野池周辺の川上・丹野を昔の空中写真で見る"
+        }
+      ]
     },
     {
       "name": "桜づつみ公園",
@@ -1423,7 +1513,13 @@
       "body": "市の観光スポット一覧に掲載される池です。",
       "note": "一覧から詳細ページへのリンクがなく、散策路・駐車場・立入範囲は今回確認できていません。現地の管理案内を確認してください。",
       "address": "未確認",
-      "url": "https://www.city.kikugawa.shizuoka.jp/kanko/spot/index.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/kanko/spot/index.html",
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/aerial-areas/nakauchida/",
+          "title": "中内田・七曲池周辺を昔の空中写真で見る"
+        }
+      ]
     },
     {
       "name": "埋蔵文化財センターどきどき",
@@ -1431,7 +1527,13 @@
       "body": "市内出土の土器・石器などを時代別に展示。展示室は予約不要で見学できます。",
       "note": "平日8:15〜17:00、土日祝・年末年始休館、無料。入口は階段でスロープなし。案内・団体見学は事前相談。",
       "address": "下平川618-1",
-      "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/maizoubunkazaisenta-dokidoki.html"
+      "url": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/maizoubunkazaisenta-dokidoki.html",
+      "photo_links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-10d3d6e603/",
+          "title": "埋蔵文化財センターどきどきの外観を見る（2019年撮影）"
+        }
+      ]
     }
   ],
   "current_information": {
@@ -1575,5 +1677,339 @@
     "image": "/assets/kikugawa-tea-fields-1280.webp",
     "image_alt": "菊川の丘に広がる茶畑",
     "date": "2026-11-24"
+  },
+  "photo_guides": {
+    "/life/education/study-facilities/": {
+      "title": "学習場所に行く前に、図書館の外観を確かめる",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-121a24e367/",
+          "title": "菊川文庫の外観を見る（2021年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-3508f1d535/",
+          "title": "小笠図書館の外観を見る（2017年撮影）"
+        }
+      ]
+    },
+    "/life/emergency/": {
+      "title": "平常時に、菊川で起きた浸水を写真で知る",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/features/kikugawa-flood-history/",
+          "title": "菊川の浸水記録を写真で見る"
+        }
+      ]
+    },
+    "/life/emergency/disaster-certificates-procedures/": {
+      "title": "り災証明の相談で来庁する方へ",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-0abe9ad96b/",
+          "title": "菊川市役所本庁の外観を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/emergency/evacuation-hazard-map/": {
+      "title": "平常時に、過去の浸水写真も見ておく",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/features/kikugawa-flood-history/",
+          "title": "菊川の浸水記録を写真で見る"
+        }
+      ]
+    },
+    "/life/emergency/hazard-maps/": {
+      "title": "浸水の記録を地区の写真で見比べる",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/mlit-horinouchi-1938-flood/",
+          "title": "1938年に浸水した堀之内の通りを見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/mlit-shimohirakawa-2004/",
+          "title": "2004年に浸水した下平川の交差点を見る"
+        }
+      ]
+    },
+    "/life/emergency/road-river-info/": {
+      "title": "平常時に、川と周辺の記録を写真で見る",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/mlit-kurosawa-2014/",
+          "title": "2014年の黒沢川排水機場周辺を見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/mlit-hachioji-1982/",
+          "title": "1982年の八王子橋付近を見る"
+        }
+      ]
+    },
+    "/life/emergency/storm-heavy-rain/": {
+      "title": "平常時に、過去の大雨被害を知る",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/mlit-gakuyo-1968/",
+          "title": "1968年、冠水した岳洋の街路を見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/mlit-ogasa-honmachi-1982/",
+          "title": "1982年、冠水した小笠本町の通りを見る"
+        }
+      ]
+    },
+    "/life/health-medical/find-hospitals/": {
+      "title": "菊川市立総合病院の建物を写真で見る",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e69263ef03/",
+          "title": "東横地の菊川市立総合病院の外観を見る（2022年撮影）"
+        }
+      ]
+    },
+    "/life/living-soon/about-kikugawa/": {
+      "title": "いまの菊川につながる、駅・旧小笠町・茶園の記録",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/features/kikugawa-station/",
+          "title": "新旧の菊川駅を写真で見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/features/ogasa/",
+          "title": "旧小笠町の公共施設や街並みを写真で見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/features/kawashiro-tea/",
+          "title": "河城の茶園・製茶の写真を見る"
+        }
+      ]
+    },
+    "/life/living-soon/bus-license-return/": {
+      "title": "駅での乗り換えや、返納窓口への来訪に",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-4abc080321/",
+          "title": "菊川警察署の外観を見る（2020年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e46fbf6b47/",
+          "title": "2026年の菊川駅南口の外観を見る"
+        }
+      ]
+    },
+    "/life/living-soon/disaster-risk/": {
+      "title": "住む場所を検討するときに見られる浸水の記録",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/features/kikugawa-flood-history/",
+          "title": "菊川の浸水記録を写真で見る"
+        }
+      ]
+    },
+    "/life/living-soon/transportation/": {
+      "title": "通勤・通学の下見に菊川駅を写真で見る",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e46fbf6b47/",
+          "title": "2026年の菊川駅南口の外観を見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-9d57131ed1/",
+          "title": "2026年撮影の南北自由通路を見る"
+        }
+      ]
+    },
+    "/life/play-out/": {
+      "title": "菊川の行き先を写真から選ぶ",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-f8cc84ecea/",
+          "title": "菊川文化会館アエルの外観を見る（2012年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/features/tanno-pond/",
+          "title": "丹野池と遊歩道の写真を見比べる"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/features/library-and-city-hall/",
+          "title": "図書館と市役所の写真特集を見る"
+        }
+      ]
+    },
+    "/life/play-out/cultural-facilities/": {
+      "title": "訪問前に文化施設の外観を確かめる",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-f8cc84ecea/",
+          "title": "菊川文化会館アエルの外観を見る（2012年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e6dabda08e/",
+          "title": "プラザきくるの正面を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/play-out/facilities-library-parks/": {
+      "title": "公共施設の場所と外観を見比べる",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-121a24e367/",
+          "title": "菊川文庫の外観を見る（2021年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-3508f1d535/",
+          "title": "小笠図書館の外観を見る（2017年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e514c632ab/",
+          "title": "堀之内体育館の外観を見る（2019年撮影）"
+        }
+      ]
+    },
+    "/life/play-out/find-parks/": {
+      "title": "丹野池で水辺を歩くときの風景",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/features/tanno-pond/",
+          "title": "丹野池と遊歩道の写真を見比べる"
+        }
+      ]
+    },
+    "/life/play-out/parking-access/": {
+      "title": "出発前に駅や文化会館の外観を見る",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e46fbf6b47/",
+          "title": "2026年の菊川駅南口の外観を見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-f8cc84ecea/",
+          "title": "菊川文化会館アエルの外観を見る（2012年撮影）"
+        }
+      ]
+    },
+    "/life/play-out/rent-public-facilities/": {
+      "title": "利用前にプラザきくるの外観を確認する",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e6dabda08e/",
+          "title": "プラザきくるの正面を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/play-out/sports-facilities/": {
+      "title": "利用前に堀之内体育館の外観を確かめる",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e514c632ab/",
+          "title": "堀之内体育館の外観を見る（2019年撮影）"
+        }
+      ]
+    },
+    "/life/play-out/visit-library/": {
+      "title": "来館前に菊川文庫と小笠図書館の外観を見比べる",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-121a24e367/",
+          "title": "菊川文庫の外観を見る（2021年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-3508f1d535/",
+          "title": "小笠図書館の外観を見る（2017年撮影）"
+        }
+      ]
+    },
+    "/life/start-living/certificates/": {
+      "title": "市役所本庁へ証明書を取りに行く方へ",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-0abe9ad96b/",
+          "title": "菊川市役所本庁の外観を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/start-living/city-hall-branches/": {
+      "title": "市役所の建物を見分ける手がかりに",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-0abe9ad96b/",
+          "title": "菊川市役所本庁の外観を見る（2021年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-49c45aa80d/",
+          "title": "菊川市役所北館の外観を見る（2021年撮影）"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e6dabda08e/",
+          "title": "プラザきくるの正面を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/start-living/mynumber/": {
+      "title": "受け取りで市役所本庁へ行く方へ",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-0abe9ad96b/",
+          "title": "菊川市役所本庁の外観を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/start-living/public-transit/": {
+      "title": "待ち合わせや乗り継ぎの前に、駅の南北を写真で見る",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-5ae135e5db/",
+          "title": "2026年の菊川駅北口の外観を見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e46fbf6b47/",
+          "title": "2026年の菊川駅南口の外観を見る"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-9d57131ed1/",
+          "title": "2026年撮影の南北自由通路を見る"
+        }
+      ]
+    },
+    "/life/start-living/resident-registration/": {
+      "title": "本庁の窓口に住民票を取りに行く方へ",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-0abe9ad96b/",
+          "title": "菊川市役所本庁の外観を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/troubles-consult/legal-general-consultation/": {
+      "title": "相談会場のプラザきくるの外観を確認する",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e6dabda08e/",
+          "title": "プラザきくるの正面を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/work-life/job-change/": {
+      "title": "プラザきくるの窓口へ相談に行く方へ",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/commons-e6dabda08e/",
+          "title": "プラザきくるの正面を見る（2021年撮影）"
+        }
+      ]
+    },
+    "/life/work-life/start-farming/": {
+      "title": "茶の産地で続いてきた栽培と製茶の記録",
+      "links": [
+        {
+          "href": "https://kikugawaalb.atawi.link/features/kawashiro-tea/",
+          "title": "河城の茶園と製茶の写真をたどる"
+        },
+        {
+          "href": "https://kikugawaalb.atawi.link/photos/ndl-1907703-73-kawashiro-tea/",
+          "title": "1930年、倉沢の茶業試験場で茶を摘む写真を見る"
+        }
+      ]
+    }
   }
 }

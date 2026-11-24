@@ -12,6 +12,7 @@ DATE=DATA['date']
 CURRENT=DATA['current_information']
 NOTICES={notice['id']:notice for notice in CURRENT['notices']}
 HOME_SEARCH=DATA['home_search']
+PHOTO_GUIDES=DATA.get('photo_guides',{})
 FACT_LABELS=json.loads((ROOT/'data/fact_labels.json').read_text(encoding='utf-8'))
 TOPICS=json.loads((ROOT/'data/topics_master.json').read_text(encoding='utf-8'))
 CONTENTS={x['href']:x for p in (ROOT/'data/content').glob('*.json') for x in json.loads(p.read_text(encoding='utf-8'))}
@@ -152,8 +153,8 @@ write('/checklists/','暮らしの手続きチェックリスト','やること�
 body='<p class="portal-note">市公式の観光スポット一覧をもとに、重複する「歴史街道館」と「塩の道公園」は一つに整理し、文化財センターを加えています。市内のすべての寺社・施設を網羅する一覧ではありません。確認できなかった情報は各項目に明記しています。</p>'+filters(list(dict.fromkeys(p['category'] for p in DATA['places'])),'例：公園／黒田／棚田／寺／下平川')+'<div class="portal-grid two">'
 icons={'寺社':'⛩️','史跡・資料館':'🏛️','公園・運動':'🌳','自然・景観':'🌿','農園・体験':'🫐'}
 for i,p in enumerate(DATA['places']):
- photo=p.get('photo')
- photo_link=f'<p><a href="{e(photo["href"])}">{e(photo["title"])} →</a></p>' if photo else ''
+ photos=([p['photo']] if p.get('photo') else [])+p.get('photo_links',[])
+ photo_link=''.join(f'<p><a href="{e(photo["href"])}">{e(photo["title"])} →</a></p>' for photo in photos)
  body+=f'<article class="portal-card" data-search-item data-category="{e(p["category"])}" id="place-{i+1}"><p class="portal-kicker">{e(p["category"])}</p><h3><span aria-hidden="true">{icons[p["category"]]}</span> {e(p["name"])}</h3><p>{e(p["body"])}</p><p><strong>場所：</strong>{e(p["address"])}</p><p><strong>訪問前に：</strong>{e(p["note"])}</p><p><a href="{e(p["url"])}" target="_blank" rel="noopener">公式の説明・地図を見る →</a></p>{photo_link}<p class="meta">公開情報確認：{DATE}（現地確認ではありません）</p></article>'
 body+='</div></section>'+links([{'href':'/for/visit/','title':'訪問計画の立て方'},{'href':'/life/start-living/public-transit/','title':'バス・公共交通'},{'href':'/life/play-out/rent-public-facilities/','title':'施設予約の方法'}])
 body+='<aside class="portal-panel"><h2>訪ねる前に、昔の風景も見てみませんか</h2><p>菊川駅、堀之内、旧小笠町。菊川懐かし写真館では、場所・年代・出典から地域の写真をたどれます。いまの行き先案内と見比べると、まちの変化に気づくきっかけになります。</p>'+links([{'href':'https://kikugawaalb.atawi.link/','title':'菊川懐かし写真館で写真を探す'}])+'</aside>'
@@ -215,6 +216,14 @@ for path in targets:
    text=re.sub(r'<!-- PORTAL:CURRENT:START -->.*?<!-- PORTAL:CURRENT:END -->',lambda _:note,text,flags=re.S)
   else:
    text=text.replace('<h2 class="sec">先に知っておきたいこと',note+'<h2 class="sec">先に知っておきたいこと',1)
+ photo_guide=PHOTO_GUIDES.get(guide_path)
+ if photo_guide:
+  photo_panel='<aside class="portal-panel" id="local-photos" aria-labelledby="local-photos-heading">'+f'<h2 id="local-photos-heading">{e(photo_guide["title"])}</h2>'+links(photo_guide['links'])+'<p class="mini">写真の出典・撮影時期は菊川懐かし写真館で確認できます。</p></aside>'
+  photo_block='<!-- PORTAL:PHOTOS:START -->'+photo_panel+'<!-- PORTAL:PHOTOS:END -->'
+  if '<!-- PORTAL:PHOTOS:START -->' in text:
+   text=re.sub(r'<!-- PORTAL:PHOTOS:START -->.*?<!-- PORTAL:PHOTOS:END -->',lambda _:photo_block,text,flags=re.S)
+  else:
+   text=text.replace('<h2 class="sec">あわせて確認したい',photo_block+'<h2 class="sec">あわせて確認したい',1)
  path.write_text(text,encoding='utf-8',newline='\n')
 (ROOT/'data/portal_pages.json').write_text(json.dumps(pages,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 (ROOT/'data/portal_stats.json').write_text(json.dumps({'date':DATE,'life_pages':len(TOPICS),'questions':len(questions),'places':len(DATA['places']),'checklists':len(DATA['checklists']),'updated_life_pages':len(updated),'portal_pages':len(pages)},ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
