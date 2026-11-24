@@ -149,14 +149,23 @@ for c in DATA['checklists']:
 body='<div class="portal-grid two">'+''.join(card('/checklists/'+c['slug']+'/',c['title'],c['lead'],'✅') for c in DATA['checklists'])+'</div>'
 write('/checklists/','暮らしの手続きチェックリスト','やることを順番に確認し、済んだものにチェックを付けられます。チェックはこのブラウザだけに保存され、印刷して持ち出すこともできます。',body,'手続きチェック',['引っ越し','結婚','出産','転職','介護'])
 
+def local_area_guides(items):
+ if not items:return ''
+ cards=[]
+ for area in items:
+  title=e(area['name'])
+  cards.append(f'<article class="portal-card" id="area-{e(area["id"])}"><h3>{title}</h3><p>{e(area["summary"])}</p><h4>今の案内</h4>'+links(area['visit'])+'<h4>年代の異なる写真</h4>'+links(area['photos'])+'</article>')
+ return '<section id="local-areas"><h2>地区ごとに、今の案内と昔の写真を見比べる</h2><div class="portal-grid two">'+''.join(cards)+'</div></section>'
+
 # Directory covers the city's tourism list, with current closure/access caveats.
-body='<p class="portal-note">市公式の観光スポット一覧をもとに、重複する「歴史街道館」と「塩の道公園」は一つに整理し、文化財センターを加えています。市内のすべての寺社・施設を網羅する一覧ではありません。確認できなかった情報は各項目に明記しています。</p>'+filters(list(dict.fromkeys(p['category'] for p in DATA['places'])),'例：公園／黒田／棚田／寺／下平川')+'<div class="portal-grid two">'
+body='<p class="portal-note">市公式の観光スポット一覧をもとに、重複する「歴史街道館」と「塩の道公園」は一つに整理し、文化財センターを加えています。市内のすべての寺社・施設を網羅する一覧ではありません。確認できなかった情報は各項目に明記しています。</p>'+links([{'href':'#local-areas','title':'地区別の現地案内と空中写真へ'}])+filters(list(dict.fromkeys(p['category'] for p in DATA['places'])),'例：公園／黒田／棚田／寺／下平川')+'<div class="portal-grid two">'
 icons={'寺社':'⛩️','史跡・資料館':'🏛️','公園・運動':'🌳','自然・景観':'🌿','農園・体験':'🫐'}
 for i,p in enumerate(DATA['places']):
  photos=([p['photo']] if p.get('photo') else [])+p.get('photo_links',[])
  photo_link=''.join(f'<p><a href="{e(photo["href"])}">{e(photo["title"])} →</a></p>' for photo in photos)
  body+=f'<article class="portal-card" data-search-item data-category="{e(p["category"])}" id="place-{i+1}"><p class="portal-kicker">{e(p["category"])}</p><h3><span aria-hidden="true">{icons[p["category"]]}</span> {e(p["name"])}</h3><p>{e(p["body"])}</p><p><strong>場所：</strong>{e(p["address"])}</p><p><strong>訪問前に：</strong>{e(p["note"])}</p><p><a href="{e(p["url"])}" target="_blank" rel="noopener">公式の説明・地図を見る →</a></p>{photo_link}<p class="meta">公開情報確認：{DATE}（現地確認ではありません）</p></article>'
 body+='</div></section>'+links([{'href':'/for/visit/','title':'訪問計画の立て方'},{'href':'/life/start-living/public-transit/','title':'バス・公共交通'},{'href':'/life/play-out/rent-public-facilities/','title':'施設予約の方法'}])
+body+=local_area_guides(DATA.get('area_guides',[]))
 body+='<aside class="portal-panel"><h2>訪ねる前に、昔の風景も見てみませんか</h2><p>菊川駅、堀之内、旧小笠町。菊川懐かし写真館では、場所・年代・出典から地域の写真をたどれます。いまの行き先案内と見比べると、まちの変化に気づくきっかけになります。</p>'+links([{'href':'https://kikugawaalb.atawi.link/','title':'菊川懐かし写真館で写真を探す'}])+'</aside>'
 write('/places/','菊川の地域スポット案内｜史跡・寺社・公園・農園','菊川の景色と歴史を、行き先の名前や分野から探せます。見学範囲、季節営業、予約、開館日を、訪問前に一緒に確認しましょう。',body,'菊川を訪ねる',['観光','寺院','神社','公園','農園','史跡','資料館'])
 
