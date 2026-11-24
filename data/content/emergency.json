@@ -464,7 +464,8 @@
   ],
   "tabs": [
    {"id": "type-flood", "label": "洪水・浸水リスクを確認したい", "heading": "菊川・牛淵川・下小笠川の浸水想定を見る", "bullets": ["想定最大規模（概ね1000年に1度）の浸水想定区域を確認する", "過去の台風被害の浸水実績もあわせて見る", "自宅・勤務先・通学路の位置を確認する"], "actions": [
-     {"label": "防災ハザードマップを見る", "href": "https://www.city.kikugawa.shizuoka.jp/anzen/hazardmap/hazardmap.html", "source": "菊川市公式"}
+     {"label": "防災ハザードマップを見る", "href": "https://www.city.kikugawa.shizuoka.jp/anzen/hazardmap/hazardmap.html", "source": "菊川市公式"},
+    {"label": "昭和57年台風18号などの水害写真を見る", "href": "https://kikugawaalb.atawi.link/features/kikugawa-flood-history/", "source": "菊川懐かし写真館"}
    ]},
    {"id": "type-sediment", "label": "土砂災害リスクを確認したい", "heading": "土砂災害警戒区域を確認する", "bullets": ["市内全域を対象に警戒区域が示されている", "市南部は特に注意して確認する", "山際や崖の近くに住んでいる場合は特に確認する"], "actions": [
      {"label": "防災ハザードマップを見る", "href": "https://www.city.kikugawa.shizuoka.jp/anzen/hazardmap/hazardmap.html", "source": "菊川市公式"}

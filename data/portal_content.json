@@ -37,6 +37,10 @@
             {
               "href": "/places/?q=菊川公園",
               "title": "菊川公園の案内"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/red-brick-warehouse/",
+              "title": "菊川赤れんが倉庫を写真で見る"
             }
           ]
         },
@@ -54,6 +58,10 @@
             {
               "href": "https://kikugawaalb.atawi.link/features/kikugawa-station/",
               "title": "菊川駅の昔と今を写真で見る"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/",
+              "title": "菊川の文化財・風景の写真特集へ"
             }
           ]
         },
@@ -68,6 +76,10 @@
             {
               "href": "https://www.city.kikugawa.shizuoka.jp/shakaikyouiku/kikugawajyoukanisekigun.html",
               "title": "横地城跡の地図・整備状況（市公式）"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/yokochi-castle/",
+              "title": "横地城跡の標柱や切り通しを写真で見る"
             }
           ]
         },
@@ -82,6 +94,10 @@
             {
               "href": "/places/?q=黒田",
               "title": "黒田家の見学情報"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/kuroda-daikan/",
+              "title": "長屋門と外堀の写真を見る"
             },
             {
               "href": "/places/?q=塩の道",
@@ -100,6 +116,10 @@
             {
               "href": "https://www.city.kikugawa.shizuoka.jp/shoukoukankou/tokusambutsu.html",
               "title": "特産物の紹介（市公式）"
+            },
+            {
+              "href": "https://kikugawaalb.atawi.link/features/tea-fields-shinkansen/",
+              "title": "菊川の茶畑と新幹線の写真を見る"
             },
             {
               "href": "/places/?q=棚田",
