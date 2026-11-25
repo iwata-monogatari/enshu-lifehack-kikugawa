@@ -791,6 +791,39 @@
  },
  {
   "href": "/life/start-living/how-to-garbage/",
+  "search_title": "菊川市のごみの出し方｜製品プラスチックは50cmで分別",
+  "search_description": "菊川市の家庭ごみの出し方。製品プラスチックは一辺50cm未満なら黒いネット、50cm以上なら環境保全センターへ。対象素材、受付時間、地区別の収集日の確認先を案内します。",
+  "quick_answer": {
+   "id": "plastic-50cm",
+   "title": "製品プラスチックは一辺50cmで出し先が変わります",
+   "intro": "菊川市では2026年4月から、容器包装に加えてプラスチック製品そのものも回収しています。家庭から出る、プラスチックだけでできた汚れ・においのない物が対象です。",
+   "choices": [
+    {
+     "label": "最も長い辺が50cm未満",
+     "text": "自治会の資源物収集日に、資源物ステーションの黒いネットへ。赤土リサイクルステーション（赤土1469-1、毎日8:00〜17:00）の黒いネットにも出せます。対象の容器包装と分ける必要はありません。"
+    },
+    {
+     "label": "いずれかの辺が50cm以上（ちょうど50cmも含む）",
+     "text": "環境保全センター（棚草1830-1）へ直接持ち込みます。受付は平日の8:30〜16:30。祝日・年末年始は休みです。"
+    }
+   ],
+   "caution": "金属など別の素材が混じる物、電池を使う製品や電子機器、汚れやにおいの落ちない物は黒いネットに入れません。素材や別の出し方が不明なときは、市公式のQ&Aで品目を確認してください。",
+   "sources": [
+    {
+     "label": "菊川市公式：製品プラスチックの分別と収集",
+     "href": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/kankyoseisaku/seihinpura1.html"
+    },
+    {
+     "label": "菊川市公式：環境保全センター",
+     "href": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/kankyouhozen_center.html"
+    },
+    {
+     "label": "菊川市公式：分け方のQ&A（PDF）",
+     "href": "https://www.city.kikugawa.shizuoka.jp/kankyousuishin/kankyoseisaku/documents/shitsumon.pdf"
+    }
+   ],
+   "checked_at": "2026-11-25"
+  },
   "lead": "引っ越してきたばかりでも、明日にはごみを出す必要が出てきます。菊川市は燃えるごみ・燃えないごみ・資源物などを分別し、決められた収集日当日の朝8時までに集積所へ出すルールです。",
   "note": "地区によって収集日・分別区分の細部が異なる場合があります。詳細は『菊川市ごみの出し方マニュアル』や地区別のごみ収集カレンダーで確認してください。",
   "real_cards": [

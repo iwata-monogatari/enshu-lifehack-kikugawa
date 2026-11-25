@@ -1,4 +1,7 @@
 [
+  {"query": "製品プラスチック", "expectedHrefIncludesAny": ["/life/start-living/how-to-garbage/"]},
+  {"query": "プラスチック 50cm", "expectedHrefIncludesAny": ["/life/start-living/how-to-garbage/"]},
+  {"query": "プラごみ", "expectedHrefIncludesAny": ["/life/start-living/how-to-garbage/"]},
   { "query": "スポカル", "expectedHrefIncludesAny": ["/life/play-out/sports-facilities/", "/life/play-out/cultural-facilities/"], "note": "スポーツ+カルチャーの略語。防災項目が最上位に来ないこと" },
   { "query": "保育園", "expectedHrefIncludesAny": ["/life/family-grow/nursery-school/"] },
   { "query": "ごみの日", "expectedHrefIncludesAny": ["/life/start-living/garbage-sorting-calendar/"] },

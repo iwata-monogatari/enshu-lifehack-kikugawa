@@ -71,6 +71,28 @@ def load_content_map():
     return content
 
 
+
+def quick_answer_html(answer):
+    if not answer:
+        return ""
+    ids = esc(answer["id"])
+    choices = "".join(
+        f'<dt><strong>{esc(choice["label"])}</strong></dt><dd>{esc(choice["text"])}</dd>'
+        for choice in answer["choices"]
+    )
+    sources = " ／ ".join(
+        f'<a href="{esc(source["href"])}">{esc(source["label"])}</a>'
+        for source in answer["sources"]
+    )
+    return (
+        f'<section class="note" id="{ids}" aria-labelledby="{ids}-title">'
+        f'<h2 id="{ids}-title">{esc(answer["title"])}</h2><p>{esc(answer["intro"])}</p>'
+        f'<dl>{choices}</dl><p>{esc(answer["caution"])}</p>'
+        f'<p class="mini">公式確認：<time datetime="{esc(answer["checked_at"])}">{esc(answer["checked_at"])}</time>'
+        f' ／ {sources}</p></section>'
+    )
+
+
 def real_cards_html(cards):
     if not cards:
         return ""
@@ -224,7 +246,8 @@ def render_page(item, city, category_items, content_map):
             f'<a href="{esc(hub_href)}">{esc(icon)} {esc(category)}</a> ／ {esc(title)}</p>'
         )
 
-    content = content_map.get(item["href"])
+    content = content_map.get(item["href"]) or {}
+    search_title = content.get("search_title") or title
 
     if content and content.get("lead"):
         lead = esc(content["lead"])
@@ -252,10 +275,15 @@ def render_page(item, city, category_items, content_map):
             action_grid_html(content.get("action_grid")),
         ])
 
+    search_description = content.get("search_description") or (
+        f"{city_name}の{category}に関する情報を整理する非公式ナビです。最新・正確な情報は必ず{city_name}公式ページで確認してください。"
+    )
+    quick_answer = quick_answer_html(content.get("quick_answer"))
+
     html = f"""<!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(title)} | {esc(site_name)}</title>
-<meta name="description" content="{esc(city_name)}の{esc(category)}に関する情報を整理する非公式ナビです。最新・正確な情報は必ず{esc(city_name)}公式ページで確認してください。">
+<title>{esc(search_title)} | {esc(site_name)}</title>
+<meta name="description" content="{esc(search_description)}">
 <link rel="canonical" href="{esc(city['site_url'] + item['href'])}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260702"><!-- PART:head-css:END --></head><body>
@@ -264,7 +292,7 @@ def render_page(item, city, category_items, content_map):
 <main><div class="wrap">
 {breadcrumb}
 <section class="hero"><div class="hero-visual"><h1>{esc(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p></div></section>
-{note_html}
+{quick_answer}{note_html}
 {rich_html}
 <h2 class="sec">公式窓口・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_kikugawa'), city_name)}</div>
 <h2 class="sec">あわせて確認したい{esc(category)}のリンク</h2><div class="official">{related_links_html(item, category_items)}</div>
@@ -280,13 +308,18 @@ def render_page(item, city, category_items, content_map):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--category")
-    ap.add_argument("--content-only", action="store_true", help="既存HTMLのhead・共通部品を保持して本文を全件再生成する")
+    ap.add_argument("--href", help="指定した中項目のURLだけを再生成する")
+    ap.add_argument("--content-only", action="store_true", help="既存の共通部品を保持して本文と指定ページの検索メタデータを再生成する")
     ap.add_argument("--review-date", help="指定日に内容を確認・更新した項目のみ再生成する")
     args = ap.parse_args()
 
     ledger, city = load()
     content_map = load_content_map()
     items = [i for i in ledger if not args.category or i["category"] == args.category]
+    if args.href:
+        items = [i for i in items if i["href"] == args.href]
+        if not items:
+            ap.error(f"中項目が見つかりません: {args.href}")
     if args.review_date:
         items = [i for i in items if i.get('content_review', {}).get('date') == args.review_date]
 
@@ -308,7 +341,21 @@ def main():
             main = re.search(r'<main>.*?</main>', html, re.S)
             if not main or len(re.findall(r'<main>', original)) != 1:
                 raise ValueError(f'本文範囲を一意に特定できません: {out_path}')
+            new_html = html
             html = re.sub(r'<main>.*?</main>', lambda m: main.group(), original, count=1, flags=re.S)
+            content = content_map.get(item["href"]) or {}
+
+            for key, pattern in [
+                ("search_title", r"<title>[^<]*</title>"),
+                ("search_description", r'<meta name="description" content="[^"]*">'),
+            ]:
+                if not content.get(key):
+                    continue
+                updated = re.search(pattern, new_html)
+                if not updated or len(re.findall(pattern, html)) != 1:
+                    raise ValueError(f"検索メタデータを一意に特定できません: {out_path}")
+                html = re.sub(pattern, lambda _: updated.group(), html, count=1)
+
         out_path.write_text(html, encoding="utf-8", newline="\n")
         if verified:
             n_published += 1
