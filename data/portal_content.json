@@ -868,17 +868,57 @@
     },
     {
       "href": "/for/year-end/",
-      "title": "菊川市の年末年始2026–2027｜ごみ収集・図書館・バス",
-      "lead": "菊川市で2026年末から2027年始に予定を立てる方へ。家庭ごみと持ち込み、図書館の返却、コミュニティバスを、年内に確認する順番でまとめました。",
-      "review_date": "2026-11-24",
+      "title": "菊川市のクリスマス・年末年始2026–2027｜児童館・ごみ・図書館・バス",
+      "lead": "2026年12月のクリスマス行事と、2026年末から2027年始の児童館・家庭ごみ・図書館・バスの確認先をまとめました。事前申込みが必要な催しと当日参加できる催しを分けています。",
+      "review_date": "2026-11-25",
       "synonyms": [
         "菊川市 年末年始 ごみ",
         "菊川市 ごみ 年内最終",
         "菊川市 図書館 年末年始",
         "コミタクくん 年末年始",
-        "粗大ごみ 年末 年始"
+        "粗大ごみ 年末 年始",
+        "菊川 クリスマスイベント 2026",
+        "小笠児童館 クリスマスコンサート 2026"
       ],
       "sections": [
+        {
+          "id": "christmas",
+          "title": "2026年12月のクリスマス行事",
+          "paragraphs": [
+            "12月3日（木）10:00〜11:00は小笠児童館の「みんなのひろば クリスマス会」。市内在住の未就園児親子12組、要申込み。",
+            "12月5日（土）10:00〜11:00（9:50開場）は、小笠児童館主催のクリスマスコンサート。会場は児童館ではなく中央公民館の多目的ホールです。市内在住の乳幼児親子から小中高生まで計100人、要申込み。",
+            "12月12日（土）10:00〜11:30の小学生クリスマス会は市内在住の小学生20人、要申込み。各行事の空き状況は小笠児童館の案内でご確認ください。",
+            "12月16日（水）15:30〜16:00は小笠児童館でクリスマスリースの折り紙。どなたでも参加でき、事前申込みは不要です。"
+          ],
+          "links": [
+            {
+              "href": "https://kiku-syakyou.or.jp/kks_cms/wp-content/uploads/ogasajidou8.12.pdf",
+              "title": "小笠児童館だより12月号：対象・申込み（運営者公式PDF）"
+            },
+            {
+              "href": "https://kiku-syakyou.or.jp/board_type/%E3%81%8A%E3%82%8A%E3%81%8C%E3%81%BF%E3%82%BF%E3%82%A4%E3%83%A0%E3%80%8012%E6%9C%88/",
+              "title": "クリスマスリース折り紙の案内（運営者公式）"
+            }
+          ]
+        },
+        {
+          "id": "children-centers",
+          "title": "児童館の年末年始は、館ごとに異なります",
+          "paragraphs": [
+            "小笠児童館は2026年12月28日（月）から2027年1月3日（日）まで休館し、1月4日（月）9:00から開館します。",
+            "菊川児童館は12月29日（火）から1月4日（月）まで休館し、1月5日（火）9:00から開館します。"
+          ],
+          "links": [
+            {
+              "href": "https://kiku-syakyou.or.jp/kks_cms/wp-content/uploads/ogasajidou8.12.pdf",
+              "title": "小笠児童館の休館・年始開館（運営者公式PDF）"
+            },
+            {
+              "href": "https://kiku-syakyou.or.jp/kks_cms/wp-content/uploads/kikugawajidou8.12.pdf",
+              "title": "菊川児童館の休館・年始開館（運営者公式PDF）"
+            }
+          ]
+        },
         {
           "id": "garbage",
           "title": "家庭ごみは自治会とごみの種類を先に確認",
@@ -988,6 +1028,18 @@
         {
           "url": "https://www.city.kikugawa.shizuoka.jp/chiikishien/communitybus.html",
           "label": "菊川市のコミュニティバス案内"
+        },
+        {
+          "url": "https://kiku-syakyou.or.jp/kks_cms/wp-content/uploads/ogasajidou8.12.pdf",
+          "label": "小笠児童館だより令和8年12月号"
+        },
+        {
+          "url": "https://kiku-syakyou.or.jp/board_type/%E3%81%8A%E3%82%8A%E3%81%8C%E3%81%BF%E3%82%BF%E3%82%A4%E3%83%A0%E3%80%8012%E6%9C%88/",
+          "label": "菊川市社会福祉協議会 おりがみタイム"
+        },
+        {
+          "url": "https://kiku-syakyou.or.jp/kks_cms/wp-content/uploads/kikugawajidou8.12.pdf",
+          "label": "菊川児童館だより令和8年12月号"
         }
       ]
     }
@@ -1567,6 +1619,7 @@
   "current_information": {
     "date": "2026-11-24",
     "home": [
+      "christmas-ogasa",
       "memorial-tree",
       "top-news",
       "station-pickup",
@@ -1646,6 +1699,15 @@
         "url": "https://www.city.kikugawa.shizuoka.jp/sangyou/sougyousien/sougyouhojyokin.html",
         "official": "募集要領と申請書類（市公式）",
         "href": "/life/work-life/start-business/"
+      },
+      {
+        "id": "christmas-ogasa",
+        "title": "小笠児童館のクリスマス行事",
+        "schedule": "2026年12月3日・5日・12日・16日",
+        "summary": "クリスマス会・コンサートは要申込み。16日の折り紙は事前申込み不要です。会場と対象を確認してからお出かけください。",
+        "url": "https://kiku-syakyou.or.jp/kks_cms/wp-content/uploads/ogasajidou8.12.pdf",
+        "official": "日程・対象・申込み（運営者公式PDF）",
+        "href": "/for/year-end/#christmas"
       }
     ],
     "guide_notes": {
